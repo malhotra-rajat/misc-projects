@@ -1,0 +1,208 @@
+﻿
+.centerAlign
+{
+    text-align: center;
+}
+.centerAlignMargin
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.myContent
+{
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.cursorPointer
+{
+    cursor: pointer;
+}
+
+.margin10
+{
+    margin-top: 10px;
+}
+
+.margin40
+{
+    margin-top: 40px;
+}
+
+.width80px
+{
+    width: 80px;
+}
+
+.divStyleCenter {
+    text-align: center;
+}
+
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+
+/*
+ The animate class is apart of the element and the ng-enter class
+ is attached to the element once the enter animation event is triggered
+*/
+.mainview-animation.ng-enter {
+  -webkit-transition: .3s linear all; /* Safari/Chrome */
+  -moz-transition: .3s linear all; /* Firefox */
+  -o-transition: .3s linear all; /* Opera */
+  transition: .3s linear all; /* IE10+ and Future Browsers */
+}
+
+/**
+ * Pre animation -> enter
+ */
+.mainview-animation.ng-enter{
+  /* The animation preparation code */
+  opacity: 0;
+}
+
+/**
+ * Post animation -> enter
+ */
+.mainview-animation.ng-enter.ng-enter-active { 
+  /* The animation code itself */
+  opacity: 1;
+}
+
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 750px) 
+{
+    #mainTitle 
+    {
+        display: none;
+    }
+}
+
+.marginTop50
+{
+    margin-top:50px;
+}
+
+.colorWhite
+{
+    color: white;
+}
+
+.paddingLeft60
+{
+    padding-left: 60px;
+}
+
+.marginTop30
+{
+    margin-top : 30px;
+}
+
+.paddingLeft20
+{
+    padding-left: 20px;
+}
+
+.paddingLeft15MarginTop30
+{
+    padding-left:15px; 
+    margin-top:30px;
+}
+
+.imgGridStyle
+{
+    float: left; 
+    margin-right: 1%; 
+    margin-bottom: 0.5em;
+}
+
+.width122center
+{
+    width:122px; 
+    text-align:center;
+}
+
+.clearBoth
+{
+    clear: both;
+}
+ 
+.imgGridStyle2
+{
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 0.5em; 
+    padding-bottom:0.5em;
+}
+
+.paddingLeft20Right30
+{
+    padding-left:20px;
+    padding-right: 30px;
+}
+
+.paddingLeft15
+{
+    padding-left:15px; 
+}
+
+.marginLeft15
+{
+    margin-left:15px; 
+}
+
+.paddingLeft15MarginTop15
+{
+    padding-left:15px; 
+    margin-top:15px;
+}
+
+.commentFont
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headerHome
+{
+    font-style: italic; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paddingLeft20Right20
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.paddingLeft40
+{
+    padding-left: 40px;
+}
+
+.paddingLeft100
+{
+    padding-left:100px;
+}
+ 
+
+
+ 
+
+

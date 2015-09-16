@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Movie Details Page</title>
+</head>
+<body class="container">
+    <h2>Movie Details Page</h2>
+    <hr />
+
+
+    <img height="600" width="1142" src="images/movieDetails.JPG" />
+    <br />
+    <br />
+    
+    <p class="contentFont">
+        In this experiment, I designed the movie details page. 
+        The link for that page for the movie 'Forrest Gump' is:
+        <ul>
+            <li><a href="http://project-rmcs5610.rhcloud.com/movieapp#/movie/10036">http://project-rmcs5610.rhcloud.com/movieapp#/movie/10036</a></li>
+        </ul>
+        The app is a single page app without any whole page refresh. Code snippet below:
+    </p>
+
+    <pre ng-non-bindable>
+        &lt;div class="centerAlign"&gt;
+        &lt;h4 class="margin40"&gt;{{ title }}&lt;/h4&gt;
+        &lt;img class="margin10" ng-src="{{ poster }}" /&gt;
+        &lt;p class="margin10"&gt;&lt;b&gt;Synopsis: &lt;/b&gt;{{ synopsis }}&lt;/p&gt;
+        &lt;/div&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/public/pages/movie.html" target="_blank">HTML</a>&nbsp;
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/public/css/style.css" target="_blank">CSS</a>&nbsp;
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/public/app.js" target="_blank">app.js</a>&nbsp;
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/server.js" target="_blank">server.js</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

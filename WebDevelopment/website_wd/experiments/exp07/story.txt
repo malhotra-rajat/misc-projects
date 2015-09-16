@@ -1,0 +1,6 @@
+﻿../../story/whatisnext.htm?../experiments/exp07/whatisnext.txt   What is Next?
+http://nodejsapp2-rmcs5610.rhcloud.com/login	Local Authentication Using Passport.js in Node.js
+002-rotten-tomatoes.html  Rotten Tomatoes API
+003-bootstrap-rating.html Bootstrap Rating Input
+
+

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.rajatmalhotra"
+    android:versionCode="33"
+    android:versionName="5.1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+
+    <permission
+        android:name="edu.neu.madcourse.rajatmalhotra.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="edu.neu.madcourse.rajatmalhotra.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <receiver
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="edu.neu.madcourse.rajatmalhotra" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.GcmIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.AboutMe"
+            android:label="@string/author_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Sudoku Activities -->
+
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.sudoku.Sudoku"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.sudoku.About"
+            android:label="@string/about_title"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.sudoku.Prefs"
+            android:label="@string/settings_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.sudoku.Game"
+            android:label="@string/game_title" >
+        </activity>
+
+        <!-- Dictionary Activities -->
+
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.dictionary.Dictionary"
+            android:label="@string/title_activity_dictionary"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.dictionary.Acknowledgements"
+            android:label="@string/acknowledgements"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Word Game Activities -->
+
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgame.WordGameMain"
+            android:label="@string/title_activity_word_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgame.WordGame"
+            android:label="@string/title_activity_word_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgame.Acknowledgements"
+            android:label="@string/title_activity_acknowledgements"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgame.PrefsWordGame"
+            android:label="@string/word_game_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Word Game Communication Activities -->
+
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamecommunication.AcknowledgementsCommunication"
+            android:label="@string/title_activity_acknowledgements"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamecommunication.Communication"
+            android:label="@string/title_activity_communication"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamecommunication.SynchronousLogin"
+            android:label="@string/title_activity_communication"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamecommunication.AsynchronousTest"
+            android:label="@string/title_activity_communication"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamecommunication.SynchronousMain"
+            android:label="@string/title_activity_communication"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamecommunication.AsynchronousMain"
+            android:label="@string/title_activity_asynchronous_main"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Two Player Word Game Activities -->
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.TwoPlayerWordGame"
+            android:label="@string/title_activity_two_player_word_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.RealTimePlayLogin"
+            android:label="@string/title_activity_real_time_play"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.TurnBasedPlayMain"
+            android:label="@string/title_activity_turn_based_play_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.RealTimePlayTP"
+            android:label="@string/title_activity_turn_based_play_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.PrefsWordGameTP"
+            android:label="@string/word_game_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.WordGameTP"
+            android:label="@string/title_activity_word_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.Leaderboard"
+            android:label="@string/title_activity_leaderboard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.Acknowledgements"
+            android:label="@string/title_activity_acknowledgements"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.TurnBasedPlayMainScreen"
+            android:label="@string/title_activity_turn_based_play_main_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.WordGameTurnBased"
+            android:label="@string/title_activity_word_game_turn_based"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.SensorDetect"
+            android:label="@string/title_activity_sensor_detect"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Trickiest Part Activities -->
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.trickiestpart.TrickiestPart"
+            android:label="@string/title_activity_trickiest_part"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.trickiestpart.ManualInput"
+            android:label="@string/title_activity_manual_input"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.trickiestpart.WorkoutToday"
+            android:label="@string/title_activity_workout_today"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.trickiestpart.WorkoutEntries"
+            android:label="@string/title_activity_workout_entries" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.trickiestpart.MultiTurnExerciseDialogActivity"
+            android:label="@string/title_activity_workout_today"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Final Project Activities -->
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.ProjectDescriptionActivity"
+            android:label="@string/title_activity_project_description"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="edu.neu.madcourse.rajatmalhotra.finalproject.ProjectDescriptionActivity.LAUNCH_ME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="edu.neu.madcourse.rajatmalhotra.finalproject.RecordWorkoutsService" />
+
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity"
+            android:label="@string/title_activity_ltw_main"
+            android:screenOrientation="portrait" >
+            <intent-filter
+                android:icon="@drawable/voice_input"
+                android:label="@string/ltw_app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.BeginWorkoutActivity"
+            android:label="@string/title_activity_begin_workout"
+            android:parentActivityName="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity" />
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.SelectManuallyActivity"
+            android:label="@string/title_activity_select_manually"
+            android:parentActivityName="edu.neu.madcourse.rajatmalhotra.finalproject.BeginWorkoutActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.rajatmalhotra.finalproject.BeginWorkoutActivity" />
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.ViewPrevDetailsActivity"
+            android:label="@string/title_activity_view_prev_details"
+            android:parentActivityName="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity" />
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.LtwAckActivity"
+            android:label="@string/title_activity_ack"
+            android:parentActivityName="edu.neu.madcourse.rajatmalhotra.finalproject.ProjectDescriptionActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.rajatmalhotra.finalproject.ProjectDescriptionActivity" />
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.LtwTutorialsActivity"
+            android:label="@string/title_activity_ltw_tutorials"
+            android:parentActivityName="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity" />
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.ViewExercisesOnDateActivity"
+            android:label="@string/title_activity_view_exercises_on_date"
+            android:parentActivityName="edu.neu.madcourse.rajatmalhotra.finalproject.ViewPrevDetailsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.rajatmalhotra.finalproject.ViewPrevDetailsActivity" />
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.rajatmalhotra.finalproject.ViewAllExercisesActivity"
+            android:label="@string/title_activity_view_supported_exercises"
+            android:parentActivityName="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity" />
+        </activity>
+    </application>
+
+</manifest>

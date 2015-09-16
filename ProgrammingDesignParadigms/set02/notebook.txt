@@ -1,0 +1,41 @@
+Date  Who       Start Stop  Interruptions Question TimeOnTask    Comments
+9/29  RM     	03:48 04:19 	0            1        31       Started thinking about Q1
+9/29  RM	17:03 20:45     2            1        342      Wrote some code for Q1
+9/29  RM	21:30 00:42     1            1        192      Q1 almost complete, tests remaining
+
+
+=============================== committing to git: 09/30 00:45 ==========================    
+	
+9/30  RM	02:48 03:50     1            2        62       Starting thinking about Q2
+9/30  RM	02:48 06:50     4            2        242      Wrote code for Q2
+
+=============================== committing to git: 09/30 07:06 ==========================  
+
+9/30  RM        22:05  01:32    3            2        212      More code for Q2   
+
+=============================== committing to git: 10/1 01:33 ===========================  
+
+10/1  RM        02:05  05:09    5            2       184       Q2 almost complete, tests remaining
+
+=============================== committing to git: 10/1 05:11 ==========================  
+
+10/1  RM        16:00  18:33     0           1      153        Q1 complete
+
+=============================== committing to git: 10/1 18:33 ========================== 
+
+10/2  RM        01:05  05:01     6           2      236        Q2 complete 
+
+=============================== committing to git: 10/2 05:03 ========================== 
+
+10/2  RM        16:27  16:29     0           1      2          Indented Q1 
+
+
+=============================== committing to git: 10/2 16:31 ========================== 
+
+
+Total Time On Q1 (minutes)                    720              	
+Total Time On Q2 (minutes)                    936
+
+Total Time On Q1 (hours and tenths)          12.0          	
+Total Time On Q2 (hours and tenths)          15.6
+                         

@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style002.css">
+    <script type="text/javascript" src="../../javascript/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    
+    <script>
+    $(function () {
+        $("#sortable").sortable({
+            placeholder: "ui-sortable-placeholder"
+        });
+    });
+    </script>
+
+    <title>jQuery UI Sortable Widget</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>jQuery UI Sortable Widget</h1>
+        <hr />
+   
+        <ul id="sortable">
+            <li class="ui-state-default">Item 1</li>
+            <li class="ui-state-default">Item 2</li>
+            <li class="ui-state-default">Item 3</li>
+            <li class="ui-state-default">Item 4</li>
+            <li class="ui-state-default">Item 5</li>
+            <li class="ui-state-default">Item 6</li>
+            <li class="ui-state-default">Item 7</li>
+        </ul>  
+
+        <hr />
+        <p class="contentFont">
+            In this experiment, I have implemented the sortable widget of jQuery, which the user can interact with using drag-and-drop.
+            The id attribute that is attached on the parent element as shown in the code snippet is used for activating the DOM element to jQuery UI.
+            The default styles for the &lt;li&gt; elements consist of the background gradient colors, the length of the elements, the borders, the text styles. 
+            The border for the first and last child of &lt;li&gt; is specifically removed.
+        </p>
+        
+        <pre>
+        &lt;ul id="sortable"&gt;
+            &lt;li class="ui-state-default"&gt;Item 1&lt;/li&gt;
+            &lt;li class="ui-state-default"&gt;Item 2&lt;/li&gt;
+            &lt;li class="ui-state-default"&gt;Item 3&lt;/li&gt;
+            &lt;li class="ui-state-default"&gt;Item 4&lt;/li&gt;
+            &lt;li class="ui-state-default"&gt;Item 5&lt;/li&gt;
+            &lt;li class="ui-state-default"&gt;Item 6&lt;/li&gt;
+            &lt;li class="ui-state-default"&gt;Item 7&lt;/li&gt;
+        &lt;/ul&gt;  
+        &lt;script&gt;
+        $(function () {
+            $("#sortable").sortable({
+            placeholder: "ui-sortable-placeholder"
+            });
+        });
+        &gt;/script&gt;
+        </pre>
+        
+        <p class="contentFont">CSS</p>
+
+        <pre>
+        .ui-sortable li.ui-state-default {
+        margin: 0;
+        height: 45px;
+        line-height: 48px;
+        font-size: 1.4em;
+        color: #fff;
+        outline: 0;
+        padding: 0;
+        margin: 0;
+        text-indent: 15px;
+        background: rgb(78,82,91);
+        background: -moz-linear-gradient(top, rgb(78,82,91) 0%, rgb(57,61,68) 100%);
+        background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,rgb(78,82,91)), color-stop(100%,rgb(57,61,68)));
+        background: -webkit-linear-gradient(top, rgb(78,82,91) 0%,rgb(57,61,68) 100%);
+        background: -o-linear-gradient(top, rgb(78,82,91) 0%,rgb(57,61,68) 100%);
+        background: -ms-linear-gradient(top, rgb(78,82,91) 0%,rgb(57,61,68) 100%);
+        background: linear-gradient(to bottombottom, rgb(78,82,91) 0%,rgb(57,61,68) 100%);
+        border-top: 1px solid rgba(255,255,255,.2);
+        border-bottom: 1px solid rgba(0,0,0,.5);
+        text-shadow: -1px -1px 0px rgba(0,0,0,.5);
+        font-size: 1.1em;
+        position: relative;
+        cursor: pointer;
+        }
+
+        .ui-sortable li.ui-state-default:first-child {
+        border-top: 0;
+        }
+
+        .ui-sortable li.ui-state-default:last-child {
+        border-bottom: 0;
+        }
+        </pre>
+
+        <hr />
+
+        <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp03/003-jquery-ui.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp03/css/style003.css" target="_blank">CSS</a>
+            </p>
+
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://wikipedia.com">Wikipedia</a><br>
+                <a href="http://w3schools.com">W3Schools</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

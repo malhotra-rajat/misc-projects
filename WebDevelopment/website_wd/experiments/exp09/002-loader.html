@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="css/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
+    <title>Loader Widget</title>
+
+    <script>
+        $(document).on("click", ".show-page-loading-msg", function () {
+            var $this = $(this),
+                theme = $this.jqmData("theme") || $.mobile.loader.prototype.options.theme,
+                msgText = $this.jqmData("msgtext") || $.mobile.loader.prototype.options.text,
+                textVisible = $this.jqmData("textvisible") || $.mobile.loader.prototype.options.textVisible,
+                textonly = !!$this.jqmData("textonly");
+            html = $this.jqmData("html") || "";
+            $.mobile.loading("show", {
+                text: msgText,
+                textVisible: textVisible,
+                theme: theme,
+                textonly: textonly,
+                html: html
+            });
+        })
+    .on("click", ".hide-page-loading-msg", function () {
+        $.mobile.loading("hide");
+    });
+    </script>
+
+    <style>
+        .customPadding {
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="customPadding" data-role="page">
+        <h2>Loader Widget</h2>
+        <hr />
+
+        <div>
+            <button class="show-page-loading-msg" data-textonly="false" data-textvisible="false" data-msgtext="" data-inline="true">Icon (default)</button>
+            <button class="show-page-loading-msg" data-textonly="false" data-textvisible="true" data-msgtext="" data-inline="true">Icon + text</button>
+            <button class="show-page-loading-msg" data-textonly="true" data-textvisible="true" data-msgtext="Text only loader" data-inline="true">Text only</button>
+            <button class="hide-page-loading-msg" data-inline="true" data-icon="delete">Hide</button>
+        </div>
+        <hr />
+
+        <p class="contentFont">
+            In this experiment, I used a loader overlay which can be icon only, text only or both.
+            Code snippet below:
+        </p>
+
+        <pre ng-non-bindable>
+        &lt;div&gt;
+            &lt;button class="show-page-loading-msg" data-textonly="false" data-textvisible="false" data-msgtext="" data-inline="true"&gt;Icon (default)&lt;/button&gt;
+            &lt;button class="show-page-loading-msg" data-textonly="false" data-textvisible="true" data-msgtext="" data-inline="true"&gt;Icon + text&lt;/button&gt;
+            &lt;button class="show-page-loading-msg" data-textonly="true" data-textvisible="true" data-msgtext="Text only loader" data-inline="true"&gt;Text only&lt;/button&gt;
+            &lt;button class="hide-page-loading-msg" data-inline="true" data-icon="delete"&gt;Hide&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+        $(document).on("click", ".show-page-loading-msg", function () {
+        var $this = $(this),
+            theme = $this.jqmData("theme") || $.mobile.loader.prototype.options.theme,
+            msgText = $this.jqmData("msgtext") || $.mobile.loader.prototype.options.text,
+            textVisible = $this.jqmData("textvisible") || $.mobile.loader.prototype.options.textVisible,
+            textonly = !!$this.jqmData("textonly");
+        html = $this.jqmData("html") || "";
+        $.mobile.loading("show", {
+            text: msgText,
+            textVisible: textVisible,
+            theme: theme,
+            textonly: textonly,
+            html: html
+        });
+        })
+        .on("click", ".hide-page-loading-msg", function () {
+        $.mobile.loading("hide");
+        });
+        &lt;/script&gt;
+        </pre>
+
+        <hr />
+
+        <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp09/002-loader.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp09/css/style.css" target="_blank">CSS</a>&nbsp;
+            </p>
+
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://w3schools.com">W3Schools</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

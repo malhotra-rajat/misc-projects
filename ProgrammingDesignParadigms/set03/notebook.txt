@@ -1,0 +1,59 @@
+Date  Who       Start Stop  Interruptions Question TimeOnTask    Comments
+10/6  RM     	03:48 04:19 	0            1        31       Started thinking about Q1
+10/6  RM	04:21 05:34     0            1        73       Wrote some code for Q1
+
+=============================== committing to git: 10/6 05:35 ==========================    
+
+10/6  RM	17:14 20:19     0            1        185      Wrote some code for Q1
+	
+=============================== committing to git: 10/6 20:19 ==========================
+
+10/7  RM	02:14 04:16     0            1        122      Wrote some tests for Q1
+	
+=============================== committing to git: 10/7 04:16 ==========================
+
+10/7  RM	04:44 05:45     0            1         61      Q1 almost complete
+	
+=============================== committing to git: 10/7 05:45 ==========================
+
+10/7  RM        16:30 17:45     0            2         75      Started thinking about Q2
+10/7  RM        21:00 21:21     0            1         21      Updated reorder-status template in q1
+
+=============================== committing to git: 10/7 21:19 ==========================
+
+10/8  RM	02:10 03:11     0            2 	       61      Wrote data definitions for Q2
+10/8  RM	03:11 05:10     0            2 	       119     More code for Q2
+
+=============================== committing to git: 10/8 05:11 ==========================
+
+10/8  RM	06:00 09:10     0            2 	       190     Q2 almost complete, tests left
+
+=============================== committing to git: 10/8 09:30 ==========================
+
+10/8  RM	17:10 18:31     0            1 		81     added helper functions for some functions in q1
+
+=============================== committing to git: 10/8 18:32 ==========================
+
+10/8  RM        11:20 11:55     0            1          35     Indented Q1
+10/9  RM        00:01 00:19     0            2          18     Indented Q2
+
+=============================== committing to git: 10/9 00:19 ==========================
+
+10/9  RM        01:24 02:44     0            2          80     Wrote tests for Q2
+
+=============================== committing to git: 10/9 02:44 ==========================
+
+10/9  RM        05:00 05:06     0            2          6     Indented Q2
+
+=============================== committing to git: 10/9 05:06 ==========================
+
+10/9  RM        05:07 05:13     0            2          6     Indented Q2                 
+
+
+
+Total Time On Q1 (minutes)         574              	
+Total Time On Q2 (minutes)         555
+
+TOTQ1 (hours and tenths)          9.5          	
+TOTQ2 (hours and tenths)          9.2
+                         

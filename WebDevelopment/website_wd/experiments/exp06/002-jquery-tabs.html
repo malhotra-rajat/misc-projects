@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <script src="../../javascript/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <title>jQueryUI Tabs</title>
+    <script>
+    $(function () {
+        $("#tabs").tabs();
+    });
+    </script>
+
+</head>
+
+
+<body class="container">
+    <h2>jQueryUI Tabs</h2>
+    <hr />
+
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Tiger</a></li>
+            <li><a href="#tabs-2">Lion</a></li>
+            <li><a href="#tabs-3">Cheetah</a></li>
+        </ul>
+        <div id="tabs-1">
+          <p>
+            The tiger (Panthera tigris) is the largest cat species, reaching a total body length of up to 
+            3.38 m (11.1 ft) over curves and weighing up to 388.7 kg (857 lb) in the wild. 
+            Its most recognisable feature is a pattern of dark vertical stripes on reddish-orange 
+            fur with a lighter underside. The species is classified in the genus Panthera with the lion, leopard, jaguar 
+            and snow leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They
+             are territorial and generally solitary but social animals, often requiring large contiguous areas of habitat 
+            that support their prey requirements. This, coupled with the fact that they are indigenous to some of the more 
+            densely populated places on Earth, has caused significant conflicts with humans.
+          </p>
+        </div>
+        <div id="tabs-2">
+            <p>The lion (Panthera leo) is one of the five big cats in the genus Panthera and a member of the family 
+            Felidae. With some males exceeding 250 kg (550 lb) in weight, it is the second-largest living cat after 
+            the tiger. Wild lions currently exist in sub-Saharan Africa and in Asia (where an endangered remnant
+             population resides in Gir Forest National Park in India) while other types of lions have disappeared 
+            from North Africa and Southwest Asia in historic times. Until the late Pleistocene, about 10,000 years
+             ago, the lion was the most widespread large land mammal after humans. They were found in most of Africa,
+             across Eurasia from western Europe to India, and in the Americas from the Yukon to Peru. The lion 
+            is a vulnerable species, having seen a major population decline in its African range of 30–50% per 
+            two decades during the second half of the 20th century. Lion populations are untenable outside
+             designated reserves and national parks. Although the cause of the decline is not fully understood, 
+            habitat loss and conflicts with humans are currently the greatest causes of concern. Within Africa,
+             the West African lion population is particularly endangered.</p>
+        </div>
+        <div id="tabs-3">
+            <p>The cheetah (Acinonyx jubatus) is a large feline (family Felidae, subfamily Felinae)
+             inhabiting most of Africa and parts of Iran. It is the only extant member of the genus Acinonyx. 
+            The cheetah can run faster than any other land animal— as fast as 112 to 120 km/h (70 to 75 mph)
+             in short bursts covering distances up to 500 m (1,600 ft), and has the ability to accelerate from 
+            0 to 100 km/h (62 mph) in three seconds.</p>
+        </div>
+    </div>
+
+    <hr />
+
+<p class="contentFont">
+        In this experiment, I played with the JQueryUI tabs. Code snippet below:
+    </p>
+
+    <pre ng-non-bindable>
+        &lt;div id="tabs"&gt;
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#tabs-1"&gt;Tiger&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#tabs-2"&gt;Lion&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#tabs-3"&gt;Cheetah&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;div id="tabs-1"&gt;
+        &lt;p&gt;
+            The tiger (Panthera tigris) is the largest cat species, reaching a total body length of up to 
+            3.38 m (11.1 ft) over curves and weighing up to 388.7 kg (857 lb) in the wild. 
+            Its most recognisable feature is a pattern of dark vertical stripes on reddish-orange 
+            fur with a lighter underside. The species is classified in the genus Panthera with the lion, leopard, jaguar 
+            and snow leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They
+             are territorial and generally solitary but social animals, often requiring large contiguous areas of habitat 
+            that support their prey requirements. This, coupled with the fact that they are indigenous to some of the more 
+            densely populated places on Earth, has caused significant conflicts with humans.
+          &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div id="tabs-2"&gt;
+        &lt;p&gt;The lion (Panthera leo) is one of the five big cats in the genus Panthera and a member of the family 
+            Felidae. With some males exceeding 250 kg (550 lb) in weight, it is the second-largest living cat after 
+            the tiger. Wild lions currently exist in sub-Saharan Africa and in Asia (where an endangered remnant
+             population resides in Gir Forest National Park in India) while other types of lions have disappeared 
+            from North Africa and Southwest Asia in historic times. Until the late Pleistocene, about 10,000 years
+             ago, the lion was the most widespread large land mammal after humans. They were found in most of Africa,
+             across Eurasia from western Europe to India, and in the Americas from the Yukon to Peru. The lion 
+            is a vulnerable species, having seen a major population decline in its African range of 30–50% per 
+            two decades during the second half of the 20th century. Lion populations are untenable outside
+             designated reserves and national parks. Although the cause of the decline is not fully understood, 
+            habitat loss and conflicts with humans are currently the greatest causes of concern. Within Africa,
+             the West African lion population is particularly endangered.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div id="tabs-3"&gt;
+        &lt;p&gt;The cheetah (Acinonyx jubatus) is a large feline (family Felidae, subfamily Felinae)
+             inhabiting most of Africa and parts of Iran. It is the only extant member of the genus Acinonyx. 
+            The cheetah can run faster than any other land animal— as fast as 112 to 120 km/h (70 to 75 mph)
+             in short bursts covering distances up to 500 m (1,600 ft), and has the ability to accelerate from 
+            0 to 100 km/h (62 mph) in three seconds.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </pre>
+
+
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp06/002-jquery-tabs.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp06/css/style.css" target="_blank">CSS</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

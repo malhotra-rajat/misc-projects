@@ -1,0 +1,87 @@
+﻿
+
+<h3 class="centerAlign marginTop30"><b>{{ title }}</b></h3>
+<div class="paddingLeft20Right30">
+    <div class="row margin40">
+        <div class="col-md-3">
+            <img ng-src="{{ poster }}" height="360" width="243" />
+        </div>
+        <div class="col-md-9 paddingLeft40">
+
+            <p ng-hide="!studio" class=" margin10 ng-hide"><b>Studio: </b>{{ studio }}</p>
+            <p ng-hide="!synopsis" class="margin10 ng-hide"><b>Synopsis: </b>{{ synopsis }}</p>
+            <p ng-hide="!critics_score" class="margin10 ng-hide"><b>Critic Score: </b>{{ critics_score }}%</p>
+            <p ng-hide="!audience_score" class="margin10 ng-hide"><b>Audience Score: </b>{{ audience_score }}%</p>
+            <p ng-hide="!cast" class="margin10 ng-hide"><b>Starring: </b>{{ cast }}</p>
+            <p ng-hide="!directors" class="margin10 ng-hide"><b>Directed By: </b>{{ directors }}</p>
+            <p ng-hide="!releaseDate" class="margin10 ng-hide"><b>Release Date: </b>{{ releaseDate }}</p>
+            <button id="likeUnlikeBtn" ng-class="changeClass(likeUnlikeText)" ng-click="likeUnlike()">
+                {{likeUnlikeText}}
+            </button>
+        </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="row ng-hide paddingLeft15" ng-hide="!similarMovies.length">
+        <h4><b>Movies similar to {{title}}</b></h4>
+        <div ng-repeat="m in similarMovies">
+            <a href="#/movie/{{m.id}}">
+                <img class="margin10 imgGridStyle" ng-src="{{ m.posters.thumbnail }}" height="180" width="122" />
+            </a>
+        </div>
+        <p class="clearBoth">
+    </div>
+
+    <div class="row paddingLeft15">
+        <h4><b>User Comments</b></h4>
+    </div>
+    
+    <div class="row" >
+        <div class="form-group">
+            <div class="col-lg-4 col-md-4 col-sm-5">
+                <textarea class="form-control" ng-model="commentText"></textarea>
+            </div>
+            <br />
+            <button id="commentBtn" ng-class="changeCommentBtnClass()" class="marginLeft15" ng-click="comment()">{{commentBtnText}}</button>
+        </div>
+    </div>
+    
+    <div class="row paddingLeft15MarginTop15">
+        <table class="table ">
+            <tr ng-repeat="c in comments" class="commentFont">
+                <td>
+                    <b>On </b>
+                    <b>{{c.creationDate}},</b>
+                    <b><a href="#/profile/{{c.useremail}}">{{c.userFirstname}}</a></b>
+                    <b> wrote: </b><br />
+                    <p>{{c.commentText}}</p>
+
+                    <button ng-hide="!c.showHideEditDeleteBtns" data-toggle="modal" data-target="#editCommentModal" class="ng-hide btn btn-primary" ng-click="editComment(c._id, c.commentText)">Edit</button>
+                    <button ng-hide="!c.showHideEditDeleteBtns" class="ng-hide btn btn-danger" ng-click="deleteComment(c._id)">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    </div>
+
+ <div class="modal fade" id="editCommentModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Edit Comment</h4>
+            </div>
+            <div class="modal-body">
+                <textarea class="form-control"  id="newComment" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="submitNewComment" ng-click="submitUpdatedComment()" data-dismiss="modal" type="button" class="btn btn-primary">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exercise_edit_prompt">Add &lt;Exercise&gt;</string>
+    <string name="exercise_lookup_prompt">Say the name of exercise</string>
+    <string name="exercise_reps_prompt">How many reps?</string>
+    <string name="exercise_weights_prompt">How many pounds?</string>
+    
+    <string name="exercise_lookup_result">%1$s has %2$s calories</string>
+    <string name="exercise_remove_failed">%1$s not removed</string>
+    <string name="exercise_remove_complete">removed %1$s</string>
+    <string name="exercise_remove_confirm_prompt">Are you sure you want to remove %1$s?</string>
+
+    
+    <array name="exercise_cancel">
+        <item>cancel</item>
+    </array>
+    <string name="exercise_cancelled">Cancelled.</string>
+    
+    <array name="exercise_add_command">
+        <item>add</item>
+    </array>
+    <array name="exercise_remove_command">
+        <item>remove</item>
+        <item>delete</item>
+    </array>
+    <string name="exercise_add_calories_prompt">How many calories for %1$s?</string>
+    <string name="exercise_add_result">you just did %1$s reps of %2$s at %3$s pounds. Please continue.</string>
+    
+    <string name="exercise_compare_result">%1$s has more calories than %2$s</string>
+    <string name="exercise_compare_result_same">%1$s has the same calories as %2$s</string>
+    
+    <string name="exercise_edit_compare_prompt">Add &lt;exercise&gt; or remove &lt;exercise&gt; or &lt;exercise1&gt; &lt;exercise2&gt;</string>
+</resources>

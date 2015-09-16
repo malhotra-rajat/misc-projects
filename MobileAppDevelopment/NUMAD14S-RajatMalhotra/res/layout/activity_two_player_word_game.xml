@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center"
+   android:padding="30dip">
+  
+     <Button
+         android:id="@+id/rt_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/rt1" 
+         android:onClick="rtClick"/>
+     
+     <Button
+         android:id="@+id/lb_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/leaderboardTP1" 
+         android:onClick="leaderboardClick"/>
+     
+   <!--   <Button
+         android:id="@+id/tb_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/tb"
+         android:onClick="tbClick" /> -->
+     
+<!--       <Button
+         android:id="@+id/shake_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/shake"
+         android:onClick="shakeClick" /> -->
+     
+     
+      <Button
+         android:id="@+id/ack_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/acknowledgements"
+         android:onClick="ackClick" />
+     
+    
+
+</LinearLayout>

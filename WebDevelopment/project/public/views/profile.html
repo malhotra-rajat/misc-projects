@@ -1,0 +1,39 @@
+﻿<h3 class="centerAlign marginTop30"><b>{{ name }}</b></h3>
+<div class="paddingLeft20Right20">
+    <div class="row margin40">
+        <div class="col-md-3">
+            <img ng-src="{{ profilePic }}" height="300" width="300" />
+        </div>
+        <div class="col-md-9 paddingLeft100">
+
+            <p ng-show="aboutme" class="margin10"><b>About {{name}}: </b>{{ aboutme }}</p>
+            <p ng-show="email" class="margin10"><b>Email: </b>{{ email }}</p>
+            <h2 ng-hide="email" class="margin10"><b>This user has deleted his/her account.</b></h2>
+
+            <button ng-hide="!showDeleteAccountButton" class="ng-hide btn btn-danger" ng-click="deleteAccount()">Delete Account</button>
+            <button id="followBtn" ng-class="changeFollowBtnClass(followBtnText)" ng-hide="!showFollowButton" ng-click="followUnfollow()">{{followBtnText}}</button>
+        </div>
+    </div>
+  
+
+    <div class="row ng-hide paddingLeft15MarginTop30" ng-hide="!likedMovies.length">
+        <h4><b>Some movies {{name}} likes</b></h4>
+        <div ng-repeat="m in likedMovies">
+            <a href="#/movie/{{m.id}}">
+                <img class="margin10 imgGridStyle" ng-src="{{ m.posters.thumbnail }}" height="180" width="122"  />
+            </a>
+        </div>
+        <p class="clearBoth">
+    </div>
+
+    <div class="row ng-hide paddingLeft15MarginTop30" ng-hide="!followedUsers.length">
+        <h4><b>{{name}} is following these users</b></h4>
+        <div ng-repeat="f in followedUsers">
+            <a href="#/profile/{{f.local.email}}">
+                    <img class="margin10 imgGridStyle2" ng-src="{{f.local.profilePicUrl}}" height="180" width="122"  />
+            </a>
+
+        </div>
+        <p class="clearBoth">
+    </div>
+</div>

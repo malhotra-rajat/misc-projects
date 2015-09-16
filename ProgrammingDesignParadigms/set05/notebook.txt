@@ -1,0 +1,92 @@
+Date   Who      Start Stop  Interruptions Question TimeOnTask    Comments
+
+10/20  RM,PZ  	01:00 02:02 	0            1        62       Started thinking about q1
+
+=============================== committing to git: 10/20 02:03 ==========================    
+
+10/20  RM,PZ	10:30 12:46     0            1        136      world->scene done.
+	
+=============================== committing to git: 10/20 12:47 ==========================
+
+10/20  RM,PZ	12:49 12:57     0            1        8        Test for world->scene
+	
+=============================== committing to git: 10/20 12:58 ==========================
+
+10/20  RM,PZ	13:01 13:35     0            1        34       world-after-button-down
+	
+=============================== committing to git: 10/20 13:36 ==========================
+
+10/20  RM,PZ    13:45 14:02     0            1        17       wrote world-after-drag 
+
+=============================== committing to git: 10/20 14:03 ==========================
+
+10/20  RM,PZ	14:04 14:07     0            1 	      3        test for world-after-drag
+
+=============================== committing to git: 10/20 14:08 ==========================
+
+10/20  RM,PZ	14:20 15:36     0            1 	      76       wrote world-after-key-event and world-after-mouse-event
+
+=============================== committing to git: 10/20 15:37 ==========================
+
+10/20  RM,PZ	16:30 17:44     0            1 	      74       More code for world-after-key-event
+
+=============================== committing to git: 10/20 17:45 ==========================
+
+10/20  RM,PZ    17:55 18:06     0            1        11       wrote some tests
+
+=============================== committing to git: 10/20 18:07 ==========================
+
+10/20  RM,PZ    21:30 22:54     0            1        84       changed canvas size, removed redundant dd
+
+=============================== committing to git: 10/20 22:54 ==========================
+
+10/21  RM,PZ    02:25 2:59      0            1        34       Added more test cases
+
+=============================== committing to git: 10/21 03:00 ==========================
+
+10/21  RM,PZ    03:01 3:05      0            1         4       added HOFC in a function
+
+=============================== committing to git: 10/21 03:06 ==========================
+
+10/21  RM,PZ    22:14 00:01     0            1         107     added HOFC in all the functions
+
+=============================== committing to git: 10/22 00:02 ==========================
+
+10/22  RM,PZ    00:45 01:57     0            1         72      added tests
+
+=============================== committing to git: 10/22 01:58 ==========================
+
+10/22  RM,PZ    03:30 04:30     0            1         60      Full test coverage and added helper functions
+
+=============================== committing to git: 10/22 04:31 ==========================
+
+10/22  RM,PZ    13:08 14:09     0            1         61      Changed DD, Contract and Indentation
+
+=============================== committing to git: 10/22 14:10 ==========================
+
+10/22  RM,PZ    14:10 14:11     0            1         1       some problem in merging on git
+
+=============================== committing to git: 10/22 14:12 ==========================
+
+10/22  RM,PZ    14:13 14:17     0            1         4       some problem in merging on git
+
+=============================== committing to git: 10/22 14:18 ==========================
+
+10/22  RM,PZ    14:19 14:21     0            1         2       some problem in merging on git
+
+=============================== committing to git: 10/22 14:22 ==========================
+
+10/22  RM,PZ    18:45 19:21     0            1         36      removed redundant DD and indented the whole code
+
+=============================== committing to git: 10/22 19:22 ========================== 
+
+10/23  RM,PZ    14:55 15:29     0            1         34      Improved Data Definitions and Contracts of Functions
+
+=============================== committing to git: 10/23 15:30 ========================== 
+
+
+Total Time On Q1 (minutes)         920
+
+TOTQ1 (hours and tenths)           15.3          	
+
+                         

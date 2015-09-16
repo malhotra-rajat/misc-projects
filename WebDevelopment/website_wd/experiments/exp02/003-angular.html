@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style003.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <title>AngularJS</title>
+
+    <script type="text/javascript">
+        var app = angular.module('app',[]);
+        app.controller('PlayerController', ['$scope', function ($scope) {
+            $scope.playing = false;
+            $scope.audio = document.createElement('audio');
+            $scope.audio.src = 'http://upload.wikimedia.org/wikipedia/en/0/04/Rayman_2_music_sample.ogg';
+            $scope.play = function () {
+                $scope.audio.play();
+                $scope.playing = true;
+            };
+            $scope.pause = function () {
+                $scope.audio.pause();
+                $scope.playing = false;
+            };
+            $scope.audio.addEventListener('ended', function () {
+                $scope.playing = false;
+                $scope.$apply(function () {
+                    $scope.stop()
+                   
+                });
+            });
+        }]);
+    </script>
+    
+</head>
+<body ng-app="app" class="container">
+    <h2>AngularJS Audio Play/Pause</h2>
+    <hr />
+    <div ng-controller="PlayerController">
+        <button ng-click="play()" class="button btn-success" ng-show="!playing">Play</button>
+        <button ng-click="pause()" class="button btn-danger" ng-show="playing">Pause</button>
+        &nbsp; Playing audio: <b>{{playing}}</b>
+    </div>
+
+    <hr />
+
+    <p class="contentFont">
+        In this experiment, I used the HTML5 audio element and controlled its playback using AngularJS. 
+        To add an audio element, we can either add it in the HTML or in an AngularJS controller.
+        Here, I added it in the controller which is PlayerController. In the same PlayerController, we
+        set the src of the audio file which is "http://upload.wikimedia.org/wikipedia/en/0/04/Rayman_2_music_sample.ogg". 
+		Also, I have created a button that binds to an action on the $scope which
+        controls the play and pause functions.
+    </p>
+
+    <pre ng-non-bindable>
+    &lt;div ng-controller="PlayerController"&gt;
+    &lt;button ng-click="play()" class="button btn-success" ng-show="!playing"&gt;Play&lt;/button&gt;
+    &lt;button ng-click="pause()" class="button btn-danger" ng-show="playing"&gt;Pause&lt;/button&gt;
+    &nbsp;Playing audio: &lt;b&gt;{{playing}}&lt;/b&gt;
+    &lt;/div&gt;
+
+    &lt;script type="text/javascript"&gt;
+    var app = angular.module('app', []);
+    app.controller('PlayerController', ['$scope', function ($scope) {
+        $scope.playing = false;
+        $scope.audio = document.createElement('audio');
+        $scope.audio.src = 'http://upload.wikimedia.org/wikipedia/en/0/04/Rayman_2_music_sample.ogg';
+        $scope.play = function () {
+            $scope.audio.play();
+            $scope.playing = true;
+        };
+        $scope.pause = function () {
+            $scope.audio.pause();
+            $scope.playing = false;
+        };
+        $scope.audio.addEventListener('ended', function () {
+            $scope.playing = false;
+            $scope.$apply(function () {
+                $scope.stop()
+
+            });
+        });
+    }]);
+    &lt;/script&gt;
+    </pre>
+    
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp02/003-angular.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp02/css/style003.css" target="_blank">CSS</a>
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://wikipedia.com">Wikipedia</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

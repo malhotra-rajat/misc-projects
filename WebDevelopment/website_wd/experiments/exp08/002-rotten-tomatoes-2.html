@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <script src="../../javascript/jquery-1.11.1.min.js"></script>
+    <title>List of Movies in Theaters (with pagination) using Rotten Tomatoes API</title>
+
+    <script>
+    $(document).ready(function () {
+        $("#results").hide();
+        angular.element(document.getElementById('displayController')).scope().display();
+    });
+    var apikey = "pmgdsyuxwn732frc64qptnxr";
+    var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+    var pageNumber = 1;
+    var total = null;
+    var moviesSearchUrl = baseUrl + '/lists/movies/in_theaters.json?page_limit=5&country=us&apikey=' + apikey;
+
+    function displayController($scope, $http) {
+        $scope.display = function() {
+            $("#message").empty();
+            console.log(moviesSearchUrl + '&page=' + pageNumber);
+            $.ajax({
+                    url: moviesSearchUrl + '&page=' + pageNumber,
+                    dataType: "jsonp",
+                    success: displayCallback
+            });
+        }
+    
+        function displayCallback(data) {
+            if (data.total == undefined) {
+                $("#message").append('No results found');
+            }
+            else {
+                total = data.total;
+                $("#message").append('Showing ' + ((pageNumber * 5) - 4) + '-' + (pageNumber * 5) + ' of ' + data.total + ' movies playing in theatres right now');
+                $scope.movies = data.movies;
+                $scope.$apply();
+                $("#results").show();
+            }
+        }
+        $scope.previousPage = function()
+        {
+            if (pageNumber != 1)
+            {
+                pageNumber = pageNumber - 1;
+                angular.element(document.getElementById('displayController')).scope().display();
+            }
+        }
+        $scope.nextPage = function () {
+            if (pageNumber != (total / 5)) {
+                pageNumber = pageNumber + 1;
+                angular.element(document.getElementById('displayController')).scope().display();
+            }
+        }
+    }
+    </script>
+
+</head>
+<body ng-app class="container">
+    <h2>List of Movies in Theaters (with pagination) using Rotten Tomatoes API</h2>
+    <hr />
+
+    <div ng-controller="displayController" id="displayController">
+
+        <div id="results">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Poster</th>
+                        <th>Movie Name</th>
+                        <th>Runtime</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="m in movies">
+                        <td><img ng-src="{{m.posters.thumbnail}}" /></td>
+                        <td>{{m.title}}</td>
+                        <td>{{m.runtime}} minutes</td>
+                        <td>{{m.year}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div id="message">
+        </div>
+
+        <div class="centerAlign">
+            <button class="btn btn-primary width80px" ng-click="previousPage()">Previous</button>
+            <button class="btn btn-primary width80px" ng-click="nextPage()">Next</button>
+        </div>
+    </div>
+    <hr />
+
+    <p class="contentFont">
+        In this experiment, I displayed a paginated list of movies in theaters. 'Next' and 'Previous' buttons make the list go one page forward and backward respectively.
+        Code snippet of the AngularJS controller below:
+    </p>
+
+    <pre ng-non-bindable>
+    &lt;script&gt;
+    $(document).ready(function () {
+        $("#results").hide();
+        angular.element(document.getElementById('displayController')).scope().display();
+    });
+    var apikey = "pmgdsyuxwn732frc64qptnxr";
+    var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+    var pageNumber = 1;
+    var total = null;
+    var moviesSearchUrl = baseUrl + '/lists/movies/in_theaters.json?page_limit=5&country=us&apikey=' + apikey;
+    function displayController($scope, $http) {
+        $scope.display = function() {
+            $("#message").empty();
+            console.log(moviesSearchUrl + '&page=' + pageNumber);
+            $.ajax({
+                    url: moviesSearchUrl + '&page=' + pageNumber,
+                    dataType: "jsonp",
+                    success: displayCallback
+            });
+        }
+    
+        function displayCallback(data) {
+            if (data.total == undefined) {
+                $("#message").append('No results found');
+            }
+            else {
+                total = data.total;
+                $("#message").append('Showing ' + ((pageNumber * 5) - 4) + '-' + (pageNumber * 5) + ' of ' + data.total + ' movies playing in theatres right now');
+                $scope.movies = data.movies;
+                $scope.$apply();
+                $("#results").show();
+            }
+        }
+        $scope.previousPage = function()
+        {
+            if (pageNumber != 1)
+            {
+                pageNumber = pageNumber - 1;
+                angular.element(document.getElementById('displayController')).scope().display();
+            }
+        }
+        $scope.nextPage = function () {
+            if (pageNumber != (total / 5)) {
+                pageNumber = pageNumber + 1;
+                angular.element(document.getElementById('displayController')).scope().display();
+            }
+        }
+    }
+    &lt;/script&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp08/002-rotten-tomatoes-2.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp08/css/style.css" target="_blank">CSS</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

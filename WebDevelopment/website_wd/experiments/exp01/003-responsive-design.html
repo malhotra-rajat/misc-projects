@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Web Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style003.css"> 
+</head>
+<body>
+    <div class="padclass">
+        <div class="content" >
+            <h3>Responsive Web Page</h3>
+            <img class="img1" src="images/nyc.jpg" />
+
+            <p class="contentFontsmall">
+                Responsive web design (RWD) is a web design approach aimed at crafting sites
+                to provide an optimal viewing experience—easy reading and navigation
+                with a minimum of resizing, panning, and scrolling—across a
+                wide range of devices (from mobile phones to desktop computer monitors).
+                A site designed with RWD adapts the layout to the viewing environment
+                by using fluid, proportion-based grids, flexible images, and
+                CSS3 media queries, an extension of the @media rule.
+            </p>
+        </div>
+
+        <p class="contentFont">
+            In this experiment, I used media-queries to make this web-page responsive to
+            different screen sizes. In the content, there is an image (from tourists360.com) whose 
+            original width is 500px. When the screen size gets smaller, the width of the image
+            also decreases as specified in the media query. On screen sizes smaller than 340 px,
+            the image is not visible.
+        </p>
+    </div>
+    <pre class="code">
+    @media screen and (max-width: 920px) {
+    .img1 {
+        width: 430px;
+        }
+    }
+    @media screen and (max-width: 820px) {
+    .img1 {
+        width: 400px;
+        }
+    }
+    @media screen and (max-width: 720px) {
+    .img1 {
+        width: 370px;
+        }
+    }
+    @media screen and (max-width: 620px) {
+    .img1 {
+        width: 340px;
+        }
+    }
+    @media screen and (max-width: 520px) {
+    .img1 {
+        width: 310px;
+        }
+    }
+    @media screen and (max-width: 420px) {
+    .img1 {
+        width: 280px;
+        }
+    }
+    @media screen and (max-width: 340px) {
+    .img1 {
+        display: none;
+        }
+    }
+    </pre>
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp01/003-responsive-design.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp01/css/style003.css" target="_blank">CSS</a>
+        </p>
+
+        <h4>References</h4>
+
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a><br>
+            <a href="http://tourists360.com">Tourists360</a> (for the image)<br>
+            <a href="http://wikipedia.com">Wikipedia</a><br>
+        </p>
+    </footer>
+</body>
+</html>

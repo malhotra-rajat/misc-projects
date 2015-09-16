@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <script src="../../javascript/jquery-1.11.1.min.js"></script>
+    <title>Rotten Tomatoes API</title>
+   
+    <script>
+    $(document).ready(function () {
+        $("#results").hide();
+    });
+
+    var apikey = "pmgdsyuxwn732frc64qptnxr";
+    var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+
+    // construct the uri with our apikey
+    var moviesSearchUrl = baseUrl + '/movies.json?apikey=' + apikey;
+        
+    function searchController($scope, $http) {
+        $scope.search = function () {
+            $("#message").empty();
+            var query = $scope.queryText;
+            console.log (moviesSearchUrl + '&q=' + encodeURI(query));
+            if (query == "" || query == null || query == undefined) {
+                
+                alert("Please enter something in the search box.");
+            }
+            else {
+                // send off the query
+                $.ajax({
+                    url: moviesSearchUrl + '&q=' + encodeURI(query),
+                    dataType: "jsonp",
+                    success: searchCallback
+                });
+            }
+        }
+        // callback for when we get back the results
+        function searchCallback(data) {
+           
+            var query = $scope.queryText;
+            if (data.total == undefined) {
+                $("#message").append('No results found for: ' + query);
+            }
+            else {
+                $("#message").append('Found ' + data.total + ' results for ' + query);
+                $scope.movies = data.movies;
+                $scope.$apply();
+                $("#results").show();
+            }
+        }
+    }
+    </script>
+
+</head>
+
+
+<body ng-app class="container" >
+    <h2>Rotten Tomatoes API</h2>
+    <hr />
+  
+    <div ng-controller="searchController">
+        <input ng-model="queryText" class="form-control" type="text" placeholder="Enter the name of the movie..." /> <br />
+        <button ng-click="search()" class="btn btn-primary btn-block">Search</button>
+        <br />
+        <div id="message">
+        </div>
+        <br />
+      
+        <div id="results">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Poster</th>
+                        <th>Movie Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="m in movies">
+                        <td><img ng-src="{{m.posters.thumbnail}}" /></td>
+                        <td>{{m.title}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr />
+
+    <p class="contentFont">
+        In this experiment, I explored the Rotten Tomatoes API for my project. The text entered in the text box gets appended as a query string to the
+        URL and sent to the server. When you click search, the number of results along with the poster and movie title of all the results is displayed.
+        I have used AngularJS and the ng-repeat tag to display the results in a table dynamically. Code snippet below:
+    </p>
+
+    <pre ng-non-bindable>
+    &lt;script&gt;
+    var apikey = "pmgdsyuxwn732frc64qptnxr";
+    var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+
+    // construct the uri with our apikey
+    var moviesSearchUrl = baseUrl + '/movies.json?apikey=' + apikey;
+
+    function searchController($scope, $http) {
+        $scope.search = function () {
+            $("#message").empty();
+            var query = $scope.queryText;
+            console.log(moviesSearchUrl + '&q=' + encodeURI(query));
+            if (query == "" || query == null || query == undefined) {
+
+                alert("Please enter something in the search box.");
+            }
+            else {
+                // send off the query
+                $.ajax({
+                    url: moviesSearchUrl + '&q=' + encodeURI(query),
+                    dataType: "jsonp",
+                    success: searchCallback
+                });
+            }
+        }
+        // callback for when we get back the results
+        function searchCallback(data) {
+
+            var query = $scope.queryText;
+            if (data.total == undefined) {
+                $("#message").append('No results found for: ' + query);
+            }
+            else {
+                $("#message").append('Found ' + data.total + ' results for ' + query);
+
+                $scope.movies = data.movies;
+                $scope.$apply();
+            }
+        }
+    }
+    &lt;/script&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp07/002-rotten-tomatoes.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp07/css/style.css" target="_blank">CSS</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

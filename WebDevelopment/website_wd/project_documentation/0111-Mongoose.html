@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+    <title>MongoDb Database - Mongoose Models</title>
+</head>
+<body class="container">
+    <h2>MongoDb Database - Mongoose Models</h2>
+    <hr />
+
+    <p class="contentFont">
+        I made 3 collections in my Mongodb database. User, Like, Comment, Follow. Below are the Mongoose models for each of them.
+    </p>     
+    <ul class="contentFont">
+        <li><b>user.js</b>
+                <pre>
+var mongoose = require('mongoose');
+var bcrypt = require('bcrypt-nodejs');
+var userSchema = mongoose.Schema({
+    local: {
+        name : String,
+        profilePicUrl: String,
+        aboutme : String,
+        email : String,
+        password : String,
+}
+});
+// generating a hash
+userSchema.methods.generateHash = function(password) {
+return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+};
+// checking if password is valid
+userSchema.methods.validPassword = function(password) {
+return bcrypt.compareSync(password, this.local.password);
+};
+// create the model for users and expose it to our app
+module.exports = mongoose.model('User', userSchema);
+                </pre>
+              
+        </li>
+        <li>
+            <b>like.js</b>
+                <pre>
+var mongoose = require('mongoose');
+var likeSchema = mongoose.Schema({
+    useremail: String,
+    movieid: String,
+});
+module.exports = mongoose.model('Like', likeSchema);
+                </pre>
+                </li>
+          
+        <li>
+            <b>comment.js</b>
+                    <pre>
+var mongoose = require('mongoose');
+var commentSchema = mongoose.Schema({
+    useremail: String,
+    userFirstname: String,
+    movieid: String,
+    commentText: String,
+    creationDate: Date,
+});
+module.exports = mongoose.model('Comment', commentSchema);
+                </pre>
+        </li>
+        <li>
+            <b>follow.js</b>
+                <pre>
+var mongoose = require('mongoose');
+var followSchema = mongoose.Schema({
+    useremailfollower: String,
+    useremailfollowed: String,
+});
+module.exports = mongoose.model('Follow', followSchema);
+                </pre>
+        </li>
+    </ul>
+   
+    <hr />
+    <footer class="centerAlignMargin40">
+        <h4>Source Code</h4>
+        <p>
+            <a href=" https://github.com/rajat1988/webdev/tree/master/project/app/models" target="_blank">Mongoose Models</a><br />
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+Date   Who      Start Stop  Interruptions Question TimeOnTask    Comments
+
+10/25  RM,PZ    23:00 01:30      0            2        90        Thinking over Question2
+10/26  RM,PZ    14:00 15:23      0            2        83        Continuing Thinking Q2.
+10/26  RM,PZ    15:24 16:54      0            2        90        Data Definition.
+10/26  RM,PZ    16:55 17:44      0            2        49        Trying to solve the question 2 
+                                                                 without width restriction.
+===============================committing to git: 10/26 17:46====================================
+
+10/27  RM,PZ    23:00 00:38      0            1        98        Started Thinking about Question 1
+
+===============================committing to git: 10/27 00:39====================================    
+
+10/28  RM,PZ    03:00 03:49      0            1        49        still puzzling over question 1
+
+===============================committing to git: 10/28 03:49====================================
+
+10/28  RM,PZ    03:50 04:02      0            1        12        made some progress on q1
+
+===============================committing to git: 10/28 04:02====================================
+
+10/28  RM,PZ    04:05 05:45      0            1        100       got correct ouput for q1
+
+===============================committing to git: 10/28 05:46====================================
+
+10/28  RM,PZ    05:48 07:20      0            1        92        wrote flat-rep? function
+
+===============================committing to git: 10/28 07:20====================================
+
+10/28  RM,PZ    09:30 10:59      0            2        89        generate tree structures
+
+===============================committing to git: 10/28 11:02====================================
+
+10/28  RM,PZ    11:02 12:44      0            2        102       Revise Solution
+10/28  RM,PZ    15:00 16:34      0            2        94        Continue Revising.
+
+===============================committing to git: 10/28 16:34====================================
+
+10/29  RM,PZ    02:30 03:31      0            1        61        indented Q1
+
+===============================committing to git: 10/29 03:31====================================
+
+10/29  RM,PZ    14:02 15:25      0            2        83        Try to finish sum-exp
+10/29  RM,PZ    15:25 16:32      0            2        67        Solve the indent problem
+
+===============================committing to git: 10/29 16:33====================================
+
+10/29  RM,PZ    18:01 18:31      0            2        30        Done with Test.
+
+===============================committing to git: 10/29 18:31====================================
+
+10/29  RM,PZ    19:01 20:46      0            1        105       Modified contract of some function
+
+===============================committing to git: 10/29 20:46====================================
+
+10/29  RM,PZ    21:30 22:17      0            2        47        Q1 Q2 is Finally DONE.
+
+===============================committing to git: 10/29 22:18====================================
+
+10/30  RM,PZ    15:55 16:00      0            1        5         Corrected a typo in Q1.
+
+===============================committing to git: 10/30 16:01====================================
+
+10/30  RM,PZ    17:50 18:52      0            1        62        Revise Q1 template for S-exp
+
+===============================committing to git: 10/30 18:55====================================
+
+10/31  RM,PZ    01:01 02:08      0            1        67        Revise function nested-to-flat.
+
+===============================committing to git: 10/31 02:11====================================
+
+Total Time On Q1 (minutes)         651
+Total Time On Q2 (minutes)         824
+
+TOTQ1 (hours and tenths)           10.9 
+TOTQ2 (hours and tenths)           13.7
+

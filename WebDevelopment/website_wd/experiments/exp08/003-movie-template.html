@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <title>Movie Details of Top DVD Rentals using Rotten Tomatoes API</title>
+    
+   <style>
+   </style>
+
+    <script>
+        $(document).ready(function () {
+            $("#results").hide();
+            angular.element(document.getElementById('displayController')).scope().display();
+        });
+
+        var apikey = "pmgdsyuxwn732frc64qptnxr";
+        var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+        var moviesSearchUrl = baseUrl + '/lists/dvds/top_rentals.json?limit=10&country=us&apikey=' + apikey;
+
+        function displayController($scope, $http) {
+            $scope.display = function () {
+                console.log(moviesSearchUrl);
+                $.ajax({
+                    url: moviesSearchUrl,
+                    dataType: "jsonp",
+                    success: displayCallback
+                });
+            }
+
+            function displayCallback(data) {
+                    $scope.movies = data.movies;
+                    $scope.$apply();
+                    $("#results").show();
+            }
+
+            $scope.showMovieDetails = function(id)
+            {
+                var moviesSearchUrl = 'http://api.rottentomatoes.com/api/public/v1.0/movies/' + id + '.json?apikey=' + apikey;
+                $.ajax({
+                    url: moviesSearchUrl,
+                    dataType: "jsonp",
+                    success: function(data)
+                    {
+                        $("#movieDetailsDialog").dialog({
+                            title: data.title,
+                            width: 500,
+                        });
+                        $("#movieDetailsDialogContent").empty();
+                        $("#movieDetailsDialogContent").append("<b>Synopsis: </b>" + data.synopsis);
+                    }
+                });
+            }
+        }
+    </script>
+</head>
+
+
+<body ng-app class="container">
+    <h2>Movie Details of Top DVD Rentals using Rotten Tomatoes API</h2>
+    <hr />
+
+    <div ng-controller="displayController" id="displayController">
+        <div id="results">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Poster</th>
+                        <th>Movie Name</th>
+                        <th>Runtime</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="m in movies">
+                        <td><img ng-src="{{m.posters.thumbnail}}" /></td>
+                        <td>
+                            <a  ng-click="showMovieDetails(m.id)">{{m.title}}</a>
+                        </td>
+                        <td>{{m.runtime}} minutes</td>
+                        <td>{{m.year}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="movieDetailsDialog" title="Movie Details">
+            <p id="movieDetailsDialogContent"></p>
+        </div>
+
+    </div>
+    <hr />
+
+    <p class="contentFont">
+        In this experiment, I displayed the list of Top DVD Rentals using the Rotten Tomatoes API. Clicking on a movie title displays the synopsis in a jQueryUI Dialog. For displaying the synopsis,
+        a call is made to the movie details API where the 'movie id' is passed in the query string. Code snippet below:
+    </p>
+
+    <pre ng-non-bindable>
+    &lt;script&gt;
+      $(document).ready(function () {
+           $("#results").hide();
+           angular.element(document.getElementById('displayController')).scope().display();
+        });
+        var apikey = "pmgdsyuxwn732frc64qptnxr";
+        var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+        var moviesSearchUrl = baseUrl + '/lists/dvds/top_rentals.json?limit=10&country=us&apikey=' + apikey;
+        function displayController($scope, $http) {
+            $scope.display = function () {
+                console.log(moviesSearchUrl);
+                $.ajax({
+                    url: moviesSearchUrl,
+                    dataType: "jsonp",
+                    success: displayCallback
+                });
+            }
+            function displayCallback(data) {
+                    $scope.movies = data.movies;
+                    $scope.$apply();
+                    $("#results").show();
+            }
+            $scope.showMovieDetails = function(id)
+            {
+                var moviesSearchUrl = 'http://api.rottentomatoes.com/api/public/v1.0/movies/' + id + '.json?apikey=' + apikey;
+                $.ajax({
+                    url: moviesSearchUrl,
+                    dataType: "jsonp",
+                    success: function(data)
+                    {
+                        $("#movieDetailsDialog").dialog({
+                            title: data.title,
+                            width: 500,                   
+                        });
+                        $("#movieDetailsDialogContent").empty();
+                        $("#movieDetailsDialogContent").append("<b>Synopsis: </b>" + data.synopsis);
+                    }
+                });
+            }
+        }
+    &lt;/script&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp08/003-movie-template.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp08/css/style.css" target="_blank">CSS</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

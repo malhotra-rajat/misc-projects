@@ -1,0 +1,118 @@
+Date  Who       Start Stop  Interruptions Question TimeOnTask    Comments
+9/21  RM     	16:42 20:34  	4            1        232        Started thinking about Q1
+9/21  RM	20:35 21:35     1	     1	      60	 Wrote code for Q1
+
+=============================== committing to git: 09/21 21:37 ==========================    
+	
+9/21  RM     	22:00 23:19  	2            1         79        Wrote more code for Q1
+
+=============================== committing to git: 09/21 23:19 ========================== 
+
+9/22  RM     	00:40 03:39  	4            1         179       Still on Q1
+
+=============================== committing to git: 09/22 3:39 ========================== 
+
+9/22  RM         14:11 17:15	5	     1		64	 Doing Q1
+
+=============================== committing to git: 09/22 17:15 ========================== 
+
+9/22  RM         18:58 21:08	5	     1		130	 Q1 almost complete
+
+=============================== committing to git: 09/22 21:09 ========================== 
+
+9/22 RM 	 23:30 01:18    2	     3		98	 Doing Q3
+
+=============================== committing to git: 09/23 02:45 ========================== 
+
+9/23 RM		01:25  03:27	0	     3		122	 Problem with GitHub, fixed it buy using Git Shell
+9/23 RM         03:30  03:36    0            1           6       Indented robot.rkt
+
+=============================== committing to git: 09/23 03:36 ========================== 
+
+9/23 RM         03:38  04:32	1	     2		64	 Started thinking about Q2
+
+=============================== committing to git: 09/23 04:37 ========================== 
+
+9/23 RM		14:11  19:33 	4	     2		322	 Still on Q2
+9/23 RM         19:35  20:00    0            3,2         25      Wrote new test cases for Q3  
+
+=============================== committing to git: 09/23 20:14 ========================== 
+
+9/23 RM		21:45  23:46	4	     2		121	 Q2 almost complete
+
+=============================== committing to git: 09/23 23:44 ========================== 
+
+9/23 RM		23:46  03:04	1	     4		258	 Starting Q4
+9/24 RM		15:12  16:11    0            4		59	 Wrote code for Q4
+
+=============================== committing to git: 09/24 16:13 ========================== 
+
+9/24 RM         22:10  22:26    0            2,3        16       Code for Q1
+
+=============================== committing to git: 09/24 22:26 ========================== 
+
+9/24 RM         17:05  20:04    4	     4          179      Doing Q4
+9/24 RM         21:05  01:49    2	     1          284      Back on Q2
+9/24 RM	        03:00  05:15    0            3          135      Wrote test cases for Q3
+		
+=============================== committing to git: 09/25 00:51 ========================== 
+
+9/25 RM	        00:52  00:57    0            1,4         5       Added state-transition diagram for Q4
+
+=============================== committing to git: 09/25 00:58 ========================== 
+
+9/25 RM	        00:59  02:00    0            4          61      Code for Q4
+
+=============================== committing to git: 09/25 02:01 ========================== 
+
+9/25 RM	        02:15  03:45    3            1          90      Wrote test cases for Q4
+
+=============================== committing to git: 09/25 03:45 ========================== 
+
+9/25 RM	        03:46  04:03    0            4          7       Improved state-transition diagram for Q4
+
+=============================== committing to git: 09/25 04:04 ==========================
+
+9/25 RM	        04:04  05:06    2            3          61      Improved indentation and wrote test cases for Q3
+
+=============================== committing to git: 09/25 05:15 ========================== 
+
+9/25 RM	        05:16  06:16    0            3          60      Added test cases for Q2, almost done
+
+=============================== committing to git: 09/25 07:05 ========================== 
+
+9/25 RM	        07:06  07:26    0            4          20      Improved state-transition diagram for Q4
+
+=============================== committing to git: 09/25 07:33 ==========================
+
+9/25 RM	        07:34  07:44    0            3          10      Q4 almost done
+
+=============================== committing to git: 09/25 07:48 ==========================
+
+9/25 RM	        07:49  08:04    0            4          5       Improved indentation for Q4
+
+=============================== committing to git: 09/25 08:06 ==========================
+
+9/25 RM	        08:07  08:20    0            3          13      Wrote test cases for Q3
+
+=============================== committing to git: 09/25 08:22 ==========================
+
+09/25           14:45  15:00    0         4,1,3	        15      Verifying code of Q4
+
+=============================== committing to git: 09/25 15:01 ========================== 
+
+09/25           16:17  17:45    0            1         	88	New conditions and test cases for Q1
+
+=============================== committing to git: 09/25 17:58 ========================== 
+
+
+Total Time On Q1 (minutes)                    854               	
+Total Time On Q2 (minutes)                    851
+Total Time On Q3 (minutes)                    234
+Total Time On Q4 (minutes)                    709
+
+Total Time On Q1 (hours and tenths)          14.2          	
+Total Time On Q2 (hours and tenths)          14.1
+Total Time On Q3 (hours and tenths)          3.9
+Total Time On Q4 (hours and tenths)          11.8    
+                         

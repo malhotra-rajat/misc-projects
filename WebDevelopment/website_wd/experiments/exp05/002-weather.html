@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <script src="../../javascript/jquery-1.11.1.min.js"></script>
+    
+    <title>World Weather Online API</title>
+</head>
+
+    
+<body ng-app class="container">
+    <h2>World Weather Online API</h2>
+    <hr />
+
+    <div ng-controller="WeatherClientController">
+        
+        <h4>Enter zip code and number of days: </h4>&nbsp;
+
+
+        <input ng-model="zip" class="form-control" placeholder="ZIP" />&nbsp;
+        <input ng-model="numberOfDays" class="form-control" placeholder="Number of Days" />
+        <hr />
+        <button ng-click="getWeather()" class="btn btn-primary btn-block">Get Weather</button>
+
+        <div id="weatherTable" style="display: none">
+            <hr />
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Temperature</th>
+                        <th>Wind</th>
+                 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="w in weather">
+                        <td>{{w.date}}</td>
+                        <td>{{w.tempMinC}} - {{w.tempMaxC}}</td>
+                        <td>{{w.winddirDegree}}{{w.winddirection}}, {{w.windspeedKmph}}Kmph</td>
+                     
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+        <hr />
+
+
+        <script>
+          var URL = "http://api.worldweatheronline.com/free/v1/weather.ashx?q=ZIP,USA&format=json&num_of_days=DAYS&key=s3uv4fjbaw4pqtp26rh48afd"
+            function WeatherClientController($scope, $http) {
+                $scope.getWeather = function () {
+                    var zip = $scope.zip;
+                    var numberOfDays = $scope.numberOfDays;
+                    var url = URL.replace("ZIP", zip);
+                    url = url.replace("DAYS", numberOfDays);
+               
+                    $http.get(url).success(function (response) {
+                        var ele = document.getElementById("weatherTable");
+                        ele.style.display = "inline";
+                        $scope.weather = response.data.weather;
+                        console.log($scope.weather);
+                    });
+                }
+            }
+
+
+        </script>
+
+
+
+        <p class="contentFont">
+            In this experiment, I used the World Weather Online API to get the weather given the Zip Code and number of days. Code snippet below: 
+        </p>
+
+        <pre ng-non-bindable>
+        function WeatherClientController($scope, $http) {
+           $scope.getWeather = function () {
+           var zip = $scope.zip;
+           var numberOfDays = $scope.numberOfDays;
+           var url = URL.replace("ZIP", zip);
+           url = url.replace("DAYS", numberOfDays);
+               
+           $http.get(url).success(function (response) {
+             var ele = document.getElementById("weatherTable");
+             ele.style.display = "inline";
+             $scope.weather = response.data.weather;
+             console.log($scope.weather);}
+       </pre>
+
+
+
+        <hr />
+
+        <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp05/002-weather.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp05/css/style.css" target="_blank">CSS</a>&nbsp;
+            </p>
+
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://angularjs.org">AngularJS</a><br>
+                <a href="http://w3schools.com">W3Schools</a>
+            </p>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+  
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dip" >
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="aboutClick"
+            android:text="@string/about" />
+
+    <!--     <Button
+            android:id="@+id/error_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="genErrorClick"
+            android:text="@string/gen_error" />
+
+        <Button
+            android:id="@+id/sudoku_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="sudokuClick"
+            android:text="@string/sudoku" /> -->
+
+        <Button
+            android:id="@+id/dictionary_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="dictionaryClick"
+            android:text="@string/dictionary" /> 
+
+        <Button
+            android:id="@+id/wordGame_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="wordGameClick"
+            android:text="@string/title_activity_word_game" />
+
+    <!--     <Button
+            android:id="@+id/communication_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="communicationClick"
+            android:text="@string/title_activity_communication" />
+ -->
+        <Button
+            android:id="@+id/multiplayer_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="twoPlayerDabbleClick"
+            android:text="@string/two_player_dabble" />
+<!-- 
+        <Button
+            android:id="@+id/tp_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="trickiestPartClick"
+            android:text="@string/trickiest_part" /> -->
+
+        <Button
+            android:id="@+id/fp_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="finalProjectClick"
+            android:text="@string/final_project" />
+
+        <Button
+            android:id="@+id/quit_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="quitClick"
+            android:text="@string/quit" />
+    </LinearLayout>
+
+</ScrollView>

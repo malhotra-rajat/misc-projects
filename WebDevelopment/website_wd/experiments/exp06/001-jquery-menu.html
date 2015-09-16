@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <script src="../../javascript/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <title>jQueryUI Menu</title>
+    <script>
+    $(function () {
+        $("#menu").menu();
+    });
+    </script>
+</head>
+
+
+<body class="container">
+    <h2>jQueryUI Menu</h2>
+    <hr />
+
+    <ul id="menu">
+        <li class="ui-state-disabled">Aberdeen</li>
+        <li>Ada</li>
+        <li>Adamsville</li>
+        <li>Addyston</li>
+        <li>
+            Delphi
+            <ul>
+                <li class="ui-state-disabled">Ada</li>
+                <li>Saarland</li>
+                <li>Salzburg an der schönen Donau</li>
+            </ul>
+        </li>
+        <li>Saarland</li>
+        <li>
+            Salzburg
+            <ul>
+                <li>
+                    Delphi
+                    <ul>
+                        <li>Ada</li>
+                        <li>Saarland</li>
+                        <li>Salzburg</li>
+                    </ul>
+                </li>
+                <li>
+                    Delphi
+                    <ul>
+                        <li>Ada</li>
+                        <li>Saarland</li>
+                        <li>Salzburg</li>
+                    </ul>
+                </li>
+                <li>Perch</li>
+            </ul>
+        </li>
+        <li class="ui-state-disabled">Amesville</li>
+    </ul>
+
+    <hr />
+
+    <p class="contentFont">
+        In this experiment, I worked with the JQueryUI Menu. Code snippet below:
+    </p>
+
+    <pre ng-non-bindable>
+        &lt;ul id="menu"&gt;
+        &lt;li class="ui-state-disabled"&gt;Aberdeen&lt;/li&gt;
+        &lt;li&gt;Ada&lt;/li&gt;
+        &lt;li&gt;Adamsville&lt;/li&gt;
+        &lt;li&gt;Addyston&lt;/li&gt;
+        &lt;li&gt;
+            Delphi
+        &lt;ul&gt;
+        &lt;li class="ui-state-disabled"&gt;Ada&lt;/li&gt;
+        &lt;li&gt;Saarland&lt;/li&gt;
+        &lt;li&gt;Salzburg an der schönen Donau&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;Saarland&lt;/li&gt;
+        &lt;li&gt;
+            Salzburg
+        &lt;ul&gt;
+        &lt;li&gt;
+                    Delphi
+        &lt;ul&gt;
+        &lt;li&gt;Ada&lt;/li&gt;
+        &lt;li&gt;Saarland&lt;/li&gt;
+        &lt;li&gt;Salzburg&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+        &lt;li&gt;
+                    Delphi
+        &lt;ul&gt;
+        &lt;li&gt;Ada&lt;/li&gt;
+        &lt;li&gt;Saarland&lt;/li&gt;
+        &lt;li&gt;Salzburg&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+        &lt;li&gt;Perch&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="ui-state-disabled"&gt;Amesville&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;script&gt;
+            $(function () {
+            $("#menu").menu();
+            });
+        &lt;/script&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp06/001-jquery-menu.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp06/css/style.css" target="_blank">CSS</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

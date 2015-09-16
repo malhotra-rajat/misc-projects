@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<resources>
+   <color name="background_main">#f2f2f2</color>
+   <color name="black">#000000</color>
+   <color name="white">#ffffff</color>
+   
+   <!-- Sudoku colors -->
+   <color name="background">#3500ffff</color>
+   <color name="puzzle_background">#ffe6f0ff</color>
+   <color name="puzzle_hilite">#ffffffff</color>
+   <color name="puzzle_light">#64c6d4ef</color>
+   <color name="puzzle_dark">#6456648f</color>
+   <color name="puzzle_foreground">#ff000000</color>
+   <color name="puzzle_hint_0">#64ff0000</color>
+   <color name="puzzle_hint_1">#6400ff80</color>
+   <color name="puzzle_hint_2">#2000ff80</color>
+   <color name="puzzle_selected">#64ff8000</color>
+   
+   <!-- Word game colors -->
+   <color name="gray">#BBBBBB</color>
+   <color name="red">#CC0000</color>
+   <color name="green">#81F277</color>
+   
+   <color name="orange">#FFD1B2</color>
+   <color name="color_button_clickable">#FFD6AD</color>
+   <color name="black_overlay">#66000000</color>
+   
+</resources>

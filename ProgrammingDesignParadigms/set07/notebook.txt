@@ -1,0 +1,68 @@
+Date   Who      Start Stop  Interruptions Question TimeOnTask    Comments
+
+11/02  RM,PZ    21:30 22:39      0            1        69        Finished first two functions
+
+===============================committing to git: 11/2 22:40====================================
+
+11/02  RM,PZ    22:42 00:55      0            1        133       Finished pitcher-after-moves
+
+===============================committing to git: 11/3 00:56====================================    
+
+11/03  RM,PZ    00:57 02:00      0            2        63        Thinking about Question 2
+
+===============================committing to git: 11/3 02:01====================================
+
+11/03  RM,PZ    02:00 03:40      0            2        100       trying to write solve function
+
+===============================committing to git: 11/3 03:41====================================
+
+11/03  RM,PZ    13:01 14:15      0            2        74       Solved the problem without tracing
+
+===============================committing to git: 11/3 14:15====================================
+
+11/03  RM,PZ    14:16 15:11      0            2        55        Solved the tracing problem without tests
+
+===============================committing to git: 11/3 15:12====================================
+
+11/03  RM,PZ    15:12 15:46      0            2        34       Finished all the tests
+
+===============================committing to git: 11/3 15:47====================================
+
+11/04  RM,PZ    16:04 17:36      0            2        92        Split pitchers-after-moves to match recursion-pattern
+
+===============================committing to git: 11/4 17:37====================================
+
+11/04  RM,PZ    21:01 22:05      0            2        64        Added contract
+
+===============================committing to git: 11/4 22:06====================================
+
+11/05  RM,PZ    11:55 01:10      0            2        75        Contract and purpose statement
+
+===============================committing to git: 11/5 01:10====================================
+
+11/05  RM,PZ    10:30 12:25      0            2        115       Refract solve to follow the template
+
+===============================committing to git: 11/5 12:25====================================
+
+11/05  RM,PZ    14:00 17:14      0            2        194        Revised some functions
+
+===============================committing to git: 11/5 17:15====================================
+
+11/05  RM,PZ    19:00 19:20      0            2        20         Revised some functions
+
+===============================committing to git: 11/5 19:20====================================
+
+11/05  RM,PZ    19:30 20:13      0            2        43        Improved DD and contracts
+
+===============================committing to git: 11/5 20:13====================================
+
+11/05  RM,PZ    20:14 20:42      0            2        28        Improved solve function
+
+===============================committing to git: 11/5 20:42====================================
+
+Total Time On Q1 (minutes)         202
+Total Time On Q2 (minutes)         957
+
+TOTQ1 (hours and tenths)           3.4 
+TOTQ2 (hours and tenths)           16.0
+

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style001.css"> 
+    <title>CSS3 Shapes and Animations</title>
+</head>
+<body>
+   
+    <div class="centerAlign" >
+        <h3>CSS3 Shapes and Animations</h3>
+        <p class="contentFont">In this experiment, I made various shapes using CSS3. 
+        The shapes animate when there is a mouse hover event. These are mentioned 
+        below the shapes. </p>
+        <div class="centerAlignDiv">
+            <div class="circle"></div>
+            <p class="contentFont">
+                The circle increases in size.
+            </p>
+            <div class="parallelogram"></div>
+            <p class="contentFont">
+               The parallelogram's background changes to black.
+            </p>
+            <div class="ribbon"></div>
+            <p class="contentFont">
+                The ribbon rotates clockwise by 25 degrees.
+            </p>
+        </div>
+        
+    </div>
+    <pre class="code">
+        .circle
+        {
+            width: 0px;
+            height: 0px;
+            border-right: 60px solid red;
+            border-top: 60px solid red;
+            border-left: 60px solid red;
+            border-bottom: 60px solid red;
+            border-radius: 60px;
+        }
+        
+        .circle:hover
+        {
+            border-right: 90px solid red;
+            border-top: 90px solid red;
+            border-left: 90px solid red;
+            border-bottom: 90px solid red;
+            border-radius: 90px;
+        }
+        
+        .parallelogram
+        {
+            margin-top:30px;
+            width:100px; 
+            height:100px; 
+            border:1px solid #000; 
+            background:green;
+            transform: skew(20deg); 
+            -webkit-transform: skew(20deg);
+        }
+        
+        .parallelogram:hover{
+            background:black;
+        }
+        
+        .ribbon
+        {
+            width:0; 
+            margin-top:30px;
+            height:100px; 
+            border-right:50px solid blue;
+            border-left:50px solid blue;
+            border-bottom:30px solid transparent;
+        }
+        
+        .ribbon:hover
+        {
+            transform: rotate(25deg);
+        }
+    </pre>
+    <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp01/001-shapes-animations.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp01/css/style001.css" target="_blank">CSS</a>
+            </p>
+
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://w3schools.com">W3Schools</a>
+            </p>
+     </footer>
+    
+
+</body>
+</html>

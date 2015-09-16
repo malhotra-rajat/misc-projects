@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style001.css">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <script type="text/javascript" src="../../javascript/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+
+    <title>JSON Data Persistence using jQuery Cookie</title>
+</head>
+<body ng-app>
+    <div class="container" ng-controller="myClassLibraryController">
+        <h1>JSON Data Persistence using jQuery Cookie</h1>
+        
+        <hr />
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Course Number</th>
+                    <th>Title</th>
+                    <th>Credits</th>
+                    <th>&nbsp;</th>
+                </tr>
+                <tr>
+                    <td><input class="form-control" ng-model="myClassNew.course_no" placeholder="Course Number" /></td>
+                    <td><input class="form-control" ng-model="myClassNew.title" placeholder="Title" /></td>
+                    <td><input class="form-control" ng-model="myClassNew.credits" placeholder="Credits" /></td>
+                    <td>
+                        <button ng-click="add()" class="btn btn-success">Add</button>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="myClass in myClasses track by $index">
+                    <td>{{myClass.course_no}}</td>
+                    <td>{{myClass.title}}</td>
+                    <td>{{myClass.credits}}</td>
+                    <td>
+                        <button class="btn btn-danger" ng-click="delete(myClass)">Delete</button>
+                    </td>
+                </tr>
+             
+            </tbody>
+        </table>
+        <hr />
+       
+        <button class="btn btn-primary" onclick="deleteCookie()">Delete Cookie</button>
+        <hr />
+       
+        &nbsp;&nbsp;
+        <p class="contentFont">
+            In this experiment, I have some static JSON data about Computer Science Classes at Northeastern. Here the 3 rows in the table
+            have data which is hardcoded in the HTML page and displayed using AngularJS and Bootstrap. There are buttons "Add" and "Delete"
+            which allow us to add a new class and delete a class respectively. These changes are persisted using a Cookie. So, even if the page is 
+            reloaded, the added and deleted classes will persist. To delete the cookie, there is a delete cookie button (which also reloads the page). 
+            When the cookie is deleted all the user-made changes are gone and the original 3 rows are displayed. 
+            The code snippet below shows the AngularJS controller and jQuery Cookie functions.
+        </p>
+        <hr />
+
+        <pre>
+        &lt;script&gt;
+           function myClassLibraryController($scope) {
+               var myClass1 = {
+                   course_no: "CS5610",
+                   title: "Web Development",
+                   credits: "4.00",
+               };
+               var myClass2 = {
+                   course_no: "CS5520",
+                   title: "Mobile App Development",
+                   credits: "4.00",
+               };
+               var myClass3 = {
+                   course_no: "CS5600",
+                   title: "Computer Systems",
+                   credits: "4.00",
+               };
+
+               var myClasses;
+               var classes_data = $.cookie("classes_data");
+
+                if (classes_data == null) {
+                    myClasses = [myClass1, myClass2, myClass3];
+                    $.cookie("classes_data", JSON.stringify($scope.myClasses));
+                }
+                else {
+                    myClasses = $.parseJSON(classes_data);
+                }
+        
+                $scope.myClasses = myClasses;
+
+                $scope.delete = function (myClass) {
+                    var index = $scope.myClasses.indexOf(myClass);
+                    $scope.myClasses.splice(index, 1);
+                    $.cookie("classes_data", JSON.stringify($scope.myClasses));
+                }
+
+                $scope.add = function () {
+                    var myClass = {
+                    course_no: $scope.myClassNew.course_no,
+                    title: $scope.myClassNew.title,
+                    credits: $scope.myClassNew.credits
+                };
+
+                $scope.myClasses.push(myClass);
+                $.cookie("classes_data", JSON.stringify($scope.myClasses));
+                }
+            }
+
+           function deleteCookie() {
+             if ($.removeCookie('classes_data') == true) {
+             alert("Cookie deleted");
+            }
+            else {
+                alert("Cookie not found");
+            }
+            location.reload();   
+        }
+        &lt;/script&gt;
+        </pre>
+        <hr />
+
+        <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp03/001-json.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp03/css/style001.css" target="_blank">CSS</a>
+            </p>
+
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://wikipedia.com">Wikipedia</a><br>
+                <a href="http://w3schools.com">W3Schools</a>
+            </p>
+        </footer>
+
+
+    </div>
+    <script>
+        function myClassLibraryController($scope) {
+            var myClass1 = {
+                course_no: "CS5610",
+                title: "Web Development",
+                credits: "4.00",
+            };
+            var myClass2 = {
+                course_no: "CS5520",
+                title: "Mobile App Development",
+                credits: "4.00",
+            };
+            var myClass3 = {
+                course_no: "CS5600",
+                title: "Computer Systems",
+                credits: "4.00",
+            };
+            
+            var myClasses;
+            
+            var classes_data = $.cookie("classes_data");
+
+            if (classes_data == null)
+            {
+                myClasses = [myClass1, myClass2, myClass3];
+                $.cookie("classes_data", JSON.stringify($scope.myClasses));
+            }
+            else
+            {
+                myClasses = $.parseJSON(classes_data);
+            }
+            console.log(myClasses);
+            $scope.myClasses = myClasses;
+
+            
+            $scope.delete = function (myClass) {
+                var index = $scope.myClasses.indexOf(myClass);
+                $scope.myClasses.splice(index, 1);
+                $.cookie("classes_data", JSON.stringify($scope.myClasses));
+            }
+
+            $scope.add = function () {
+                var myClass = {
+                    course_no: $scope.myClassNew.course_no,
+                    title: $scope.myClassNew.title,
+                    credits: $scope.myClassNew.credits
+                };
+              
+                $scope.myClasses.push(myClass);
+                $.cookie("classes_data", JSON.stringify($scope.myClasses));
+            }
+        }
+        function deleteCookie()
+        {
+           
+            if ($.removeCookie('classes_data') == true)
+            {
+                alert("Cookie deleted");
+            }
+            else
+            {
+                alert("Cookie not found");
+            }
+            location.reload();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <link href="css/style.css" rel="stylesheet">
+    <script src="../../javascript/jquery-1.11.1.min.js"></script>
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Filterable widget</title>
+
+    <style>
+        .customPadding
+        {
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="customPadding">
+        <h2>Filterable widget</h2>
+        <hr />
+        <div>
+            <form class="ui-filterable">
+                <input id="rich-autocomplete-input" data-type="search" placeholder="Search ticker or firm name...">
+            </form>
+            <ul data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input">
+                <li data-filtertext="NASDAQ:ADBE Adobe Systems Incorporated"><a href="#">Adobe</a></li>
+                <li data-filtertext="NASDAQ:AMZNL Amazon.com, Inc."><a href="#">Amazon</a></li>
+                <li data-filtertext="NASDAQ:AAPL Apple Inc."><a href="#">Apple</a></li>
+                <li data-filtertext="NASDAQ:GOOG Google Inc."><a href="#">Google</a></li>
+                <li data-filtertext="NYSE:IBM Intl. International Business Machines Corp."><a href="#">IBM</a></li>
+                <li data-filtertext="NASDAQ:MSFT Microsoft Corporation"><a href="#">Microsoft</a></li>
+                <li data-filtertext="NASDAQ:YHOO Yahoo! Inc."><a href="#">Yahoo</a></li>
+                <li data-filtertext="USA U.S.A. United States of America"><a href="#">United States</a></li>
+            </ul>
+        </div>
+        <hr />
+
+        <p class="contentFont">
+            In this experiment, I used the FIlterable widget of jQuery mobile. 
+            Code snippet below:
+        </p>
+
+        <pre ng-non-bindable>
+        &lt;div&gt;
+            &lt;form class="ui-filterable"&gt;
+            &lt;input id="rich-autocomplete-input" data-type="search" placeholder="Search ticker or firm name..."&gt;
+            &lt;/form&gt;
+            &lt;ul data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input"&gt;
+            &lt;li data-filtertext="NASDAQ:ADBE Adobe Systems Incorporated"&gt;&lt;a href="#"&gt;Adobe&lt;/a&gt;&lt;/li&gt;
+            &lt;li data-filtertext="NASDAQ:AMZNL Amazon.com, Inc."&gt;&lt;a href="#"&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+            &lt;li data-filtertext="NASDAQ:AAPL Apple Inc."&gt;&lt;a href="#"&gt;Apple&lt;/a&gt;&lt;/li&gt;
+            &lt;li data-filtertext="NASDAQ:GOOG Google Inc."&gt;&lt;a href="#"&gt;Google&lt;/a&gt;&lt;/li&gt;
+            &lt;li data-filtertext="NYSE:IBM Intl. International Business Machines Corp."&gt;&lt;a href="#"&gt;IBM&lt;/a&gt;&lt;/li&gt;
+            &lt;li data-filtertext="NASDAQ:MSFT Microsoft Corporation"&gt;&lt;a href="#"&gt;Microsoft&lt;/a&gt;&lt;/li&gt;
+            &lt;li data-filtertext="NASDAQ:YHOO Yahoo! Inc."&gt;&lt;a href="#"&gt;Yahoo&lt;/a&gt;&lt;/li&gt;
+            &lt;li data-filtertext="USA U.S.A. United States of America"&gt;&lt;a href="#"&gt;United States&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+        </pre>
+
+        <hr />
+
+        <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp09/001-list-filter.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp09/css/style.css" target="_blank">CSS</a>&nbsp;
+            </p>
+
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://w3schools.com">W3Schools</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

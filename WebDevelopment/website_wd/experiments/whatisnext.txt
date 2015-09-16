@@ -1,0 +1,10 @@
+﻿../story/index.htm?../experiments/exp01/story.txt				Week 1: CSS3 and Responsive Design
+../story/index.htm?../experiments/exp02/story.txt				Week 2: Bootstrap and AngularJS
+../story/index.htm?../experiments/exp03/story.txt				Week 3: JSON Data Persistence, jQuery Plugins, jQueryUI Widgets, Google Maps
+../story/index.htm?../experiments/exp04/story.txt				Week 4: Node.js, MongoDB, Express.js and more on Angular
+../story/index.htm?../experiments/exp05/story.txt				Week 5: MongoDB CRUD, Weather API and Bootstrap page alerts
+../story/index.htm?../experiments/exp06/story.txt				Week 6: jQueryUI Menu, Tabs and Tooltip
+../story/index.htm?../experiments/exp07/story.txt				Week 7: Local authentication using Passport.js, Rotten Tomatoes API, Bootstrap Rating Input
+../story/index.htm?../experiments/exp08/story.txt				Week 8: Single Page AngularJS App, Movies in Theatres List with Pagination, Movie Details of Top DVD Rentals in jQueryUI Dialog
+../story/index.htm?../experiments/exp09/story.txt				Week 9: jQuery Mobile
+../story/index.htm?../experiments/exp10/story.txt				Week 10: Project related experiments

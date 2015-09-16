@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style001.css"> 
+    <title>Bootstrap Grid System</title>
+</head>
+<body>
+       
+    <div class="container">
+        <h1>Bootstrap Grid System</h1>
+        <hr />
+        <div class="row" >
+
+            <div id="left" class="col-sm-3 col-md-6 col-lg-8 divColumn">
+                <p>
+                    Bootstrap is a free collection of tools for creating websites and web applications.
+                    It contains HTML and CSS-based design templates for typography, forms, buttons, navigation
+                    and other interface components, as well as optional JavaScript extensions. In June 2014 it
+                    was the No.1 project on GitHub with 71,000+ stars and 26,000+ forks, with a user
+                    base including MSNBC and NASA.
+                </p>
+
+            </div>
+
+            <div id="right" class="col-sm-9 col-md-6 col-lg-4 divColumn">
+                <p>
+                    Bootstrap is compatible with the latest versions of all major browsers. It gracefully
+                    degrades when used on older browsers such as Internet Explorer 8. Since version 2.0 it
+                    also supports responsive web design. This means the layout of web pages adjusts dynamically,
+                    taking into account the characteristics of the device used (desktop, tablet, mobile phone).
+                    Starting with version 3.0, Bootstrap adopted a mobile first design philosophy, emphasizing
+                    responsive design by default. Bootstrap is open source and available on GitHub.
+                    Developers are encouraged to participate in the project and make their own contributions to the platform.
+                    Recently, community members have translated Bootstrap's documentation into various languages,
+                    including Chinese, Spanish and Russian.
+                </p>
+            </div>
+        </div>
+
+        &nbsp; &nbsp;
+
+        <p class="contentFont">
+            In this experiment, using Bootstrap, I gave 3 different column layouts at
+            each point for the 2 divs. On a phone, it will be 25% on the left, and 75% on the right. 
+            On a tablet, it will be 50%/50%, and on a large viewport, 
+            it will be 33%/66%. 3 different layouts for each of the 3 responsive sizes. The following Bootsrap classes 
+            used in conjunction on the left and right divs help us achieve this.
+        </p>
+    </div>
+    <pre class="container">
+    &lt;div id="left" class="col-sm-3 col-md-6 col-lg-8"&gt;
+    &lt;div id="right" class="col-sm-9 col-md-6 col-lg-4"&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp02/001-bootstrap.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp02/css/style001.css" target="_blank">CSS</a>
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://wikipedia.com">Wikipedia</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+     
+</body>
+</html>

@@ -1,0 +1,107 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true" 
+      android:background="@color/background_main">
+   
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="left"
+       android:orientation="vertical"
+       android:paddingLeft="13dp" 
+       android:paddingTop="13dp" 
+       android:paddingRight="13dp" 
+       android:paddingBottom="13dp"> 
+
+    
+       <TextView
+           android:id="@+id/textView50"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="@color/black"
+           android:text="@string/link50_info"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView51"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:text="@string/link50"
+           android:textColor="@color/black"
+           android:autoLink="web" 
+           android:paddingBottom="15dp"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+
+       <TextView
+           android:id="@+id/textView52"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="@color/black"
+           android:text="@string/link51_info"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView53"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="@color/black"
+           android:text="@string/link51"
+           android:autoLink="web"
+           android:paddingBottom="15dp"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+
+       <TextView
+           android:id="@+id/textView54"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="@color/black"
+           android:text="@string/link52_info"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView55"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="@color/black"
+           android:text="@string/link52"
+           android:autoLink="web"
+           android:paddingBottom="15dp"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+       
+       <TextView
+           android:id="@+id/textView56"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="@color/black"
+           android:text="@string/link53_info"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView57"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="@color/black"
+           android:text="@string/link53"
+           android:autoLink="web"
+           android:paddingBottom="15dp"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+       
+     
+       
+       
+       
+    
+       
+   </LinearLayout>
+
+</ScrollView>
+   

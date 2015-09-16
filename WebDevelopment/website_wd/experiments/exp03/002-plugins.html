@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style002.css">
+    <script type="text/javascript" src="../../javascript/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.knob.js"></script>
+    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+
+    <title>jQuery Plugins Demo</title>
+</head>
+<body>
+
+    <div class="container myContent">
+        <h1>jQuery Plugins Demo</h1>
+        <hr />
+        <h4>Knob</h4>
+        <hr />
+        <input type="text" value="75" class="dial">
+        <script>
+            $(function () {
+                $(".dial").knob();
+            });
+        </script>
+
+        <hr />
+        <p class="contentFont">
+            jQuery Knob (github) is a plugin for turning input elements into touchable jQuery dials.
+            It is built using canvas, and is fully customizable by setting data attributes on the inputs like show below:
+        </p>
+        <pre>
+    &lt;input type="text" value="75" class="dial"&gt;
+    &lt;script type="text/javascript" src="js/jquery.knob.js"&gt;&lt;/script&gt;
+        $(function () {
+          $(".dial").knob();
+        });
+    &lt;/script&gt;
+    </pre>
+        <hr />
+
+
+        <h4>backstretch</h4>
+        <script>
+            $.backstretch("images/1280-boston-ma-smart-city.jpg");
+        </script>
+        <p>
+            Backstretch is a simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image
+            to any page or element. It will stretch any image to fit the page or block-level element,
+            and will automatically resize as the window or element size changes. Images are
+            fetched after your page is loaded, so users don’t have to wait for the (often large) image to download before using
+            your site.
+        </p>
+
+        <pre>
+    &lt;script type="text/javascript" src="js/jquery.backstretch.min.js"&gt;
+       $.backstretch("images/1280-boston-ma-smart-city.jpg");
+    &lt;/script&gt;
+    </pre>
+
+        <hr />
+
+        <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp03/002-plugins.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp03/css/style002.css" target="_blank">CSS</a>
+            </p>
+
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://wikipedia.com">Wikipedia</a><br>
+                <a href="http://w3schools.com">W3Schools</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

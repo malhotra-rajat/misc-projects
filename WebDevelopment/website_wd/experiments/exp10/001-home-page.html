@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+<body class="container">
+    <h2>Home Page</h2>
+    <hr />
+
+    <img height="600" width="1142" src="images/homePage.JPG" />
+    <br />
+    <br />
+    
+    <p class="contentFont">
+        In this experiment, I designed the home page for my final project 'Moviebook'. The home page displays the movies playing in theatres right now using the Rotten Tomatoes API.
+        The link for that page is:
+        <ul>
+            <li><a href="http://project-rmcs5610.rhcloud.com/movieapp#/">http://project-rmcs5610.rhcloud.com/movieapp#/</a></li>
+        </ul>
+        The app is a single page app without any whole page refresh. Code snippet below:
+    </p>
+
+    <pre ng-non-bindable>
+        &lt;div&gt;
+        &lt;h4 class="margin40"&gt;In theaters&lt;/h4&gt;
+        &lt;div id="results"&gt;
+        &lt;table class="table"&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+        &lt;th&gt;Poster&lt;/th&gt;
+        &lt;th&gt;Movie Name&lt;/th&gt;
+        &lt;th&gt;Rating&lt;/th&gt;
+        &lt;th&gt;Year&lt;/th&gt;
+        &lt;th&gt;Critics&lt;/th&gt;
+        &lt;th&gt;Audience&lt;/th&gt;
+                    &lt;/tr&gt;
+                &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr ng-repeat="m in movies"&gt;
+        &lt;td&gt;
+        &lt;a href="#/movie/{{m.id}}"&gt;
+        &lt;img ng-src="{{m.posters.thumbnail}}" /&gt;
+                            &lt;/a&gt;
+                        &lt;/td&gt;
+        &lt;td&gt;
+        &lt;a href="#/movie/{{m.id}}"&gt;{{m.title}}&lt;/a&gt;
+                        &lt;/td&gt;
+        &lt;td&gt;{{m.mpaa_rating}}&lt;/td&gt;
+        &lt;td&gt;{{m.year}}&lt;/td&gt;
+        &lt;td&gt;{{m.ratings.critics_score}} %&lt;/td&gt;
+        &lt;td&gt;{{m.ratings.audience_score}} %&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div id="message"&gt;
+        &lt;/div&gt;
+        &lt;div class="centerAlignMargin"&gt;
+        &lt;button class="btn btn-primary width80px" ng-click="previousPage()"&gt;Previous&lt;/button&gt;
+        &lt;button class="btn btn-primary width80px" ng-click="nextPage()"&gt;Next&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/public/pages/home.html" target="_blank">HTML</a>&nbsp;
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/public/css/style.css" target="_blank">CSS</a>&nbsp;
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/public/app.js" target="_blank">app.js</a>&nbsp;
+            <a href="https://github.com/rajat1988/webdev/blob/master/project/server.js" target="_blank">server.js</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+﻿<div>
+    <h4 class="margin40 headerHome"><b>Upcoming Movies</b></h4>
+
+    <div ng-repeat="m in upcomingmovies">
+        <a href="#/movie/{{m.id}}">
+            <img class="margin10 imgGridStyle" ng-src="{{ m.posters.thumbnail }}" height="180" width="122" />
+        </a>
+    </div>
+    <p class="clearBoth">
+
+        <h4 class="margin40 headerHome"><b>Movies In theaters</b></h4>
+        <div id="results" class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Rating</th>
+                        <th>Release Date</th>
+                        <th>Critics</th>
+                        <th>Audience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="m in movies">
+                        <td>
+                            <a href="#/movie/{{m.id}}">
+                                <img ng-src="{{m.posters.thumbnail}}" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#/movie/{{m.id}}">{{m.title}}</a>
+                        </td>
+                        <td>{{m.mpaa_rating}}</td>
+                        <td>{{m.release_dates.theater}}</td>
+                        <td>{{m.ratings.critics_score}} %</td>
+                        <td>{{m.ratings.audience_score}} %</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="message">
+        </div>
+
+        <div class="centerAlignMargin">
+            <button id="prvPageBtnHome" class="btn btn-primary width80px" ng-click="previousPage()">Previous</button>
+            <button id="nxtPageBtnHome" class="btn btn-primary width80px" ng-click="nextPage()">Next</button>
+        </div>
+</div>

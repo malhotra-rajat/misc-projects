@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS 3D Flip Animation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style002.css"> 
+</head>
+
+<body>
+    <div class="centerAlign">
+        <div class="centerAlignBlock">
+            <h3>CSS3 3D Flip Animation</h3>
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="images/front.jpg" style="height:200px; width:400px;" />
+                    </div>
+                    <div class="back">
+                        <img src="images/back.jpg" style="height:200px; width:400px;" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p class="contentFont">
+           In this experiment, I made a credit card flip animation using CSS3. 
+           There are two content panes (divs), "front" and "back". 
+           The "perspective" CSS property determines the distance between
+           the z = 0 plane and the user in order to give to the 3D-positioned element 
+           some perspective. The outlying container sets the entire animation 
+           area's perspective.
+        </p>
+        <p class="contentFont">
+            The inner container is the element that flips, spinning 180
+            degrees when the parent container is hovered over.
+            Changing the rotation to -180deg spins the elements in the reverse
+            direction. The front and back elements are positioned absolutely
+            so they can overlay each other in the same position.
+        </p>
+       
+    </div>
+        <pre class="code">
+        
+         /* entire container, keeps perspective */
+        .flip-container {
+	        perspective: 1000px;
+        }
+        
+         /* flip the pane when hovered */
+    	.flip-container:hover .flipper, .flip-container.hover .flipper {
+	    	transform: rotateY(180deg);
+	    }
+       
+        .flip-container, .front, .back {
+	        width: 400px;
+	        height: 200px;
+        }
+        
+         /* flip speed*/
+        .flipper {
+	        transition: 0.6s;
+	        transform-style: preserve-3d;
+	        position: relative;
+        }
+        
+         /* hide back of pane during swap */
+        .front, .back {
+	        backface-visibility: hidden;
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+        }
+        
+        /* front pane, placed above back */
+        .front {
+	        z-index: 2;
+	        transform: rotateY(0deg);
+        }
+        
+        /* back, initially hidden pane */
+        .back {
+	        transform: rotateY(180deg);
+        }
+        </pre>
+    
+        <footer class="centerAlign">
+            <h4>Source Code</h4>
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/exp01/002-css-flip.html" target="_blank">HTML</a>&nbsp;
+                <a href="../../fileview/Default.aspx?~/experiments/exp01/css/style002.css" target="_blank">CSS</a>
+            </p>
+            <h4>References</h4>
+            <p>
+                <a href="http://stackoverflow.com">stackoverflow</a><br>
+                <a href="http://davidwalsh.name">http://davidwalsh.name</a><br>
+                <a href="http//w3schools.com">W3Schools</a><br>
+                <a href="http://bristol.ac.uk">UOB</a> (for the credit card image)<br>
+            </p>
+        </footer>
+</body>
+</html>

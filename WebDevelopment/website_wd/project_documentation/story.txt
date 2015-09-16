@@ -1,0 +1,20 @@
+﻿../story/whatisnext.htm?../project_documentation/whatisnext.txt           What is Next?
+001-overview.html Project Overview
+002-acknowledgments.html Acknowledgements
+003-home-page.html Home Page
+004-movie-details.html Movie Details Page
+0041-similar-movies-.html Similar Movies
+005-login-page.html Login Page
+006-signup-page.html Signup Page
+007-comment-like.html Like/Unlike and Comments
+008-edit-comment.html Edit Comment
+009-search-results.html Search Results Page
+010-user-profile.html User Profile Page
+0101-follow.html Follow/Unfollow
+011-delete-account.html Delete Account
+0111-mongoose.html MongoDb Database - Mongoose Models
+012-technologies.html Technologies Used
+013-future-scope.html Future Scope and References
+https://github.com/rajat1988/webdev/tree/master/project Source Code (GitHub)
+
+

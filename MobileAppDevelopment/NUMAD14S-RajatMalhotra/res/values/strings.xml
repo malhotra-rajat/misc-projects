@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main screen strings -->
+    <string name="app_name">Rajat\'s Android App Project</string>
+    <string name="author_name">Rajat Malhotra</string>
+    <string name="about">About</string>
+    <string name="gen_error">Generate Error</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="quit">Quit</string>
+
+    <!-- About screen strings -->
+    <string name="email">malhotra.r@husky.neu.edu</string>
+    <string name="year">2nd year MS</string>
+    <string name="degree">Computer Science</string>
+    <string name="univ">Northeastern University</string>
+
+    <!-- Sudoku strings -->
+    <string name="sudoku">Sudoku</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="settings_label">Settings&#8230;</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">No moves</string>
+    <string name="keypad_title">Keypad</string>
+    <string name="about_title">About Android Sudoku</string>
+    <string name="about_text">\
+Sudoku is a logic-based number placement puzzle.
+Starting with a partially completed 9x9 grid, the
+objective is to fill the grid so that each
+row, each column, and each of the 3x3 boxes
+(also called <i>blocks</i>) contains the digits
+1 to 9 exactly once.</string>
+
+    <!-- Dcitionary Screen strings -->
+    <string name="title_activity_dictionary">Test Dictionary</string>
+    <string name="clear">Clear</string>
+    <string name="word_hint">Enter a word: </string>
+    <string name="return_to_menu">Return to menu</string>
+    <string name="acknowledgements">Acknowledgements</string>
+
+    <!-- Acknowledgements Screen strings -->
+    <string name="link1_info">Idea about a data structure for dictionary implementation from: </string>
+    <string name="link1">http://stackoverflow.com/questions/10017808/best-data-structure-for-dictionary-implementation</string>
+    <string name="link2_info">Impementation of EditText listener from: </string>
+    <string name="link2">http://stackoverflow.com/questions/7432083/how-to-use-edittext-ontextchanged-event-when-i-press-the-number</string>
+    <string name="link3_info">Ideas about Dictionary implementation on a phone from: </string>
+    <string name="link3">http://stackoverflow.com/questions/6083761/how-to-treat-file-contents-as-string/6083888#6083888</string>
+    <string name="link4_info">Opening a text file from the assets folder on Android from: </string>
+    <string name="link4">http://stackoverflow.com/questions/5771366/reading-a-simple-text-file</string>
+    <string name="link5_info">Beep sound downloaded from: </string>
+    <string name="link5">http://www.soundjay.com/censor-beep-sound-effect.html</string>
+
+    <!-- Word Game strings -->
+    <string name="title_activity_word_game">Word Game</string>
+    <string name="resume_game">Resume Game</string>
+    <string name="title_activity_acknowledgements">Acknowledgements</string>
+    <string name="instructions">Instructions</string>
+    <string name="word_game_settings">Word Game Settings</string>
+    <string name="instructions_text">This is a word-search game. You have 45 seconds to find as many words as possible in the word matrix. 
+        The letters can be selected contiguously in any direction except diagonally. 
+        When you select a word, the letters at those places are replaced by new letters. Each letter in a valid word has the value of 10 points.
+        You can also press the \'Hint\' button to enable the hint mode. 
+        With hint mode enabled, the letters would turn green if you have found a word even if you have not lifted your finger. 
+        They would not if the hint mode is disabled. Good luck. </string>
+    <string name="link6_info">Background music and word-search sound from: </string>
+    <string name="link6">http://www.soundjay.com/button-sounds-1.html</string>
+    <string name="link7_info">Algorithm to solve a boggle game algorithm from: </string>
+    <string name="link7">http://www.geekviewpoint.com/java/boggle/solver</string>
+    <string name="link8_info">Countdown Timer example from: </string>
+    <string name="link8">http://w2davids.wordpress.com/simple-countdowntimer-example</string>
+    <string name="link9_info">Idea about 2D graphics in Android from: </string>
+    <string name="link9">http://www3.ntu.edu.sg/home/ehchua/programming/android/Android_2D.html</string>
+    <string name="link10_info">Example for serialization in Android from: </string>
+    <string name="link10">http://www.coderzheaven.com/2012/07/25/serialization-android-simple-example/</string>
+    <string name="link11_info">Android storage concepts from: </string>
+    <string name="link11">http://developer.android.com/guide/topics/data/data-storage.html#filesInternal</string>
+    <string name="link12_info">Transparency effect in word-matrix from: </string>
+    <string name="link12">http://stackoverflow.com/questions/11712254/paint-setalpha-sums-up-if-called-several-times</string>
+
+    <!-- Word Game Communication strings -->
+    <string name="title_activity_communication">Communication</string>
+    <string name="synchronous">Synchronous Game</string>
+    <string name="asynchronous">Asynchronous Game</string>
+    <string name="enterUsername">"Username: "</string>
+    <string name="login">Login</string>
+    <string name="playOnline">Play Online</string>
+    <string name="title_activity_onlineplayers">Players Online</string>
+    <string name="logout">Log Out</string>
+    <string name="invite">Invite Someone to Play</string>
+    <string name="title_activity_asynchronous_main">Communication</string>
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
+    <string name="send_label">Send</string>
+    <string name="clear_label">Clear</string>
+    <string name="link50_info">Implementing GCM Client from: </string>
+    <string name="link50">http://developer.android.com/google/gcm/client.html</string>
+    <string name="link51_info">R file gone missing bug solved from: </string>
+    <string name="link51">http://stackoverflow.com/questions/4842611/r-file-is-missing-android</string>
+    <string name="link52_info">Synchronous or Asynchronous Gameplay definitions from: </string>
+    <string name="link52">http://www.whatgamesare.com/2011/08/synchronous-or-asynchronous-definitions.html</string>
+    <string name="enter_message">Enter message here: </string>
+    <string name="link53_info">AsyncTask tutorial from: </string>
+    <string name="link53">http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html</string>
+    <string name="instructions_text_sync">Please enter the name of the player 
+        you wish to play with after clicking the \"Invite Someone to play\" button. If the user is online, 
+        he will receive a dialog box with the option to accept or decline your request. 
+        [This is a just test code, multiplayer gameplay is not available yet!]</string>
+
+    <!-- Multiplayer Game strings -->
+    <string name="two_player_dabble">Two Player Word Game</string>
+    <string name="title_activity_two_player_word_game">Two Player Word Game</string>
+    <string name="rt">Real-time Game</string>
+    <string name="rt1">Start Game</string>
+    <string name="tb">Turn-based Game</string>
+    <string name="title_activity_real_time_play">Real-Time Word Game</string>
+    <string name="title_activity_turn_based_play_main">Turn-Based Word Game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_turn_based_play_main_screen">Turn-Based Word Game</string>
+    <!-- <string name="continue_other">Continue as Previous User</string> -->
+    <string name="new_user_login">New User Login</string>
+    <string name="logout_prev">Logout Previous User</string>
+    <string name="title_activity_word_game_turn_based">Turn-Based Word Game</string>
+    <string name="instructions_sync">Please enter the name of the player 
+        you wish to play with after clicking the \"Invite Someone to play\" button. If the user is online, 
+        he will receive a dialog box with the option to accept or decline your request. 
+        After the game starts, you have 45 seconds to make as many words as possible and beat your opponent.</string>
+    <string name="instructions_tb">This is a turn-based game. When you invite a player, he will receive a notification (if he is logged in)
+	    clicking on which he can start the game. After the game starts, you have 6 moves to 
+	    get as high a score as possible. The game has to be completed in one go. 
+	    That means if both the players exit the game, then the game gets lost. The player who sent the invite is only able to enter into the game 
+	    when the other player plays the first move. The player with the higher score after 6 moves to win the game.</string>
+    <string name="title_activity_sensor_detect">Shake Me</string>
+    <string name="shake">Shaking Fun</string>
+    <string name="text_shake">Shake the phone for a surprise. You will be taken to either the
+        Real-Time word game or the Turn-Based word game. Have fun playing!</string>
+     <string name="leaderboardTP">Leaderboard for Two Player Word Game</string>
+     <string name="leaderboardTP1">Leaderboard</string>
+    <string name="pleaselogout">Please click on the \"Logout Previous User\" Button before logging in
+</string>
+
+    <!-- Trickiest Part strings -->
+
+    <string name="trickiest_part">Trickiest Part</string>
+    <string name="title_activity_trickiest_part">Trickiest Part</string>
+    <string name="btSpeak">Speak</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_voice_recognition">Voice Recognition</string>
+    <string name="tvTextMatches">Text Matches</string>
+    <string name="sNoOfMatches">No of Matches</string>
+    <string name="etSearchHint">Speech hint here</string>
+
+    <string-array name="saNoOfMatches">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="title_activity_manual_input">Exercise Details</string>
+    <string name="title_activity_workout_today">Add Workout</string>
+    <string name="btnBeginWorkout">Begin Workout</string>
+    <string name="loadingText">Loading...</string>
+    <string name="addManuallyText">Add Manually</string>
+
+    <array name="speech_activation_types">
+        <item>@string/speech_activation_button</item>
+        <item>@string/speech_activation_movement</item>
+        <item>@string/speech_activation_clap</item>
+        <item>@string/speech_activation_speak</item>
+    </array>
+
+    <string name="speech_activation_default_label">Speak</string>
+    <string name="speech_activation_button">Button</string>
+    <string name="speech_activation_movement">Movement</string>
+    <string name="speech_activation_nfc">NFC Scan</string>
+    <string name="speech_activation_camera">Camera</string>
+    <string name="speech_activation_clap">Clap</string>
+    <string name="speech_activation_speak">Speak Hello</string>
+    <string name="speech_activation_notification_listening">Listening for </string>
+    <string name="speech_activation_notification_title">Speech Activation</string>
+    <string name="btn_speech_stop_service">Stop</string>
+    <string name="title_activity_workout_entries">Workout Details</string>
+    <string name="title_activity_speech_activation">Speech Activation</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- Final Project Strings -->
+    <string name="final_project">Final Project</string>
+    <string name="title_activity_project_description">Let\'s Talk Workouts!</string>
+    <string name="app_description">      
+        Let\'s Talk Workouts! \n\n
+        
+        Have you ever felt the need of an app that could record details about your weight training workout exercises at the gym? 
+        What if you could simply talk to your phone about the exercises? \n\n
+        
+		“Lets talk Workouts!” now does that for you. \n\n
+		
+		It lets you record details each exercise, such as exercise name, number of reps and pounds lifted, in your weight 
+		training workout session through speech. \n\n
+		
+		You can also view details of all your previous workouts. The app motivates you by telling you the increase in pounds 
+		that you have lifted compared to the maximum weight lifted by you previously for an exercise. \n\n
+		
+		Rajat Malhotra (malhotra.r@husky.neu.edu) \n
+		Arpit Mehta (mehta.ar@husky.neu.edu).
+</string>
+
+    <!-- Let's Talk Workouts App Strings -->
+    <string name="ltw_app_name">MAD14S-Let\'sTalkWorkouts</string>
+    <string name="title_activity_ltw_main">Let\'s Talk Workouts</string>
+    <string name="app_init_text">Getting Ready For Your Workout</string>
+    <string name="welcome_user_text">Welcome To \n Let\'s Talk Workouts</string>
+    <string name="begin_today_workout_text">Begin Workout</string>
+    <string name="view_prev_workouts_text">View Previous Workout Details</string>
+    <string name="title_activity_begin_workout">Today\'s Workout</string>
+    <string name="workout_session_in_progress_text">Workout Session \n In Progress</string>
+    <string name="workout_session_paused_text">Workout Session \n Paused</string>
+    <string name="time_elapsed_text">Time Elapsed</string>
+    <string name="init_time_elapsed">00:00:00</string>
+    <string name="add_hint_text">Please respond to voice prompts</string>
+    <string name="listening_text">Listening</string>
+    <string name="stopped_listening_text">Not Listening</string>
+    <string name="pause_restart_btn_pause_text">Pause Listening</string>
+    <string name="pause_restart_btn_restart_text">Start Listening</string>
+    <string name="add_manually_btn_text">Add Exercise Manually</string>
+    <string name="end_session_btn_text">End Session</string>
+    <string name="listening_workout">Listening...</string>
+    <string name="title_activity_select_manually">Add Exercise Manually</string>
+    <string name="exercise_name_prompt_text">Exercise Name? </string>
+    <string name="exercise_name_hint_text">Enter Exercise Name</string>
+    <string name="reps_prompt_text">Reps</string>
+    <string name="weights_prompt_text">Weight(lbs)</string>
+    <string name="button_save_text">Save</string>
+    <string name="button_clear_text">Clear</string>
+    <string name="view_all_exercises_text">View Supported Exercises</string>
+    <string name="go_to_app_text">Go To App</string>
+    <string name="title_activity_view_prev_details">Previous Workout Details</string>
+    <string name="view_dates_prompt">Click On Dates To View Details</string>
+    <string name="title_activity_ack">Acknowledgments</string>
+    <string name="project_ack_text">        
+        &#8226; Phone Models Used For Testing: Galaxy S4, HTC One X \n\n
+        &#8226; Android Speech Recognition as a service on Android 4.1 and 4.2: \n http://stackoverflow.com/questions/14940657/android-speech-recognition-as-a-service-on-android-4-1-4-2 \n\n
+        &#8226; How to keep speech recognition running indefinitely: \n http://stackoverflow.com/questions/10182893/can-i-keep-the-speech-recognizer-listening-indefinitely \n\n
+        &#8226; Soundex class, that encodes a string into a Soundex value. Soundex is an encoding used to relate similar names, but can also be used as a general purpose scheme to find word with similar phonemes. This class is thread-safe. \n http://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/language/Soundex.html \n\n
+        &#8226; Professional Android Sensor Programming Text Book. Specifically Chapters 18 and 19, which helped us understand Speech Recognition and provided us with detailed examples of how to use Speech Recognition and audio sensors \n\n
+        &#8226; App Icon: \n http://www.easyicon.net/language.en/iconsearch/people/5/ \n\n
+        &#8226; Database of exercises was constructed from: \n http://www.bodybuilding.com \n\n 
+        &#8226; Android Developers Blog: An introduction to Text-To-Speech in Android. \n http://android-developers.blogspot.com/2009/09/introduction-to-text-to-speech-in.html \n\n
+</string>
+    <string name="back_to_main_screen_text">Go Back To Begin Workout</string>
+    <string name="tutorials_text">View Tutorials</string>
+    <string name="title_activity_ltw_tutorials">Tutorials</string>
+    <string name="about_the_app_text">About Lets Talk Workouts!</string>
+    <string name="how_to_use_text">How To Use Lets Talk Workouts!</string>
+    <string name="stop_listening_text">Stop Speaking</string>
+
+    <!-- Lets Talk Workouts Tutorials Strings -->
+    <string name="about_app_tts_text">Hi! Welcome to Lets Talk Workouts. 
+        Have you ever felt the need of an app that could record details about your weight training workout exercises at the gym? 
+        What if you could simply talk to your phone about the exercises?        
+		“Lets talk Workouts!” now does that for you.		
+		It lets you record details each exercise, such as exercise name, number of reps and pounds lifted, in your weight 
+		training workout session through speech.		
+		You can also view details of all your previous workouts. The app motivates you by telling you the increase in pounds 
+		that you have lifted compared to the maximum weight lifted by you previously for an exercise. </string>
+    
+    <string name="about_usage_tts_text">
+        When you click on the Begin Workout Button, the app will first prompt you to speak I just did and will begin listening. 
+        Once you have spoken I Just Did, 
+        the app asks you for the exercise name. After you have spoken the exercise name, the app will ask you for reps followed 
+        by pounds. Once you have spoken all these details, the app will prompt you to speak either Save, to save the details, 
+        or Cancel, to cancel the entry. You can also speak Cancel anytime if the speech has been incorrectly recognized to go back to the first state where you have to speak I just did.
+        Kindly make sure that you speak only after the beep which follows each prompt from the app. 
+        You can also input exercise details data by clicking on the Add Exercise Manually button on the Begin Workout Screen. 
+        To view the exercises supported by the app, click on View Supported Exercises button on the app\'s main screen.
+        To view all your previous workouts, click on the View Previous Workouts Button on the app\'s main screen. Here you can 
+        click on the dates which will take you to the workouts performed on that specific date. 
+        You\'re now ready to begin your workout session. Click on Go Back To Begin Workout Button.</string>
+    <string name="loading_tutorials_text">Loading Tutorials</string>
+    <string name="title_activity_view_exercises_on_date">Session Summary</string>
+    <string name="title_activity_view_supported_exercises">Supported Exercises</string>
+
+</resources>

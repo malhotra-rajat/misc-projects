@@ -1,0 +1,21 @@
+﻿.contentFont
+{
+    font-size:larger;
+}
+
+.pad 
+{
+    padding: 10px;
+}
+
+.centerAlign
+{
+    text-align: center;
+}
+
+.divColumn
+{
+    background-color: #dedef8;
+    box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+}
+

@@ -1,0 +1,37 @@
+﻿<div>
+    <h4 class="margin40">Search Results</h4>
+    <div id="results" class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Poster</th>
+                    <th>Movie Name</th>
+                    <th>Rating</th>
+                    <th>Year</th>
+                    <th>Critics</th>
+                    <th>Audience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="m in movies">
+                    <td>
+                        <a href="#/movie/{{m.id}}">
+                            <img ng-src="{{m.posters.thumbnail}}" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#/movie/{{m.id}}">{{m.title}}</a>
+                    </td>
+                    <td>{{m.mpaa_rating}}</td>
+                    <td>{{m.year}}</td>
+                    <td>{{m.ratings.critics_score}} %</td>
+                    <td>{{m.ratings.audience_score}} %</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="message">
+    </div>
+   
+</div>

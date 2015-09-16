@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="../../javascript/angular.min.js"></script>
+    <script src="../../javascript/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <title>jQueryUI Tabs</title>
+    <script>
+    $(function () {
+        $(document).tooltip();
+    });
+    </script>
+
+</head>
+
+
+<body class="container">
+    <h2>jQueryUI Tooltip</h2>
+    <hr />
+
+    <p>
+        <a href="#" title="That&apos;s what this widget is">Tooltips</a> can be attached to any element. When you hover
+        the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.
+    </p>
+    <p>
+        But as it's not a native tooltip, it can be styled. Any themes built with
+        <a href="http://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI&apos;s theme builder application">ThemeRoller</a>
+        will also style tooltips accordingly.
+    </p>
+    <p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+    <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+    <p>Hover the field to see the tooltip.</p>
+
+    <hr />
+
+    <p class="contentFont">
+        In this experiment, I worked with the JQueryUI Tooltip. Code snippet below:
+    </p>
+
+    <pre ng-non-bindable>
+    &lt;p&gt;
+        &lt;a href="#" title="That&apos;s what this widget is"&gt;Tooltips&lt;/a&gt; can be attached to any element. When you hover
+        the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.
+    &lt;/p&gt;
+        &lt;p&gt;
+        But as it's not a native tooltip, it can be styled. Any themes built with
+        &lt;a href="http://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI&apos;s theme builder application"&gt;ThemeRoller&lt;/a&gt;
+        will also style tooltips accordingly.
+    &lt;/p&gt;
+        &lt;p&gt;Tooltips are also useful for form elements, to show some additional information in the context of each field.&lt;/p&gt;
+        &lt;p&gt;&lt;label for="age"&gt;Your age:&lt;/label&gt;&lt;input id="age" title="We ask for your age only for statistical purposes."&gt;&lt;/p&gt;
+        &lt;p&gt;Hover the field to see the tooltip.&lt;/p&gt;
+    </pre>
+
+    <hr />
+
+    <footer class="centerAlign">
+        <h4>Source Code</h4>
+        <p>
+            <a href="../../fileview/Default.aspx?~/experiments/exp06/003-jquery-tooltip.html" target="_blank">HTML</a>&nbsp;
+            <a href="../../fileview/Default.aspx?~/experiments/exp06/css/style.css" target="_blank">CSS</a>&nbsp;
+        </p>
+
+        <h4>References</h4>
+        <p>
+            <a href="http://stackoverflow.com">stackoverflow</a><br>
+            <a href="http://w3schools.com">W3Schools</a>
+        </p>
+    </footer>
+</body>
+
+</html>

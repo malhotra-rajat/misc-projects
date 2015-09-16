@@ -1,0 +1,52 @@
+﻿.contentFont
+{
+    font-size:larger;
+}
+
+.pad 
+{
+    padding: 10px;
+}
+
+.centerAlign
+{
+    text-align: center;
+}
+
+.divColumn
+{
+    background-color: #dedef8;
+    box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+}
+
+label 
+{
+    display: inline-block;
+    width: 5em;
+}
+
+.ui-menu 
+{
+    width: 150px;
+}
+
+a
+{
+   cursor: pointer;
+}
+
+.width80px
+{
+    width: 80px;
+}
+
+.imgBorder
+{
+    border:1px solid black;
+}
+
+.centerAlignMargin40
+{
+    text-align: center;
+    margin-bottom: 40px;
+}

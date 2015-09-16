@@ -1,0 +1,11 @@
+Date  Who       Start Stop  Interruptions Question TimeOnTask    Comments
+9/13  RM,RR     10:09  10:37  2            1        28           Analyzed and solved Ex. 1
+9/13  RM,RR     10:42  10:59  2            2        17           Analysed and solved Ex. 2
+9/14  RM        17:29  19:45  4            3        136		 Analysed and solved Ex. 3-7            
+9/14  RM        19:47  21:05  1            4        78		 Analysed and solved Ex. 8-10           
+
+============committing to git: 09/17 15:20 ===================       
+
+Total Time On PS00 (minutes)                  	259
+Total Time On PS00 (hours and tenths)           4.3
+                         
