@@ -1,0 +1,2 @@
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\Content\obj\x86\Debug\ResolveAssemblyReference.cache

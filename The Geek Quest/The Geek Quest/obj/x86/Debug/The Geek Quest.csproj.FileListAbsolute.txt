@@ -1,0 +1,16 @@
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\bin\x86\Debug\Content\Background01.xnb
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\bin\x86\Debug\Content\Geek.xnb
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\bin\x86\Debug\The Geek Quest.exe
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\bin\x86\Debug\The Geek Quest.pdb
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\obj\x86\Debug\The Geek Quest.exe
+C:\Documents and Settings\Naman Aggarwal\My Documents\Visual Studio 2008\Projects\The Geek Quest\The Geek Quest\obj\x86\Debug\The Geek Quest.pdb
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\bin\x86\Debug\Content\Background01.xnb
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\bin\x86\Debug\Content\Geek.xnb
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\bin\x86\Debug\The Geek Quest.exe
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\bin\x86\Debug\The Geek Quest.pdb
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\obj\x86\Debug\The Geek Quest.exe
+C:\Users\Rajat\Desktop\The Geek Quest\The Geek Quest\obj\x86\Debug\The Geek Quest.pdb
