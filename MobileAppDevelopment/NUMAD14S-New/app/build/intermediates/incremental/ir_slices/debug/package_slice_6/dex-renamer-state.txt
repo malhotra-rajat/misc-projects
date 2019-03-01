@@ -1,0 +1,4 @@
+#Fri Mar 01 17:51:07 EST 2019
+base.0=D\:\\GitHub Repo\\repo\\MobileAppDevelopment\\NUMAD14S-New\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

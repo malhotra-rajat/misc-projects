@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/tvWorkoutSessionWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="calibri-condensed"
+        android:gravity="center"
+        android:text="@string/workout_session_in_progress_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- <TextView
+        android:id="@+id/tvTimeElapsedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWorkoutSessionWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="calibri-condensed"
+        android:gravity="center"
+        android:text="@string/time_elapsed_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvTimeElapsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeElapsedText"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="calibri-condensed"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:text="@string/init_time_elapsed" /> -->
+
+    <TextView
+        android:id="@+id/tvAddHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWorkoutSessionWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="calibri-condensed"
+        android:text="@string/add_hint_text"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/tvListening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddHint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="calibri-condensed"
+        android:text="@string/listening_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/btnPauseRestartSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvListening"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="handleStartOrPauseClick"
+        android:text="@string/pause_restart_btn_pause_text" />
+
+    <Button
+        android:id="@+id/btnAddManually"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPauseRestartSession"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_manually_btn_text"
+        android:onClick="handleAddManuallyClick" />
+
+    <Button
+        android:id="@+id/btnEndSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddManually"
+        android:layout_centerHorizontal="true"
+        android:text="@string/end_session_btn_text"
+        android:onClick="handleEndSessionClick" />
+
+</RelativeLayout>

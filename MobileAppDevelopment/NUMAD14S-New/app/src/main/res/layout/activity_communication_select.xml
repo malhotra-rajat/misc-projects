@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+  
+   android:gravity="center"
+   android:padding="30dip">
+          
+   
+    
+     <Button
+         android:id="@+id/synchronous_button"
+         android:layout_width="300dp"
+         android:gravity="center" 
+         android:layout_height="wrap_content"
+         android:onClick="synchronousGameClick"
+         android:text="@string/synchronous" />
+     
+     <Button
+           android:id="@+id/asynchronous_button"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:onClick="asynchronousGameClick"
+           android:text="@string/asynchronous" />
+     
+       <Button
+           android:id="@+id/acknowledgements_button"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:onClick="acknowledgementsClick"
+           android:text="@string/acknowledgements" />
+    
+     <Button
+         android:id="@+id/quit_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/quit"
+         android:onClick="quitClick" />
+  
+</LinearLayout>

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <array name="difficulty">
+      <item>@string/easy_label</item>
+      <item>@string/medium_label</item>
+      <item>@string/hard_label</item>
+   </array>
+    <array name="exercise_add_command">
+        <item>add</item>
+    </array>
+    <array name="exercise_cancel">
+        <item>cancel</item>
+    </array>
+    <array name="exercise_remove_command">
+        <item>remove</item>
+        <item>delete</item>
+    </array>
+    <string-array name="saNoOfMatches">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <array name="speech_activation_types">
+        <item>@string/speech_activation_button</item>
+        <item>@string/speech_activation_movement</item>
+        <item>@string/speech_activation_clap</item>
+        <item>@string/speech_activation_speak</item>
+    </array>
+    <array name="voiceaction_neutralwords">
+        <item>cancel</item>
+        <item>done</item>
+    </array>
+    <array name="voiceaction_nowords">
+        <item>no</item>
+    </array>
+    <array name="voiceaction_yeswords">
+        <item>yes</item>
+        <item>ok</item>
+    </array>
+    <attr format="reference" name="coordinatorLayoutStyle"/>
+    <color name="background">#3500ffff</color>
+    <color name="background_main">#f2f2f2</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="color_button_clickable">#FFD6AD</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="gray">#BBBBBB</color>
+    <color name="green">#81F277</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="orange">#FFD1B2</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="puzzle_background">#ffe6f0ff</color>
+    <color name="puzzle_dark">#6456648f</color>
+    <color name="puzzle_foreground">#ff000000</color>
+    <color name="puzzle_hilite">#ffffffff</color>
+    <color name="puzzle_hint_0">#64ff0000</color>
+    <color name="puzzle_hint_1">#6400ff80</color>
+    <color name="puzzle_hint_2">#2000ff80</color>
+    <color name="puzzle_light">#64c6d4ef</color>
+    <color name="puzzle_selected">#64ff8000</color>
+    <color name="red">#CC0000</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="font_size">16sp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="subtitle_corner_radius">2dp</dimen>
+    <dimen name="subtitle_outline_width">2dp</dimen>
+    <dimen name="subtitle_shadow_offset">2dp</dimen>
+    <dimen name="subtitle_shadow_radius">2dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="google_play_services_version">4242000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="about">About</string>
+    <string name="about_app_tts_text">Hi! Welcome to Lets Talk Workouts. 
+        Have you ever felt the need of an app that could record details about your weight training workout exercises at the gym? 
+        What if you could simply talk to your phone about the exercises?        
+		“Lets talk Workouts!” now does that for you.		
+		It lets you record details each exercise, such as exercise name, number of reps and pounds lifted, in your weight 
+		training workout session through speech.		
+		You can also view details of all your previous workouts. The app motivates you by telling you the increase in pounds 
+		that you have lifted compared to the maximum weight lifted by you previously for an exercise. </string>
+    <string name="about_label">About</string>
+    <string name="about_text">\
+Sudoku is a logic-based number placement puzzle.
+Starting with a partially completed 9x9 grid, the
+objective is to fill the grid so that each
+row, each column, and each of the 3x3 boxes
+(also called <i>blocks</i>) contains the digits
+1 to 9 exactly once.</string>
+    <string name="about_the_app_text">About Lets Talk Workouts!</string>
+    <string name="about_title">About Android Sudoku</string>
+    <string name="about_usage_tts_text">
+        When you click on the Begin Workout Button, the app will first prompt you to speak I just did and will begin listening. 
+        Once you have spoken I Just Did, 
+        the app asks you for the exercise name. After you have spoken the exercise name, the app will ask you for reps followed 
+        by pounds. Once you have spoken all these details, the app will prompt you to speak either Save, to save the details, 
+        or Cancel, to cancel the entry. You can also speak Cancel anytime if the speech has been incorrectly recognized to go back to the first state where you have to speak I just did.
+        Kindly make sure that you speak only after the beep which follows each prompt from the app. 
+        You can also input exercise details data by clicking on the Add Exercise Manually button on the Begin Workout Screen. 
+        To view the exercises supported by the app, click on View Supported Exercises button on the app\'s main screen.
+        To view all your previous workouts, click on the View Previous Workouts Button on the app\'s main screen. Here you can 
+        click on the dates which will take you to the workouts performed on that specific date. 
+        You\'re now ready to begin your workout session. Click on Go Back To Begin Workout Button.</string>
+    <string name="acknowledgements">Acknowledgements</string>
+    <string name="action_settings">Settings</string>
+    <string name="addManuallyText">Add Manually</string>
+    <string name="add_hint_text">Please respond to voice prompts</string>
+    <string name="add_manually_btn_text">Add Exercise Manually</string>
+    <string name="app_description">      
+        Let\'s Talk Workouts! \n\n
+        
+        Have you ever felt the need of an app that could record details about your weight training workout exercises at the gym? 
+        What if you could simply talk to your phone about the exercises? \n\n
+        
+		“Lets talk Workouts!” now does that for you. \n\n
+		
+		It lets you record details each exercise, such as exercise name, number of reps and pounds lifted, in your weight 
+		training workout session through speech. \n\n
+		
+		You can also view details of all your previous workouts. The app motivates you by telling you the increase in pounds 
+		that you have lifted compared to the maximum weight lifted by you previously for an exercise. \n\n
+		
+		Rajat Malhotra (malhotra.r@husky.neu.edu) \n
+		Arpit Mehta (mehta.ar@husky.neu.edu).
+</string>
+    <string name="app_init_text">Getting Ready For Your Workout</string>
+    <string name="app_name">Rajat\'s Android App Project</string>
+    <string name="asynchronous">Asynchronous Game</string>
+    <string name="author_name">Rajat Malhotra</string>
+    <string name="back_to_main_screen_text">Go Back To Begin Workout</string>
+    <string name="begin_today_workout_text">Begin Workout</string>
+    <string name="btSpeak">Speak</string>
+    <string name="btnBeginWorkout">Begin Workout</string>
+    <string name="btn_speech_stop_service">Stop</string>
+    <string name="button_clear_text">Clear</string>
+    <string name="button_save_text">Save</string>
+    <string name="clear">Clear</string>
+    <string name="clear_label">Clear</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="continue_label">Continue</string>
+    <string name="degree">Computer Science</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="easy_label">Easy</string>
+    <string name="email">malhotra.r@husky.neu.edu</string>
+    <string name="end_session_btn_text">End Session</string>
+    <string name="enterUsername">"Username: "</string>
+    <string name="enter_message">Enter message here: </string>
+    <string name="etSearchHint">Speech hint here</string>
+    <string name="exercise_add_calories_prompt">How many calories for %1$s?</string>
+    <string name="exercise_add_result">you just did %1$s reps of %2$s at %3$s pounds. Please continue.</string>
+    <string name="exercise_cancelled">Cancelled.</string>
+    <string name="exercise_compare_result">%1$s has more calories than %2$s</string>
+    <string name="exercise_compare_result_same">%1$s has the same calories as %2$s</string>
+    <string name="exercise_edit_compare_prompt">Add &lt;exercise> or remove &lt;exercise> or &lt;exercise1> &lt;exercise2></string>
+    <string name="exercise_edit_prompt">Add &lt;Exercise></string>
+    <string name="exercise_lookup_prompt">Say the name of exercise</string>
+    <string name="exercise_lookup_result">%1$s has %2$s calories</string>
+    <string name="exercise_name_hint_text">Enter Exercise Name</string>
+    <string name="exercise_name_prompt_text">Exercise Name? </string>
+    <string name="exercise_remove_complete">removed %1$s</string>
+    <string name="exercise_remove_confirm_prompt">Are you sure you want to remove %1$s?</string>
+    <string name="exercise_remove_failed">%1$s not removed</string>
+    <string name="exercise_reps_prompt">How many reps?</string>
+    <string name="exercise_weights_prompt">How many pounds?</string>
+    <string name="exit_label">Exit</string>
+    <string name="final_project">Final Project</string>
+    <string name="game_title">Game</string>
+    <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="gen_error">Generate Error</string>
+    <string name="go_to_app_text">Go To App</string>
+    <string name="hard_label">Hard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="hints_title">Hints</string>
+    <string name="how_to_use_text">How To Use Lets Talk Workouts!</string>
+    <string name="init_time_elapsed">00:00:00</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_sync">Please enter the name of the player 
+        you wish to play with after clicking the \"Invite Someone to play\" button. If the user is online, 
+        he will receive a dialog box with the option to accept or decline your request. 
+        After the game starts, you have 45 seconds to make as many words as possible and beat your opponent.</string>
+    <string name="instructions_tb">This is a turn-based game. When you invite a player, he will receive a notification (if he is logged in)
+	    clicking on which he can start the game. After the game starts, you have 6 moves to 
+	    get as high a score as possible. The game has to be completed in one go. 
+	    That means if both the players exit the game, then the game gets lost. The player who sent the invite is only able to enter into the game 
+	    when the other player plays the first move. The player with the higher score after 6 moves to win the game.</string>
+    <string name="instructions_text">This is a word-search game. You have 45 seconds to find as many words as possible in the word matrix. 
+        The letters can be selected contiguously in any direction except diagonally. 
+        When you select a word, the letters at those places are replaced by new letters. Each letter in a valid word has the value of 10 points.
+        You can also press the \'Hint\' button to enable the hint mode. 
+        With hint mode enabled, the letters would turn green if you have found a word even if you have not lifted your finger. 
+        They would not if the hint mode is disabled. Good luck. </string>
+    <string name="instructions_text_sync">Please enter the name of the player 
+        you wish to play with after clicking the \"Invite Someone to play\" button. If the user is online, 
+        he will receive a dialog box with the option to accept or decline your request. 
+        [This is a just test code, multiplayer gameplay is not available yet!]</string>
+    <string name="invite">Invite Someone to Play</string>
+    <string name="keypad_title">Keypad</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="leaderboardTP">Leaderboard for Two Player Word Game</string>
+    <string name="leaderboardTP1">Leaderboard</string>
+    <string name="link1">http://stackoverflow.com/questions/10017808/best-data-structure-for-dictionary-implementation</string>
+    <string name="link10">http://www.coderzheaven.com/2012/07/25/serialization-android-simple-example/</string>
+    <string name="link10_info">Example for serialization in Android from: </string>
+    <string name="link11">http://developer.android.com/guide/topics/data/data-storage.html#filesInternal</string>
+    <string name="link11_info">Android storage concepts from: </string>
+    <string name="link12">http://stackoverflow.com/questions/11712254/paint-setalpha-sums-up-if-called-several-times</string>
+    <string name="link12_info">Transparency effect in word-matrix from: </string>
+    <string name="link1_info">Idea about a data structure for dictionary implementation from: </string>
+    <string name="link2">http://stackoverflow.com/questions/7432083/how-to-use-edittext-ontextchanged-event-when-i-press-the-number</string>
+    <string name="link2_info">Impementation of EditText listener from: </string>
+    <string name="link3">http://stackoverflow.com/questions/6083761/how-to-treat-file-contents-as-string/6083888#6083888</string>
+    <string name="link3_info">Ideas about Dictionary implementation on a phone from: </string>
+    <string name="link4">http://stackoverflow.com/questions/5771366/reading-a-simple-text-file</string>
+    <string name="link4_info">Opening a text file from the assets folder on Android from: </string>
+    <string name="link5">http://www.soundjay.com/censor-beep-sound-effect.html</string>
+    <string name="link50">http://developer.android.com/google/gcm/client.html</string>
+    <string name="link50_info">Implementing GCM Client from: </string>
+    <string name="link51">http://stackoverflow.com/questions/4842611/r-file-is-missing-android</string>
+    <string name="link51_info">R file gone missing bug solved from: </string>
+    <string name="link52">http://www.whatgamesare.com/2011/08/synchronous-or-asynchronous-definitions.html</string>
+    <string name="link52_info">Synchronous or Asynchronous Gameplay definitions from: </string>
+    <string name="link53">http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html</string>
+    <string name="link53_info">AsyncTask tutorial from: </string>
+    <string name="link5_info">Beep sound downloaded from: </string>
+    <string name="link6">http://www.soundjay.com/button-sounds-1.html</string>
+    <string name="link6_info">Background music and word-search sound from: </string>
+    <string name="link7">http://www.geekviewpoint.com/java/boggle/solver</string>
+    <string name="link7_info">Algorithm to solve a boggle game algorithm from: </string>
+    <string name="link8">http://w2davids.wordpress.com/simple-countdowntimer-example</string>
+    <string name="link8_info">Countdown Timer example from: </string>
+    <string name="link9">http://www3.ntu.edu.sg/home/ehchua/programming/android/Android_2D.html</string>
+    <string name="link9_info">Idea about 2D graphics in Android from: </string>
+    <string name="listening_text">Listening</string>
+    <string name="listening_workout">Listening...</string>
+    <string name="loadingText">Loading...</string>
+    <string name="loading_tutorials_text">Loading Tutorials</string>
+    <string name="login">Login</string>
+    <string name="logout">Log Out</string>
+    <string name="logout_prev">Logout Previous User</string>
+    <string name="ltw_app_name">MAD14S-Let\'sTalkWorkouts</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="medium_label">Medium</string>
+    <string name="menu_settings">Settings</string>
+    <string name="music_summary">Play background music</string>
+    <string name="music_title">Music</string>
+    <string name="new_game_label">New Game</string>
+    <string name="new_game_title">Difficulty</string>
+    <string name="new_user_login">New User Login</string>
+    <string name="no_moves_label">No moves</string>
+    <string name="pause_restart_btn_pause_text">Pause Listening</string>
+    <string name="pause_restart_btn_restart_text">Start Listening</string>
+    <string name="playOnline">Play Online</string>
+    <string name="pleaselogout">Please click on the \"Logout Previous User\" Button before logging in
+</string>
+    <string name="project_ack_text">        
+        • Phone Models Used For Testing: Galaxy S4, HTC One X \n\n
+        • Android Speech Recognition as a service on Android 4.1 and 4.2: \n http://stackoverflow.com/questions/14940657/android-speech-recognition-as-a-service-on-android-4-1-4-2 \n\n
+        • How to keep speech recognition running indefinitely: \n http://stackoverflow.com/questions/10182893/can-i-keep-the-speech-recognizer-listening-indefinitely \n\n
+        • Soundex class, that encodes a string into a Soundex value. Soundex is an encoding used to relate similar names, but can also be used as a general purpose scheme to find word with similar phonemes. This class is thread-safe. \n http://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/language/Soundex.html \n\n
+        • Professional Android Sensor Programming Text Book. Specifically Chapters 18 and 19, which helped us understand Speech Recognition and provided us with detailed examples of how to use Speech Recognition and audio sensors \n\n
+        • App Icon: \n http://www.easyicon.net/language.en/iconsearch/people/5/ \n\n
+        • Database of exercises was constructed from: \n http://www.bodybuilding.com \n\n 
+        • Android Developers Blog: An introduction to Text-To-Speech in Android. \n http://android-developers.blogspot.com/2009/09/introduction-to-text-to-speech-in.html \n\n
+</string>
+    <string name="quit">Quit</string>
+    <string name="register">Register</string>
+    <string name="reps_prompt_text">Reps</string>
+    <string name="resume_game">Resume Game</string>
+    <string name="return_to_menu">Return to menu</string>
+    <string name="rt">Real-time Game</string>
+    <string name="rt1">Start Game</string>
+    <string name="sNoOfMatches">No of Matches</string>
+    <string name="send_label">Send</string>
+    <string name="settings_label">Settings…</string>
+    <string name="settings_shortcut">s</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="shake">Shaking Fun</string>
+    <string name="speech_activation_button">Button</string>
+    <string name="speech_activation_camera">Camera</string>
+    <string name="speech_activation_clap">Clap</string>
+    <string name="speech_activation_default_label">Speak</string>
+    <string name="speech_activation_movement">Movement</string>
+    <string name="speech_activation_nfc">NFC Scan</string>
+    <string name="speech_activation_notification_listening">Listening for </string>
+    <string name="speech_activation_notification_title">Speech Activation</string>
+    <string name="speech_activation_speak">Speak Hello</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_listening_text">Stop Speaking</string>
+    <string name="stopped_listening_text">Not Listening</string>
+    <string name="sudoku">Sudoku</string>
+    <string name="synchronous">Synchronous Game</string>
+    <string name="tb">Turn-based Game</string>
+    <string name="text_shake">Shake the phone for a surprise. You will be taken to either the
+        Real-Time word game or the Turn-Based word game. Have fun playing!</string>
+    <string name="time_elapsed_text">Time Elapsed</string>
+    <string name="title_activity_ack">Acknowledgments</string>
+    <string name="title_activity_acknowledgements">Acknowledgements</string>
+    <string name="title_activity_asynchronous_main">Communication</string>
+    <string name="title_activity_begin_workout">Today\'s Workout</string>
+    <string name="title_activity_communication">Communication</string>
+    <string name="title_activity_dictionary">Test Dictionary</string>
+    <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="title_activity_ltw_main">Let\'s Talk Workouts</string>
+    <string name="title_activity_ltw_tutorials">Tutorials</string>
+    <string name="title_activity_manual_input">Exercise Details</string>
+    <string name="title_activity_onlineplayers">Players Online</string>
+    <string name="title_activity_project_description">Let\'s Talk Workouts!</string>
+    <string name="title_activity_real_time_play">Real-Time Word Game</string>
+    <string name="title_activity_select_manually">Add Exercise Manually</string>
+    <string name="title_activity_sensor_detect">Shake Me</string>
+    <string name="title_activity_speech_activation">Speech Activation</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_trickiest_part">Trickiest Part</string>
+    <string name="title_activity_turn_based_play_main">Turn-Based Word Game</string>
+    <string name="title_activity_turn_based_play_main_screen">Turn-Based Word Game</string>
+    <string name="title_activity_two_player_word_game">Two Player Word Game</string>
+    <string name="title_activity_view_exercises_on_date">Session Summary</string>
+    <string name="title_activity_view_prev_details">Previous Workout Details</string>
+    <string name="title_activity_view_supported_exercises">Supported Exercises</string>
+    <string name="title_activity_voice_recognition">Voice Recognition</string>
+    <string name="title_activity_word_game">Word Game</string>
+    <string name="title_activity_word_game_turn_based">Turn-Based Word Game</string>
+    <string name="title_activity_workout_entries">Workout Details</string>
+    <string name="title_activity_workout_today">Add Workout</string>
+    <string name="trickiest_part">Trickiest Part</string>
+    <string name="tutorials_text">View Tutorials</string>
+    <string name="tvTextMatches">Text Matches</string>
+    <string name="two_player_dabble">Two Player Word Game</string>
+    <string name="univ">Northeastern University</string>
+    <string name="unregister">Unregister</string>
+    <string name="view_all_exercises_text">View Supported Exercises</string>
+    <string name="view_dates_prompt">Click On Dates To View Details</string>
+    <string name="view_prev_workouts_text">View Previous Workout Details</string>
+    <string name="voiceaction_cancelled_response">Cancelled.</string>
+    <string name="voiceaction_dontunderstand">I did not understand, please try again.</string>
+    <string name="voiceaction_heard_nothing">I did not understand because I heard nothing.</string>
+    <string name="voiceaction_inaccurate">I\'m sorry. I did not understand because I couldn\'t hear you well.</string>
+    <string name="voiceaction_not_command">%1$s is not a command</string>
+    <string name="voiceaction_retry">, please try again.</string>
+    <string name="voiceaction_unknown">I did not understand.</string>
+    <string name="weights_prompt_text">Weight(lbs)</string>
+    <string name="welcome_user_text">Welcome To \n Let\'s Talk Workouts</string>
+    <string name="word_game_settings">Word Game Settings</string>
+    <string name="word_hint">Enter a word: </string>
+    <string name="workout_session_in_progress_text">Workout Session \n In Progress</string>
+    <string name="workout_session_paused_text">Workout Session \n Paused</string>
+    <string name="year">2nd year MS</string>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+    <declare-styleable name="ColorStateListItem">
+        <!-- Base color for this state. -->
+        <attr name="android:color"/>
+        <!-- Alpha multiplier applied to the base color. -->
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="CoordinatorLayout">
+        <!-- A reference to an array of integers representing the
+             locations of horizontal keylines in dp from the starting edge.
+             Child views can refer to these keylines for alignment using
+             layout_keyline="index" where index is a 0-based index into
+             this array. -->
+        <attr format="reference" name="keylines"/>
+        <!-- Drawable to display behind the status bar when the view is set to draw behind it. -->
+        <attr format="color|reference" name="statusBarBackground"/>
+    </declare-styleable>
+    <declare-styleable name="CoordinatorLayout_Layout">
+        <attr name="android:layout_gravity"/>
+        <!-- The class name of a Behavior class defining special runtime behavior
+             for this child view. -->
+        <attr format="string" name="layout_behavior"/>
+        <!-- The id of an anchor view that this view should position relative to. -->
+        <attr format="reference" name="layout_anchor"/>
+        <!-- The index of a keyline this view should position relative to.
+             android:layout_gravity will affect how the view aligns to the
+             specified keyline. -->
+        <attr format="integer" name="layout_keyline"/>
+
+        <!-- Specifies how an object should position relative to an anchor, on both the X and Y axes,
+             within its parent's bounds.  -->
+        <attr name="layout_anchorGravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+        <!-- Specifies how this view insets the CoordinatorLayout and make some other views
+             dodge it. -->
+        <attr format="enum" name="layout_insetEdge">
+            <!-- Don't inset. -->
+            <enum name="none" value="0x0"/>
+            <!-- Inset the top edge. -->
+            <enum name="top" value="0x30"/>
+            <!-- Inset the bottom edge. -->
+            <enum name="bottom" value="0x50"/>
+            <!-- Inset the left edge. -->
+            <enum name="left" value="0x03"/>
+            <!-- Inset the right edge. -->
+            <enum name="right" value="0x05"/>
+            <!-- Inset the start edge. -->
+            <enum name="start" value="0x00800003"/>
+            <!-- Inset the end edge. -->
+            <enum name="end" value="0x00800005"/>
+        </attr>
+        <!-- Specifies how this view dodges the inset edges of the CoordinatorLayout. -->
+        <attr name="layout_dodgeInsetEdges">
+            <!-- Don't dodge any edges -->
+            <flag name="none" value="0x0"/>
+            <!-- Dodge the top inset edge. -->
+            <flag name="top" value="0x30"/>
+            <!-- Dodge the bottom inset edge. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Dodge the left inset edge. -->
+            <flag name="left" value="0x03"/>
+            <!-- Dodge the right inset edge. -->
+            <flag name="right" value="0x05"/>
+            <!-- Dodge the start inset edge. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Dodge the end inset edge. -->
+            <flag name="end" value="0x00800005"/>
+            <!-- Dodge all the inset edges. -->
+            <flag name="all" value="0x77"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        <!-- The authority of the Font Provider to be used for the request. -->
+        <attr format="string" name="fontProviderAuthority"/>
+        <!-- The package for the Font Provider to be used for the request. This is used to verify
+        the identity of the provider. -->
+        <attr format="string" name="fontProviderPackage"/>
+        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
+        on the format of this string. -->
+        <attr format="string" name="fontProviderQuery"/>
+        <!-- The sets of hashes for the certificates the provider should be signed with. This is
+        used to verify the identity of the provider, and is only required if the provider is not
+        part of the system image. This value may point to one list or a list of lists, where each
+        individual list represents one collection of signature hashes. Refer to your font provider's
+        documentation for these values. -->
+        <attr format="reference" name="fontProviderCerts"/>
+        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
+        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
+        choice of API between {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
+        {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
+        (async). -->
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        <!-- The length of the timeout during fetching. -->
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        <!-- The style of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any style information in the font's header tables. If
+         unspecified, the value in the font's header tables will be used. -->
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        <!-- The reference to the font file to be used. This should be a file in the res/font folder
+         and should therefore have an R reference value. E.g. @font/myfont -->
+        <attr format="reference" name="font"/>
+        <!-- The weight of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any weight information in the font's header tables. Must
+         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
+         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
+         in the font's header tables will be used. -->
+        <attr format="integer" name="fontWeight"/>
+        <!-- The variation settings to be applied to the font. The string should be in the following
+         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
+         used, or the font used does not support variation settings, this attribute needs not be
+         specified. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
+        tcc format, this attribute needs not be specified. -->
+        <attr format="integer" name="ttcIndex"/>
+        <!-- References to the framework attrs -->
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        <!-- Start color of the gradient. -->
+        <attr name="android:startColor"/>
+        <!-- Optional center color. -->
+        <attr name="android:centerColor"/>
+        <!-- End color of the gradient. -->
+        <attr name="android:endColor"/>
+        <!-- Type of gradient. The default type is linear. -->
+        <attr name="android:type"/>
+
+        <!-- Only applied to RadialGradient-->
+        <!-- Radius of the gradient, used only with radial gradient. -->
+        <attr name="android:gradientRadius"/>
+
+        <!-- Only applied to SweepGradient / RadialGradient-->
+        <!-- X coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerX"/>
+        <!-- Y coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerY"/>
+
+        <!-- LinearGradient specific -->
+        <!-- X coordinate of the start point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startX"/>
+        <!-- Y coordinate of the start point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startY"/>
+        <!-- X coordinate of the end point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endX"/>
+        <!-- Y coordinate of the end point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endY"/>
+
+        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        <!-- The offset (or ratio) of this current color item inside the gradient.
+             The value is only meaningful when it is between 0 and 1. -->
+        <attr name="android:offset"/>
+        <!-- The current color for the offset inside the gradient. -->
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr>
+
+<attr format="float" name="imageAspectRatio"/>
+
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true" >
+      
+     
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center"
+   android:padding="30dip">
+
+    <TextView
+        android:id="@+id/loggedInUserTB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingBottom="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+     <Button
+         android:id="@+id/invite_Button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:onClick="inviteClick"
+         android:text="@string/invite" />
+     
+     <Button
+         android:id="@+id/instructions_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/instructions" 
+         android:onClick="instructionsClick"/>
+   
+     <!-- <Button
+         android:id="@+id/logout_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/logout"
+         android:onClick="logoutClick" /> -->
+  
+
+</LinearLayout>
+</ScrollView>

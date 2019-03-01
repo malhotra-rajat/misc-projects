@@ -1,0 +1,648 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:1-330:12
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:1-330:12
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:1-330:12
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:1-330:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\2e6b88075966599501459e516c6b7452\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e764f5e9ee17510370b9882245da6d0c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\0bb03b4df3fd23cba508366d04d345b8\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\bb50c3df15478c67b55ba1f0248cea89\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\b0ba8f17ea456c5fc8cb91759fada5b7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\cbc0d86438470b72b5bd3635b95451b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\d4a947729c8c86acc4c5d1225a2fd682\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\b19ce97c67f200769152a7dc96cb6d1d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\9a1e9aa89c6883b49e2ecaee70c74711\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7b9fde90376e035d1af2c9aeda3a34c6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\685e592616db6efd892111437bdf6074\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\9f389c90363c3971bb08fe4cabd1f38c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\35b67d2c016b3ff1f2b1a4abc6388153\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d05892ec3728deab7932a2d38b9fb2d7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\21b0301ff9a31c9f1486f87c977aace0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\a2d294c34552ba0db34a36cd602d7dc6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c07348f8d522142d796f8a348ec6aded\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\651b2d0f368500a2018a36b0478ba013\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\fc3e366fbb292ae4d0483aed66a0a401\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\e014f754230434fd7ebeb8b4834b007f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\81f2987ba9d316f27135ae5f29d5da62\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\f00abd5950a178520860fdca9f0319cb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d4ed887d3c04f71926768b4ca70d7a7c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\2e35bf12eba9a5862bf20329d178a7e2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\aa10637c435f9163878a15940bee7121\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8608fddac1a083dcd59df84505e53e5a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\db9d1fc5ca840afaf3dfd4228479ddc6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\53f4f1925187eecfdd0a26157b3fde9a\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:1-330:12
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:1-330:12
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:1-330:12
+	package
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.INTERNET
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:10:22-70
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:11:22-79
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:16:22-77
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:19:9-61
+permission#edu.neu.madcourse.rajatmalhotra.permission.C2D_MESSAGE
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:23:9-78
+uses-permission#edu.neu.madcourse.rajatmalhotra.permission.C2D_MESSAGE
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:26:5-94
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:26:22-91
+application
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:28:5-328:19
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\2e6b88075966599501459e516c6b7452\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\2e6b88075966599501459e516c6b7452\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e764f5e9ee17510370b9882245da6d0c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e764f5e9ee17510370b9882245da6d0c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\0bb03b4df3fd23cba508366d04d345b8\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\0bb03b4df3fd23cba508366d04d345b8\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c07348f8d522142d796f8a348ec6aded\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c07348f8d522142d796f8a348ec6aded\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\651b2d0f368500a2018a36b0478ba013\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\651b2d0f368500a2018a36b0478ba013\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c07348f8d522142d796f8a348ec6aded\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:32:9-50
+receiver#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.GcmBroadcastReceiver
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:33:9-42:20
+	android:permission
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:edu.neu.madcourse.rajatmalhotra
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:36:13-41:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:38:25-83
+category#edu.neu.madcourse.rajatmalhotra
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:40:27-73
+service#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.GcmIntentService
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:44:9-104
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:44:18-101
+meta-data#com.google.android.gms.version
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:46:9-48:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\0bb03b4df3fd23cba508366d04d345b8\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\0bb03b4df3fd23cba508366d04d345b8\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:48:13-66
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:47:13-58
+activity#edu.neu.madcourse.rajatmalhotra.MainActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:50:9-59:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:52:13-45
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:51:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:54:13-58:29
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:259:17-53
+	android:icon
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:258:17-53
+action#android.intent.action.MAIN
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:57:27-74
+activity#edu.neu.madcourse.rajatmalhotra.AboutMe
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:60:9-64:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:62:13-48
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:61:13-67
+activity#edu.neu.madcourse.rajatmalhotra.sudoku.Sudoku
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:68:9-71:20
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:70:13-47
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:69:13-73
+activity#edu.neu.madcourse.rajatmalhotra.sudoku.About
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:72:9-76:20
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:74:13-48
+	android:theme
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:75:13-56
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:73:13-72
+activity#edu.neu.madcourse.rajatmalhotra.sudoku.Prefs
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:77:9-80:20
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:79:13-51
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:78:13-72
+activity#edu.neu.madcourse.rajatmalhotra.sudoku.Game
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:81:9-84:20
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:83:13-47
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:82:13-71
+activity#edu.neu.madcourse.rajatmalhotra.dictionary.Dictionary
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:88:9-92:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:90:13-62
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:89:13-81
+activity#edu.neu.madcourse.rajatmalhotra.dictionary.Acknowledgements
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:93:9-97:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:96:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:95:13-53
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:94:13-87
+activity#edu.neu.madcourse.rajatmalhotra.wordgame.WordGameMain
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:101:9-105:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:103:13-61
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:102:13-81
+activity#edu.neu.madcourse.rajatmalhotra.wordgame.WordGame
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:106:9-110:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:109:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:108:13-61
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:107:13-77
+activity#edu.neu.madcourse.rajatmalhotra.wordgame.Acknowledgements
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:111:9-115:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:114:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:113:13-68
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:112:13-85
+activity#edu.neu.madcourse.rajatmalhotra.wordgame.PrefsWordGame
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:116:9-120:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:118:13-55
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:117:13-82
+activity#edu.neu.madcourse.rajatmalhotra.wordgamecommunication.AcknowledgementsCommunication
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:124:9-128:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:126:13-68
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:125:13-111
+activity#edu.neu.madcourse.rajatmalhotra.wordgamecommunication.Communication
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:129:9-133:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:131:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:130:13-95
+activity#edu.neu.madcourse.rajatmalhotra.wordgamecommunication.SynchronousLogin
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:134:9-138:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:137:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:136:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:135:13-98
+activity#edu.neu.madcourse.rajatmalhotra.wordgamecommunication.AsynchronousTest
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:139:9-143:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:142:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:141:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:140:13-98
+activity#edu.neu.madcourse.rajatmalhotra.wordgamecommunication.SynchronousMain
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:144:9-148:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:146:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:145:13-97
+activity#edu.neu.madcourse.rajatmalhotra.wordgamecommunication.AsynchronousMain
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:149:9-153:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:152:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:151:13-69
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:150:13-98
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.TwoPlayerWordGame
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:156:9-160:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:159:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:158:13-72
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:157:13-97
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.RealTimePlayLogin
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:161:9-165:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:164:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:163:13-66
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:162:13-97
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.TurnBasedPlayMain
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:166:9-170:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:169:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:168:13-72
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:167:13-97
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.RealTimePlayTP
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:171:9-175:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:174:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:173:13-72
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:172:13-94
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.PrefsWordGameTP
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:176:9-180:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:179:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:178:13-55
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:177:13-95
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.WordGameTP
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:181:9-185:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:184:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:183:13-61
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:182:13-90
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.Leaderboard
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:186:9-190:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:189:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:188:13-63
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:187:13-91
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.Acknowledgements
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:191:9-195:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:194:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:193:13-68
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:192:13-96
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.TurnBasedPlayMainScreen
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:196:9-200:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:199:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:198:13-79
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:197:13-103
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.WordGameTurnBased
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:201:9-206:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:205:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:203:13-72
+	android:launchMode
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:204:13-43
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:202:13-97
+activity#edu.neu.madcourse.rajatmalhotra.wordgamemultiplayer.SensorDetect
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:207:9-211:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:210:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:209:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:208:13-92
+activity#edu.neu.madcourse.rajatmalhotra.trickiestpart.TrickiestPart
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:214:9-218:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:217:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:216:13-66
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:215:13-87
+activity#edu.neu.madcourse.rajatmalhotra.trickiestpart.ManualInput
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:219:9-223:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:222:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:221:13-64
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:220:13-85
+activity#edu.neu.madcourse.rajatmalhotra.trickiestpart.WorkoutToday
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:224:9-228:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:227:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:226:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:225:13-86
+activity#edu.neu.madcourse.rajatmalhotra.trickiestpart.WorkoutEntries
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:229:9-232:20
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:231:13-67
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:230:13-88
+activity#edu.neu.madcourse.rajatmalhotra.trickiestpart.MultiTurnExerciseDialogActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:233:9-237:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:236:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:235:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:234:13-105
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.ProjectDescriptionActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:240:9-249:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:243:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:242:13-71
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:241:13-99
+intent-filter#action:name:edu.neu.madcourse.rajatmalhotra.finalproject.ProjectDescriptionActivity.LAUNCH_ME+category:name:android.intent.category.DEFAULT
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:244:13-248:29
+action#edu.neu.madcourse.rajatmalhotra.finalproject.ProjectDescriptionActivity.LAUNCH_ME
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:245:17-124
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:245:25-121
+category#android.intent.category.DEFAULT
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:247:17-76
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:247:27-73
+service#edu.neu.madcourse.rajatmalhotra.finalproject.RecordWorkoutsService
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:251:9-102
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:251:18-99
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.LtwMainActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:253:9-264:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:256:13-49
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:255:13-60
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:254:13-88
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.BeginWorkoutActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:265:9-273:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:269:13-49
+	android:parentActivityName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:268:13-102
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:267:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:266:13-93
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:270:13-272:96
+	android:value
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:272:17-93
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:271:17-63
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.SelectManuallyActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:274:9-282:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:278:13-49
+	android:parentActivityName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:277:13-107
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:276:13-67
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:275:13-95
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.ViewPrevDetailsActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:283:9-291:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:287:13-49
+	android:parentActivityName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:286:13-102
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:285:13-69
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:284:13-96
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.LtwAckActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:292:9-300:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:296:13-49
+	android:parentActivityName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:295:13-113
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:294:13-55
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:293:13-87
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.LtwTutorialsActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:301:9-309:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:305:13-49
+	android:parentActivityName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:304:13-102
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:303:13-65
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:302:13-93
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.ViewExercisesOnDateActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:310:9-318:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:314:13-49
+	android:parentActivityName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:313:13-110
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:312:13-74
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:311:13-100
+activity#edu.neu.madcourse.rajatmalhotra.finalproject.ViewAllExercisesActivity
+ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:319:9-327:20
+	android:screenOrientation
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:323:13-49
+	android:parentActivityName
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:322:13-102
+	android:label
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:321:13-76
+	android:name
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml:320:13-97
+uses-sdk
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-gcm-16.1.0.aar\a8c4d6b5cab998ad682ec5c1b2b5ff20\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-iid-16.0.1.aar\b41b17cbc9736b6f53b6e08e54cc889e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\2e6b88075966599501459e516c6b7452\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\2e6b88075966599501459e516c6b7452\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e764f5e9ee17510370b9882245da6d0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e764f5e9ee17510370b9882245da6d0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\0bb03b4df3fd23cba508366d04d345b8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\0bb03b4df3fd23cba508366d04d345b8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\bb50c3df15478c67b55ba1f0248cea89\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\bb50c3df15478c67b55ba1f0248cea89\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\b0ba8f17ea456c5fc8cb91759fada5b7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\b0ba8f17ea456c5fc8cb91759fada5b7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\cbc0d86438470b72b5bd3635b95451b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\cbc0d86438470b72b5bd3635b95451b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\d4a947729c8c86acc4c5d1225a2fd682\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\d4a947729c8c86acc4c5d1225a2fd682\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\b19ce97c67f200769152a7dc96cb6d1d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\b19ce97c67f200769152a7dc96cb6d1d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\9a1e9aa89c6883b49e2ecaee70c74711\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\9a1e9aa89c6883b49e2ecaee70c74711\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7b9fde90376e035d1af2c9aeda3a34c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7b9fde90376e035d1af2c9aeda3a34c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\685e592616db6efd892111437bdf6074\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\685e592616db6efd892111437bdf6074\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\9f389c90363c3971bb08fe4cabd1f38c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\9f389c90363c3971bb08fe4cabd1f38c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\35b67d2c016b3ff1f2b1a4abc6388153\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\35b67d2c016b3ff1f2b1a4abc6388153\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d05892ec3728deab7932a2d38b9fb2d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d05892ec3728deab7932a2d38b9fb2d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\21b0301ff9a31c9f1486f87c977aace0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\21b0301ff9a31c9f1486f87c977aace0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\a2d294c34552ba0db34a36cd602d7dc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\a2d294c34552ba0db34a36cd602d7dc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c07348f8d522142d796f8a348ec6aded\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c07348f8d522142d796f8a348ec6aded\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\651b2d0f368500a2018a36b0478ba013\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\651b2d0f368500a2018a36b0478ba013\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\fc3e366fbb292ae4d0483aed66a0a401\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\fc3e366fbb292ae4d0483aed66a0a401\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\e014f754230434fd7ebeb8b4834b007f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\e014f754230434fd7ebeb8b4834b007f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\81f2987ba9d316f27135ae5f29d5da62\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\81f2987ba9d316f27135ae5f29d5da62\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\f00abd5950a178520860fdca9f0319cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\f00abd5950a178520860fdca9f0319cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d4ed887d3c04f71926768b4ca70d7a7c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d4ed887d3c04f71926768b4ca70d7a7c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\2e35bf12eba9a5862bf20329d178a7e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\2e35bf12eba9a5862bf20329d178a7e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\aa10637c435f9163878a15940bee7121\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\aa10637c435f9163878a15940bee7121\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8608fddac1a083dcd59df84505e53e5a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8608fddac1a083dcd59df84505e53e5a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\db9d1fc5ca840afaf3dfd4228479ddc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\db9d1fc5ca840afaf3dfd4228479ddc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\53f4f1925187eecfdd0a26157b3fde9a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\53f4f1925187eecfdd0a26157b3fde9a\AndroidManifest.xml:20:5-44
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+		ADDED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GitHub Repo\repo\MobileAppDevelopment\NUMAD14S-New\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\malho\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f5812b5e4ee2a1874a38db28dd3827d7\AndroidManifest.xml:24:13-79

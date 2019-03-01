@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/tvWelcomeUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/app_init_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ProgressBar
+        android:id="@+id/pbInitialization"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWelcomeUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnBeginWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnViewAllExercises"
+        android:layout_marginTop="10dp"
+        android:onClick="beginWorkoutClick"
+        android:text="@string/begin_today_workout_text"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnViewPrevWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBeginWorkout"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:onClick="viewPrevWorkoutsClick"
+        android:text="@string/view_prev_workouts_text"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnTutorials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pbInitialization"
+        android:layout_marginTop="10dp"
+        android:onClick="handleTutorialsClick"
+        android:text="@string/tutorials_text"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnViewAllExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnTutorials"
+        android:layout_marginTop="10dp"
+        android:onClick="handleViewAllExercisesClick"
+        android:text="@string/view_all_exercises_text"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnLtwExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnViewPrevWorkout"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:onClick="quitLtwClick"
+        android:text="@string/quit"
+        android:visibility="invisible" />
+
+</RelativeLayout>

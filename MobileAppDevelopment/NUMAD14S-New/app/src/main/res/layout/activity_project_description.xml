@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="edu.neu.madcourse.rajatmalhotra.ProjectDescriptionActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="calibri-condensed"
+            android:gravity="center_horizontal"
+            android:text="@string/app_description"
+            android:textColor="@android:color/white"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnGoToApp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="calibri-condensed"
+            android:onClick="handleGoToAppClick"
+            android:text="@string/title_activity_ltw_main" />
+
+        <Button
+            android:id="@+id/btnProjectAck"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="calibri-condensed"
+            android:onClick="handleAckClick"
+            android:text="@string/acknowledgements" />
+
+  
+    </LinearLayout>
+   
+
+</ScrollView>

@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical" >
+
+
+ 
+ 	<Spinner
+     android:id="@+id/actvExerciseName"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     android:layout_below="@+id/tvExerciseNamePrompt"
+     android:layout_centerHorizontal="true"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:completionThreshold="1"
+     android:dropDownWidth="fill_parent"
+     android:ems="10"
+     android:fontFamily="calibri-condensed"
+     android:gravity="center"
+     android:hint="@string/exercise_name_hint_text"
+     android:imeOptions="flagNavigateNext"
+     android:scrollHorizontally="false" />
+ 	
+ 	
+    <LinearLayout
+        android:id="@+id/llContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actvExerciseName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/llRepsSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvRepsPrompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/reps_prompt_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <NumberPicker
+                android:id="@+id/npReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llWeightsSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvWeightsPrompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/weights_prompt_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <NumberPicker
+                android:id="@+id/npWeights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="calibri-condensed"
+            android:onClick="handleSaveClick"
+            android:text="@string/button_save_text" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="calibri-condensed"
+            android:onClick="handleClearClick"
+            android:text="@string/button_clear_text" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="calibri-condensed"
+            android:onClick="handleExitClick"
+            android:text="@string/exit_label" />
+    </LinearLayout>
+
+</RelativeLayout>

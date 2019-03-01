@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center"
+   android:padding="30dip">
+          
+     <Button
+         android:id="@+id/resume_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/resume_game"
+         android:visibility="invisible"
+         android:onClick="resumeGameClick"/>
+    
+     <Button
+         android:id="@+id/newGame_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/new_game_label" 
+         android:onClick="newGameClick"/>
+     
+     <Button
+         android:id="@+id/instructions_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/instructions" 
+         android:onClick="instructionsClick"/>
+     
+     
+     <Button
+         android:id="@+id/ack_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/acknowledgements" 
+         android:onClick="acknowledgementsClick"/>
+     
+     <Button
+         android:id="@+id/quit_button"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="@string/quit"
+         android:onClick="quitClick" />
+  
+
+</LinearLayout>
