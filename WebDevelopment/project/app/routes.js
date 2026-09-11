@@ -1,9 +1,9 @@
 module.exports = function(app, passport) {
 
     var multer = require('multer');
-    app.use(multer({
+    var upload = multer({
         dest: "./uploads/"
-    }));
+    });
 
 	app.get('/login', function(req, res) {
 		res.render('login.ejs', { message: req.flash('loginMessage') });
@@ -24,7 +24,7 @@ module.exports = function(app, passport) {
 	});
 
 	// process the signup form
-	app.post('/signup', passport.authenticate('local-signup', {
+	app.post('/signup', upload.single('profilePic'), passport.authenticate('local-signup', {
 	    successRedirect: '/login', 
 		failureRedirect : '/signup', // redirect back to the signup page if there is an error
 		failureFlash: true // allow flash messages

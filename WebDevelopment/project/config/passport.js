@@ -40,9 +40,9 @@ module.exports = function(passport) {
                 var newUser            = new User();
 
                 // set the user's local credentials
-                //console.log(req.files);
+                //console.log(req.file);
                 
-                console.log(req.files.profilePic);
+                console.log(req.file);
                 console.log(req.body.name);
 
                 newUser.local.name = req.body.name;
@@ -60,7 +60,7 @@ module.exports = function(passport) {
                     }
                     else
                     {
-                        fs.rename(req.files.profilePic.path, 'uploads/' + req.body.name + email, function (err) {
+                        fs.rename(req.file.path, 'uploads/' + req.body.name + email, function (err) {
                             if (err) {
                                 console.log('ERROR: ' + err);
                             }
