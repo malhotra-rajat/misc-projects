@@ -1,0 +1,38 @@
+
+/* PROGRAM TO FIND LENGTH OF STRING,COMPARE TWO STRINGS,COPY THE STRING,CANCATENATE THE STRING */
+
+#include<conio.h>
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char str1[20],str2[20],str3[20];
+int c,d;
+clrscr();
+printf("Enter the string:- ");
+gets(str1);
+c=strlen(str1);
+printf("The length of string is:- %d",c);
+strcpy(str2,str1);
+printf("\nThe copied string is:- ");
+puts(str2);
+printf("Enter the 2nd string:- ");
+gets(str3);
+d=strcmp(str2,str1);
+if(d==1)
+printf("The string is comparable.");
+else
+printf("The string is not comparable.");
+strcat(str2,str3);
+printf("\nThe string after cancatenation:- ");
+puts(str2);
+getch();
+}
+
+/*OUTPUT*/
+Enter the string:- PRAVEEN
+The length of string is:- 7
+The copied string is:- PRAVEEN
+Enter the 2nd string:- PRASAD
+The string is not comparable.
+The string after cancatenation:- PRAVEENPRASAD

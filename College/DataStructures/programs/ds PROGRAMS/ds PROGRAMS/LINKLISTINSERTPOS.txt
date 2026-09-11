@@ -1,0 +1,75 @@
+/*PROGRAM TO INSERT NODE AT SPECIFIED POSITION OF LINKED LIST*/
+
+#include<conio.h>
+#include<stdio.h>
+#include<malloc.h>
+struct Node { int info1;
+              Node * link;
+            } *start,*np,*temp,*ptr;
+Node * Create_new_Node(int);
+void insert_end();
+void display(Node*);
+void main()
+{
+start=NULL;
+char ch;
+clrscr();
+do
+{
+
+printf("\n\n.....MAIN MENU......\n\n");
+printf("\n1:INSERTION\n2:DISPLAY");
+printf("\nEnter ur choice:- ");
+scanf("%d",&ch);
+switch(ch)
+	{
+	case 1:insert_end();
+	break;
+	case 2:display(start);
+	break;
+   }
+printf("\nDo u want to continue?:- ");
+fflush(stdin);
+scanf("%c",&ch);
+}
+while((ch=='y')||(ch=='Y'));
+getch();
+}
+Node * Create_new_Node(int n)
+  {
+   ptr=(Node*)malloc(sizeof(Node));
+   ptr->info1=n;
+   ptr->link=NULL;
+   return ptr;
+  }
+void insert_end()
+{
+int info2,i=1,loc;
+printf("\nEnter the information of new node:- ");
+scanf("%d",&info2);
+np= Create_new_Node(info2);
+if(start==NULL)
+start=np;
+else
+{
+printf("\nEnter the position where node to be inserted(0<Loc<no.of element):-");
+scanf("%d",&loc);
+temp=start;
+while(i<loc)
+{
+temp=temp->link;
+i=i+1;
+}
+np->link=temp->link;
+temp->link=np;
+}
+}
+void display(Node* np)
+{
+while( np !=NULL)
+{
+printf("%d->",np->info1);
+np=np->link;
+}
+printf("!!\n");
+}

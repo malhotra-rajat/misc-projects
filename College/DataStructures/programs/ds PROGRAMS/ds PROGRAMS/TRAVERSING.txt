@@ -1,0 +1,31 @@
+/*PROGRAM OF TRAVERSING*/
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int i,a[15],b;
+clrscr();
+printf("Enter the no.of element:-");
+scanf("%d",&b);
+printf("Enter the element:-\n");
+for(i=0;i<b;i++)
+scanf("%d",&a[i]);
+for(i=0;i<b;i++)
+{a[i]*=a[i];
+}
+printf("Element after squaring each term:- ");
+for(i=0;i<b;i++)
+printf("%d ",a[i]);
+getch();
+}
+
+/*OUTPUT*/
+Enter the no.of element:-5
+Enter the element:-
+2
+3
+5
+1
+4
+Element after squaring each term:- 4 9 25 1 16

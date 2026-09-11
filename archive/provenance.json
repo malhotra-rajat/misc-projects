@@ -1,0 +1,3084 @@
+{
+  "source_root": "Cheenu Disk (personal School and College archive)",
+  "files": [
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/1. BUBBLE SORT.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/1. BUBBLE SORT.CPP"
+      ],
+      "sha256_original": "f5a1784995ac7fd3ee993934d47909f68be31d081b9e041b72483a712f4cf3be",
+      "bytes_original": 948,
+      "sha256_archived": "f5a1784995ac7fd3ee993934d47909f68be31d081b9e041b72483a712f4cf3be"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/2. SELECTION SORT.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/2. SELECTION SORT.CPP"
+      ],
+      "sha256_original": "ffa7e6018b7173e39e66dfabb3e70530c2ef5579b906766f7587c1435bb1d2ed",
+      "bytes_original": 1025,
+      "sha256_archived": "ffa7e6018b7173e39e66dfabb3e70530c2ef5579b906766f7587c1435bb1d2ed"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/3. INSERTION SORT.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/3. INSERTION SORT.CPP"
+      ],
+      "sha256_original": "07d146bdcb43fb03ea8d85b99dc31d0a90f8d0a1f1de6fbc19108c194e9d22b3",
+      "bytes_original": 950,
+      "sha256_archived": "07d146bdcb43fb03ea8d85b99dc31d0a90f8d0a1f1de6fbc19108c194e9d22b3"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/4. MERGE SORT.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/4. MERGE SORT.CPP"
+      ],
+      "sha256_original": "080c5528f2e53505545b971fda2ac4f22fdd6a45e4f1433ed6632d9122dafd8a",
+      "bytes_original": 1385,
+      "sha256_archived": "080c5528f2e53505545b971fda2ac4f22fdd6a45e4f1433ed6632d9122dafd8a"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/5. QUICK SORT.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/5. QUICK SORT.CPP"
+      ],
+      "sha256_original": "689822eb95a7d5f246d3d2f569c6042d9ba755658e5e9f781e421aa1ca74b79b",
+      "bytes_original": 1170,
+      "sha256_archived": "689822eb95a7d5f246d3d2f569c6042d9ba755658e5e9f781e421aa1ca74b79b"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/6. LINEAR SEARCH.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/6. LINEAR SEARCH.CPP"
+      ],
+      "sha256_original": "3ad4900169a189bfefff17739b4534341b32b1e3fecebf816c4cb3bc8b2dbdfd",
+      "bytes_original": 1223,
+      "sha256_archived": "3ad4900169a189bfefff17739b4534341b32b1e3fecebf816c4cb3bc8b2dbdfd"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/7. BINARY SEARCH.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/7. BINARY SEARCH.CPP"
+      ],
+      "sha256_original": "3279e123df8ed455d8580ae83977373277a87de2f4cdb35a113d667fde42c07c",
+      "bytes_original": 1840,
+      "sha256_archived": "3279e123df8ed455d8580ae83977373277a87de2f4cdb35a113d667fde42c07c"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/AAD/AAD/FILECRAT.CPP",
+      "source_copies": [
+        "College/4th sem/Labs/AAD/AAD/FILECRAT.CPP"
+      ],
+      "sha256_original": "0eceee735662b99966d9e43746dc31674c54f7b2c72810b7443611fa8ed0563b",
+      "bytes_original": 972,
+      "sha256_archived": "0eceee735662b99966d9e43746dc31674c54f7b2c72810b7443611fa8ed0563b"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/CG/CG/1. LINEDDAC.C",
+      "source_copies": [
+        "College/4th sem/Labs/CG/CG/1. LINEDDAC.C"
+      ],
+      "sha256_original": "d547e0dfbefb9a25776a86d51c49e1828d3cc41d65905722489c07769cc98166",
+      "bytes_original": 873,
+      "sha256_archived": "d547e0dfbefb9a25776a86d51c49e1828d3cc41d65905722489c07769cc98166"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/CG/CG/2. BREASENH.C",
+      "source_copies": [
+        "College/4th sem/Labs/CG/CG/2. BREASENH.C"
+      ],
+      "sha256_original": "f68afc377f4a80b86bc90d586fe22f3c294467474259ba93fde99d7f85075812",
+      "bytes_original": 831,
+      "sha256_archived": "f68afc377f4a80b86bc90d586fe22f3c294467474259ba93fde99d7f85075812"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/CG/CG/3. MIDPTCIR.C",
+      "source_copies": [
+        "College/4th sem/Labs/CG/CG/3. MIDPTCIR.C"
+      ],
+      "sha256_original": "f6f478a40a221962ba24baf5eeca1684d1e4f176ed1ed8c7ceb462992a42c7d2",
+      "bytes_original": 1109,
+      "sha256_archived": "f6f478a40a221962ba24baf5eeca1684d1e4f176ed1ed8c7ceb462992a42c7d2"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/CG/CG/4. TRANSLAT.C",
+      "source_copies": [
+        "College/4th sem/Labs/CG/CG/4. TRANSLAT.C"
+      ],
+      "sha256_original": "3d1588eb077cd1e33939b4d202fa89326f823d3b36a804a81ed99f58c73bdf52",
+      "bytes_original": 624,
+      "sha256_archived": "3d1588eb077cd1e33939b4d202fa89326f823d3b36a804a81ed99f58c73bdf52"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/CG/CG/5. ROTATION.C",
+      "source_copies": [
+        "College/4th sem/Labs/CG/CG/5. ROTATION.C"
+      ],
+      "sha256_original": "05ce121c7f38ccbad0acb28fce132ccd68b48adc2687b555a86aa437042eee7e",
+      "bytes_original": 812,
+      "sha256_archived": "05ce121c7f38ccbad0acb28fce132ccd68b48adc2687b555a86aa437042eee7e"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/CG/CG/6. RECTSCAL.C",
+      "source_copies": [
+        "College/4th sem/Labs/CG/CG/6. RECTSCAL.C"
+      ],
+      "sha256_original": "5cea541df01c9df383b52b1c4cc55e8f6ab7f617b83baf4f5029cdd736a3727c",
+      "bytes_original": 772,
+      "sha256_archived": "5cea541df01c9df383b52b1c4cc55e8f6ab7f617b83baf4f5029cdd736a3727c"
+    },
+    {
+      "path": "College/AlgorithmsAndGraphics/SE1/SOFTWARE ENGINEERING/SE/project2/4TH SEM. PROJECT/mayank_proj.cpp",
+      "source_copies": [
+        "College/4th sem/Labs/SE1/SOFTWARE ENGINEERING/SE/project2/4TH SEM. PROJECT/mayank_proj.cpp"
+      ],
+      "sha256_original": "d89671647edd4aa9bda4efd97e23c8d76257b105eb89a607aeb744c00ae19d72",
+      "bytes_original": 8966,
+      "sha256_archived": "d89671647edd4aa9bda4efd97e23c8d76257b105eb89a607aeb744c00ae19d72"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/ASCII.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/ASCII.C"
+      ],
+      "sha256_original": "9261dda8c265eba403716d06966a2ca885218a6a228e228f70d98712b45a504f",
+      "bytes_original": 307,
+      "sha256_archived": "9261dda8c265eba403716d06966a2ca885218a6a228e228f70d98712b45a504f"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/CALC.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/CALC.C"
+      ],
+      "sha256_original": "94034bfa68620e89913b931f232c789cbd2aa7791fdb4db62513142d97fbf9a0",
+      "bytes_original": 945,
+      "sha256_archived": "94034bfa68620e89913b931f232c789cbd2aa7791fdb4db62513142d97fbf9a0"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/FARENHEI.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/FARENHEI.C"
+      ],
+      "sha256_original": "de8927219f95957a66483543dfd9d3d1761b17a43a05e5b96b6082bb205d55c6",
+      "bytes_original": 377,
+      "sha256_archived": "de8927219f95957a66483543dfd9d3d1761b17a43a05e5b96b6082bb205d55c6"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/LARGE.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/LARGE.C"
+      ],
+      "sha256_original": "7a2227c560aab8aa809943ff13c7ed816998fd6d3038943d4c1c30395f2cffeb",
+      "bytes_original": 380,
+      "sha256_archived": "7a2227c560aab8aa809943ff13c7ed816998fd6d3038943d4c1c30395f2cffeb"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/SI.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/SI.C"
+      ],
+      "sha256_original": "4a043bce594f09a970d47bd06143b97d743275710dd0892ecaf485102ff69f12",
+      "bytes_original": 433,
+      "sha256_archived": "4a043bce594f09a970d47bd06143b97d743275710dd0892ecaf485102ff69f12"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/SUM.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/SUM.C"
+      ],
+      "sha256_original": "74c8b09b34ecab1fc021a1603bdf4905257da3621784fa5f06bcd9e8d47f1a85",
+      "bytes_original": 289,
+      "sha256_archived": "74c8b09b34ecab1fc021a1603bdf4905257da3621784fa5f06bcd9e8d47f1a85"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/SWAP.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/SWAP.C"
+      ],
+      "sha256_original": "734159071dd5b832bca0f804524749592a01f0640e02b2b84685ddc5dbf4a5f3",
+      "bytes_original": 375,
+      "sha256_archived": "734159071dd5b832bca0f804524749592a01f0640e02b2b84685ddc5dbf4a5f3"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/SWAPW.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/SWAPW.C"
+      ],
+      "sha256_original": "45eaf5ac6843026b49d1c929af0e0787459660e5cd6bd6ca046cc1d424873055",
+      "bytes_original": 373,
+      "sha256_archived": "45eaf5ac6843026b49d1c929af0e0787459660e5cd6bd6ca046cc1d424873055"
+    },
+    {
+      "path": "College/CProgramming/C programs/2nd sem/TRNGL.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/2nd sem/TRNGL.C"
+      ],
+      "sha256_original": "63217a566413dcf436b8f97e61aaf04d1570a32ce0e252b70dfd600ceb7fa638",
+      "bytes_original": 529,
+      "sha256_archived": "63217a566413dcf436b8f97e61aaf04d1570a32ce0e252b70dfd600ceb7fa638"
+    },
+    {
+      "path": "College/CProgramming/C programs/4SUM.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/4SUM.C"
+      ],
+      "sha256_original": "a6706ee3907ec9291c4169af03ba0a6acd3a37d511889b15708c8a8fd3bdf1d2",
+      "bytes_original": 447,
+      "sha256_archived": "a6706ee3907ec9291c4169af03ba0a6acd3a37d511889b15708c8a8fd3bdf1d2"
+    },
+    {
+      "path": "College/CProgramming/C programs/ARR.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/ARR.C"
+      ],
+      "sha256_original": "a8d18a31f8cf648fa2747398fa78f57e0d1e8769166e5c1ed9f562edecb4b977",
+      "bytes_original": 342,
+      "sha256_archived": "a8d18a31f8cf648fa2747398fa78f57e0d1e8769166e5c1ed9f562edecb4b977"
+    },
+    {
+      "path": "College/CProgramming/C programs/COND.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/COND.C"
+      ],
+      "sha256_original": "23067a681debde190137a21416eb7179e9d3d19b50b63651ddc0f532d45006b5",
+      "bytes_original": 406,
+      "sha256_archived": "23067a681debde190137a21416eb7179e9d3d19b50b63651ddc0f532d45006b5"
+    },
+    {
+      "path": "College/CProgramming/C programs/NOD.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/NOD.C"
+      ],
+      "sha256_original": "bd36684b5ef9ae3dbefff91100ea280f05f98fcbab2c9a1fec748836f615b5f4",
+      "bytes_original": 365,
+      "sha256_archived": "bd36684b5ef9ae3dbefff91100ea280f05f98fcbab2c9a1fec748836f615b5f4"
+    },
+    {
+      "path": "College/CProgramming/C programs/REV.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/REV.C"
+      ],
+      "sha256_original": "b8751d43694c168ce910305e162a414cc8061ddee30dbef08ba75663525af2c1",
+      "bytes_original": 463,
+      "sha256_archived": "b8751d43694c168ce910305e162a414cc8061ddee30dbef08ba75663525af2c1"
+    },
+    {
+      "path": "College/CProgramming/C programs/SUMFL.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/SUMFL.C"
+      ],
+      "sha256_original": "6fdd816236435243c85a933581f05c75042a562b3b50f44f53f72f52f78c04b1",
+      "bytes_original": 358,
+      "sha256_archived": "6fdd816236435243c85a933581f05c75042a562b3b50f44f53f72f52f78c04b1"
+    },
+    {
+      "path": "College/CProgramming/C programs/pyramid.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C programs/pyramid.C"
+      ],
+      "sha256_original": "e6ae5915733812a3edccf286050f6f21c6f346cb1b5abc0528caad714ffd8038",
+      "bytes_original": 528,
+      "sha256_archived": "e6ae5915733812a3edccf286050f6f21c6f346cb1b5abc0528caad714ffd8038"
+    },
+    {
+      "path": "College/CProgramming/C/COMPLEX.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C/COMPLEX.C",
+        "College/2nd sem/ITP/ITP/COMPLEX.C"
+      ],
+      "sha256_original": "3a815558d0028d223c769f809d8989fd3022c7db0ff99c2f77827390a16e105f",
+      "bytes_original": 1257,
+      "sha256_archived": "3a815558d0028d223c769f809d8989fd3022c7db0ff99c2f77827390a16e105f"
+    },
+    {
+      "path": "College/CProgramming/C/MATRIX.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C/MATRIX.C",
+        "College/2nd sem/ITP/ITP/MATRIX.C"
+      ],
+      "sha256_original": "9e32d83ea920952983e2c2f2b6bee97c05ccf581b2e45ac560a7276cbe2bc59b",
+      "bytes_original": 2973,
+      "sha256_archived": "9e32d83ea920952983e2c2f2b6bee97c05ccf581b2e45ac560a7276cbe2bc59b"
+    },
+    {
+      "path": "College/CProgramming/C1/3.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/3.C"
+      ],
+      "sha256_original": "8406c98cc6cb123c54fbf155cdbd82f3d21303cce05407e7c2420cea58eb028b",
+      "bytes_original": 281,
+      "sha256_archived": "8406c98cc6cb123c54fbf155cdbd82f3d21303cce05407e7c2420cea58eb028b"
+    },
+    {
+      "path": "College/CProgramming/C1/3A.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/3A.C"
+      ],
+      "sha256_original": "4fe3dbb486cc45fa03a47a9dbb564c502ac566b14aa11cc3abef47730f9b8e1a",
+      "bytes_original": 362,
+      "sha256_archived": "4fe3dbb486cc45fa03a47a9dbb564c502ac566b14aa11cc3abef47730f9b8e1a"
+    },
+    {
+      "path": "College/CProgramming/C1/3B.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/3B.C"
+      ],
+      "sha256_original": "45e2e75c35587338e29f394be54adf92fc060b7438df3b43dff9eb304cf38a81",
+      "bytes_original": 313,
+      "sha256_archived": "45e2e75c35587338e29f394be54adf92fc060b7438df3b43dff9eb304cf38a81"
+    },
+    {
+      "path": "College/CProgramming/C1/FACT.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/FACT.C"
+      ],
+      "sha256_original": "74658df5b570c83d6900b773a09de9a39f8bd11f11d2df2f63f70e7c6db48516",
+      "bytes_original": 295,
+      "sha256_archived": "74658df5b570c83d6900b773a09de9a39f8bd11f11d2df2f63f70e7c6db48516"
+    },
+    {
+      "path": "College/CProgramming/C1/NAT.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/NAT.C"
+      ],
+      "sha256_original": "6ef94c0b5a51da0e735e9f368311d194d680bdbf2c572f334c454aa3ee9bce23",
+      "bytes_original": 300,
+      "sha256_archived": "6ef94c0b5a51da0e735e9f368311d194d680bdbf2c572f334c454aa3ee9bce23"
+    },
+    {
+      "path": "College/CProgramming/C1/PALIN.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/PALIN.C"
+      ],
+      "sha256_original": "52762748001a96b39814be43792b61769a53b394e913f993234ca97c167afd03",
+      "bytes_original": 377,
+      "sha256_archived": "52762748001a96b39814be43792b61769a53b394e913f993234ca97c167afd03"
+    },
+    {
+      "path": "College/CProgramming/C1/TABLE.C",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/TABLE.C"
+      ],
+      "sha256_original": "0f01a253375b67fe10859b555a1d268b24a9192c43d43d65e1e0b8eefecd3561",
+      "bytes_original": 315,
+      "sha256_archived": "0f01a253375b67fe10859b555a1d268b24a9192c43d43d65e1e0b8eefecd3561"
+    },
+    {
+      "path": "College/CProgramming/C1/armstrong.c",
+      "source_copies": [
+        "College/2nd sem/ITP/C1/armstrong.c"
+      ],
+      "sha256_original": "7f72250069144c304a62e72bcdef26f3bee0861d837d73ed839f325ab0d2e136",
+      "bytes_original": 578,
+      "sha256_archived": "7f72250069144c304a62e72bcdef26f3bee0861d837d73ed839f325ab0d2e136"
+    },
+    {
+      "path": "College/CProgramming/ITP/FIB.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/FIB.C"
+      ],
+      "sha256_original": "2001021d613f522a7ab33c2fe53c24affbd885285b448fbd011772b54cd90e59",
+      "bytes_original": 230,
+      "sha256_archived": "2001021d613f522a7ab33c2fe53c24affbd885285b448fbd011772b54cd90e59"
+    },
+    {
+      "path": "College/CProgramming/ITP/HANOI.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/HANOI.C"
+      ],
+      "sha256_original": "47f3f93f98a7bd13fb3b8c64879756cb5a8aea5586a28da0bb84c274496c2846",
+      "bytes_original": 810,
+      "sha256_archived": "47f3f93f98a7bd13fb3b8c64879756cb5a8aea5586a28da0bb84c274496c2846"
+    },
+    {
+      "path": "College/CProgramming/ITP/PYR.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/PYR.C"
+      ],
+      "sha256_original": "b1250f9f9e026fa018c0b6986cc3459d4a0f5ea8373fcd910b4af74056fed75a",
+      "bytes_original": 283,
+      "sha256_archived": "b1250f9f9e026fa018c0b6986cc3459d4a0f5ea8373fcd910b4af74056fed75a"
+    },
+    {
+      "path": "College/CProgramming/ITP/PYR1.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/PYR1.C"
+      ],
+      "sha256_original": "0e7566ab7b8deae0aa596c5a3a17a06ba2333e222a106c862f41a62fefc9699a",
+      "bytes_original": 340,
+      "sha256_archived": "0e7566ab7b8deae0aa596c5a3a17a06ba2333e222a106c862f41a62fefc9699a"
+    },
+    {
+      "path": "College/CProgramming/ITP/c/CAPT.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/c/CAPT.C"
+      ],
+      "sha256_original": "f72e7daa726939debb5c7ab0a617ddcb4667f691ba0e5a07af34980b2607f38c",
+      "bytes_original": 646,
+      "sha256_archived": "f72e7daa726939debb5c7ab0a617ddcb4667f691ba0e5a07af34980b2607f38c"
+    },
+    {
+      "path": "College/CProgramming/ITP/c/CIPHER.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/c/CIPHER.C"
+      ],
+      "sha256_original": "7b0519ec3ec22df3449e5a9be3f551d53ae9a6d20c85afbf0a54a60b471ec4eb",
+      "bytes_original": 305,
+      "sha256_archived": "7b0519ec3ec22df3449e5a9be3f551d53ae9a6d20c85afbf0a54a60b471ec4eb"
+    },
+    {
+      "path": "College/CProgramming/ITP/c/GEOM.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/c/GEOM.C"
+      ],
+      "sha256_original": "0142f32bcedab1bc3fdc8e7be6aa5396b75edaf8a4d6eaffb2544d0bd755096f",
+      "bytes_original": 441,
+      "sha256_archived": "0142f32bcedab1bc3fdc8e7be6aa5396b75edaf8a4d6eaffb2544d0bd755096f"
+    },
+    {
+      "path": "College/CProgramming/ITP/c/SUB.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/c/SUB.C"
+      ],
+      "sha256_original": "530ae28d967977529f121841aafa6994869af583ff7086d692e13fffcfeb9fff",
+      "bytes_original": 957,
+      "sha256_archived": "530ae28d967977529f121841aafa6994869af583ff7086d692e13fffcfeb9fff"
+    },
+    {
+      "path": "College/CProgramming/ITP/c/SUM.C",
+      "source_copies": [
+        "College/2nd sem/ITP/ITP/c/SUM.C"
+      ],
+      "sha256_original": "883f6c89b61a918e52ef5f547172859e22255772a2b361fc4cd6d60a883b0641",
+      "bytes_original": 275,
+      "sha256_archived": "883f6c89b61a918e52ef5f547172859e22255772a2b361fc4cd6d60a883b0641"
+    },
+    {
+      "path": "College/CProgramming/SORT.C",
+      "source_copies": [
+        "College/2nd sem/ITP/SORT.C"
+      ],
+      "sha256_original": "4b20b32aaca8b5dc3525a2edb76607fc0ab18b333f951f3507beadaf915c8b60",
+      "bytes_original": 1194,
+      "sha256_archived": "4b20b32aaca8b5dc3525a2edb76607fc0ab18b333f951f3507beadaf915c8b60"
+    },
+    {
+      "path": "College/ChatBug/final-print/App_Code/DataBaseDB.dbml",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/App_Code/DataBaseDB.dbml"
+      ],
+      "sha256_original": "e0b5e290d87c7b7632219ce5c61312c84d81b929b55fbb12b478bec5bb778bcc",
+      "bytes_original": 2867,
+      "sha256_archived": "e0b5e290d87c7b7632219ce5c61312c84d81b929b55fbb12b478bec5bb778bcc"
+    },
+    {
+      "path": "College/ChatBug/final-print/App_Code/DataBaseDB.dbml.layout",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/App_Code/DataBaseDB.dbml.layout"
+      ],
+      "sha256_original": "ffc0517a7c9cff061aee596ea0aa30b8fed637964d2d7c3b875d981f6bfdadf4",
+      "bytes_original": 1257,
+      "sha256_archived": "ffc0517a7c9cff061aee596ea0aa30b8fed637964d2d7c3b875d981f6bfdadf4"
+    },
+    {
+      "path": "College/ChatBug/final-print/App_Code/DataBaseDB.designer.cs",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/App_Code/DataBaseDB.designer.cs"
+      ],
+      "sha256_original": "404514f1c2a280580cd0d505856594d80cc2347fc8e56bf14ebe0f30fa5adc60",
+      "bytes_original": 15922,
+      "sha256_archived": "404514f1c2a280580cd0d505856594d80cc2347fc8e56bf14ebe0f30fa5adc60"
+    },
+    {
+      "path": "College/ChatBug/final-print/Default.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/Default.aspx"
+      ],
+      "sha256_original": "e556c8211ca23bb56326cae03a2106a7544b21cf298b64c68a2fb351dd35b3e8",
+      "bytes_original": 26876,
+      "sha256_archived": "e556c8211ca23bb56326cae03a2106a7544b21cf298b64c68a2fb351dd35b3e8"
+    },
+    {
+      "path": "College/ChatBug/final-print/Default.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/Default.aspx.cs"
+      ],
+      "sha256_original": "cddd4aded3fd29f641fa6ca28293f6db4038ca192529abaa4ab4316f4440dd3d",
+      "bytes_original": 8248,
+      "sha256_archived": "cddd4aded3fd29f641fa6ca28293f6db4038ca192529abaa4ab4316f4440dd3d"
+    },
+    {
+      "path": "College/ChatBug/final-print/HelpMe.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/HelpMe.aspx"
+      ],
+      "sha256_original": "a15f2f516bba05ea39112216d785d8a8d7bb8c672e8cec6e4abb3a41590bf029",
+      "bytes_original": 21424,
+      "sha256_archived": "a15f2f516bba05ea39112216d785d8a8d7bb8c672e8cec6e4abb3a41590bf029"
+    },
+    {
+      "path": "College/ChatBug/final-print/HelpMe.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/HelpMe.aspx.cs"
+      ],
+      "sha256_original": "097755a1619a5bdfcae91b3a9fc8a60e405012f56a8dfbc3b106090a8173b5dd",
+      "bytes_original": 3758,
+      "sha256_archived": "097755a1619a5bdfcae91b3a9fc8a60e405012f56a8dfbc3b106090a8173b5dd"
+    },
+    {
+      "path": "College/ChatBug/final-print/User/AccountInfo.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/User/AccountInfo.aspx"
+      ],
+      "sha256_original": "62dd1cadfe9b49a7002b09ef348b45fd6b9a1fac4ee33e2e46d653591b3ebbba",
+      "bytes_original": 21488,
+      "sha256_archived": "62dd1cadfe9b49a7002b09ef348b45fd6b9a1fac4ee33e2e46d653591b3ebbba"
+    },
+    {
+      "path": "College/ChatBug/final-print/User/AccountInfo.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/User/AccountInfo.aspx.cs"
+      ],
+      "sha256_original": "9342c21356881e5d2a3be1551d228f6d2a07f8ff21755818d0225c0876b9e8e8",
+      "bytes_original": 9286,
+      "sha256_archived": "9342c21356881e5d2a3be1551d228f6d2a07f8ff21755818d0225c0876b9e8e8"
+    },
+    {
+      "path": "College/ChatBug/final-print/User/ChatRoom.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/User/ChatRoom.aspx"
+      ],
+      "sha256_original": "6f1cf55bdbdddb0c67bb958a6eb1146c4123f357f93879011d50c04ae4a5457c",
+      "bytes_original": 13131,
+      "sha256_archived": "6f1cf55bdbdddb0c67bb958a6eb1146c4123f357f93879011d50c04ae4a5457c"
+    },
+    {
+      "path": "College/ChatBug/final-print/User/ChatRoom.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/User/ChatRoom.aspx.cs"
+      ],
+      "sha256_original": "8ef963d78ece0e3cea1391e0b24a0a00dad170d38361e4754084bdbbbd6e5d1c",
+      "bytes_original": 3294,
+      "sha256_archived": "8ef963d78ece0e3cea1391e0b24a0a00dad170d38361e4754084bdbbbd6e5d1c"
+    },
+    {
+      "path": "College/ChatBug/final-print/User/Web.config",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/User/Web.config"
+      ],
+      "sha256_original": "5c5d9a7e02cf79d26d223c7cd1f0f5d9d28ea9782c8feebc892d9fe028155e0b",
+      "bytes_original": 596,
+      "sha256_archived": "5c5d9a7e02cf79d26d223c7cd1f0f5d9d28ea9782c8feebc892d9fe028155e0b"
+    },
+    {
+      "path": "College/ChatBug/final-print/User/Welcome.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/User/Welcome.aspx"
+      ],
+      "sha256_original": "149e079dd7ba0f72232a3ab6b4c6d3ce249fbc0beeb06910bf87f824ab460476",
+      "bytes_original": 14288,
+      "sha256_archived": "149e079dd7ba0f72232a3ab6b4c6d3ce249fbc0beeb06910bf87f824ab460476"
+    },
+    {
+      "path": "College/ChatBug/final-print/User/Welcome.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/User/Welcome.aspx.cs"
+      ],
+      "sha256_original": "490ed1a7ce6d99023faed718d7cb32706aeaaade80b7fdde7215f1824015793f",
+      "bytes_original": 2264,
+      "sha256_archived": "490ed1a7ce6d99023faed718d7cb32706aeaaade80b7fdde7215f1824015793f"
+    },
+    {
+      "path": "College/ChatBug/final-print/images/SaveChanges.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/images/SaveChanges.jpg"
+      ],
+      "sha256_original": "f64da82d70949cd3d0e62267388bc03940433e39920c4eadc8374ebf7b385d58",
+      "bytes_original": 3626,
+      "sha256_archived": "f64da82d70949cd3d0e62267388bc03940433e39920c4eadc8374ebf7b385d58"
+    },
+    {
+      "path": "College/ChatBug/final-print/images/backgroundbug.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/images/backgroundbug.jpg"
+      ],
+      "sha256_original": "037ef024126ee3bf2be1cf651f456d94b048a447aec97027dbdc7bde06a2a3d6",
+      "bytes_original": 99949,
+      "sha256_archived": "037ef024126ee3bf2be1cf651f456d94b048a447aec97027dbdc7bde06a2a3d6"
+    },
+    {
+      "path": "College/ChatBug/final-print/images/chatbug.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/images/chatbug.jpg"
+      ],
+      "sha256_original": "7253b7a8d20533c538a523a2a1ecbc3bb29a98f5495084727a08afc8909413d5",
+      "bytes_original": 8219,
+      "sha256_archived": "7253b7a8d20533c538a523a2a1ecbc3bb29a98f5495084727a08afc8909413d5"
+    },
+    {
+      "path": "College/ChatBug/final-print/web.config",
+      "source_copies": [
+        "College/6th sem (Project)/Proj FINAL (PRINT)/PROJ WITHOUT IMAGE/Chat Project/web.config"
+      ],
+      "sha256_original": "c7bbd0e8cddf187c415a72e36c2fbba49db1ace9db0b3218eeabb4f07ad428da",
+      "bytes_original": 2354,
+      "sha256_archived": "c7bbd0e8cddf187c415a72e36c2fbba49db1ace9db0b3218eeabb4f07ad428da"
+    },
+    {
+      "path": "College/ChatBug/private-chat/App_Code/DataBaseDB.dbml",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/App_Code/DataBaseDB.dbml"
+      ],
+      "sha256_original": "d4231f30ea544d24654d630023d8b055920023b3b06af6e5440bddf0ee2f6ebd",
+      "bytes_original": 4545,
+      "sha256_archived": "d4231f30ea544d24654d630023d8b055920023b3b06af6e5440bddf0ee2f6ebd"
+    },
+    {
+      "path": "College/ChatBug/private-chat/App_Code/DataBaseDB.dbml.layout",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/App_Code/DataBaseDB.dbml.layout"
+      ],
+      "sha256_original": "15d4da9aa3cd32381f263f5467c79148b87aba2c10e4dee4a807a33c3809a820",
+      "bytes_original": 2189,
+      "sha256_archived": "15d4da9aa3cd32381f263f5467c79148b87aba2c10e4dee4a807a33c3809a820"
+    },
+    {
+      "path": "College/ChatBug/private-chat/App_Code/DataBaseDB.designer.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/App_Code/DataBaseDB.designer.cs"
+      ],
+      "sha256_original": "e1a64bcdfcaa78307ae45d7dcd4891ed62e54c694613e84d349fb76e4cba5dd4",
+      "bytes_original": 24812,
+      "sha256_archived": "e1a64bcdfcaa78307ae45d7dcd4891ed62e54c694613e84d349fb76e4cba5dd4"
+    },
+    {
+      "path": "College/ChatBug/private-chat/Default.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/Default.aspx"
+      ],
+      "sha256_original": "d0359c3816da9bfbd906ec8040a49504f3cdcc18c7ecc8382080b2403413cd89",
+      "bytes_original": 26726,
+      "sha256_archived": "d0359c3816da9bfbd906ec8040a49504f3cdcc18c7ecc8382080b2403413cd89"
+    },
+    {
+      "path": "College/ChatBug/private-chat/Default.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/Default.aspx.cs"
+      ],
+      "sha256_original": "98249f1dac76f5b79ef2416be8fb1d250bad5abebc9113828d6e577d8b8807aa",
+      "bytes_original": 7033,
+      "sha256_archived": "98249f1dac76f5b79ef2416be8fb1d250bad5abebc9113828d6e577d8b8807aa"
+    },
+    {
+      "path": "College/ChatBug/private-chat/HelpMe.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/HelpMe.aspx"
+      ],
+      "sha256_original": "73fb03a98a7366ccfec746d1b8c1e4b06f9e47909859ebd21e0fb57f20cb5e30",
+      "bytes_original": 21429,
+      "sha256_archived": "73fb03a98a7366ccfec746d1b8c1e4b06f9e47909859ebd21e0fb57f20cb5e30"
+    },
+    {
+      "path": "College/ChatBug/private-chat/HelpMe.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/HelpMe.aspx.cs"
+      ],
+      "sha256_original": "4cec4eff86cf9dc9aafe8ef4b242977b0bb7318b34e48d0e024a168c4a3ce4b5",
+      "bytes_original": 3708,
+      "sha256_archived": "4cec4eff86cf9dc9aafe8ef4b242977b0bb7318b34e48d0e024a168c4a3ce4b5"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/AccountInfo.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/AccountInfo.aspx"
+      ],
+      "sha256_original": "1651ed2e17bdfd274e8735de40d58990651847a685574f9c0cc6a536d854521a",
+      "bytes_original": 21511,
+      "sha256_archived": "1651ed2e17bdfd274e8735de40d58990651847a685574f9c0cc6a536d854521a"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/AccountInfo.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/AccountInfo.aspx.cs"
+      ],
+      "sha256_original": "f47136a4cdb56a4ca67a6d93287d048098e24a2cc9a3e631a4608986d4082bb4",
+      "bytes_original": 8858,
+      "sha256_archived": "f47136a4cdb56a4ca67a6d93287d048098e24a2cc9a3e631a4608986d4082bb4"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/ChatRoom.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/ChatRoom.aspx"
+      ],
+      "sha256_original": "8492781c6404e559fe0d54e54773cb2cff37658a8f79b03320ff53f31645bfbc",
+      "bytes_original": 19968,
+      "sha256_archived": "8492781c6404e559fe0d54e54773cb2cff37658a8f79b03320ff53f31645bfbc"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/ChatRoom.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/ChatRoom.aspx.cs"
+      ],
+      "sha256_original": "23e2248f5878a86b3c9b3aa7d1f910c85a616b7c9f35b2d1c2936f52ee65528e",
+      "bytes_original": 11375,
+      "sha256_archived": "23e2248f5878a86b3c9b3aa7d1f910c85a616b7c9f35b2d1c2936f52ee65528e"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/PrivateWindow.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/PrivateWindow.aspx"
+      ],
+      "sha256_original": "e1fa375a5395510362f0ab2a06af6568027e7f3be700ed81caa27a432a29b2e1",
+      "bytes_original": 2415,
+      "sha256_archived": "e1fa375a5395510362f0ab2a06af6568027e7f3be700ed81caa27a432a29b2e1"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/PrivateWindow.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/PrivateWindow.aspx.cs"
+      ],
+      "sha256_original": "eb074ac55494353c3f4edb09f5e667c6b0f2a926947c4dc5342c3f33d230f20d",
+      "bytes_original": 2876,
+      "sha256_archived": "eb074ac55494353c3f4edb09f5e667c6b0f2a926947c4dc5342c3f33d230f20d"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/Web.config",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/Web.config"
+      ],
+      "sha256_original": "5c5d9a7e02cf79d26d223c7cd1f0f5d9d28ea9782c8feebc892d9fe028155e0b",
+      "bytes_original": 596,
+      "sha256_archived": "5c5d9a7e02cf79d26d223c7cd1f0f5d9d28ea9782c8feebc892d9fe028155e0b"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/Welcome.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/Welcome.aspx"
+      ],
+      "sha256_original": "52186e748f497b79921747a2d1209410b97df8ece9a0dbb4959dd28de3bb1968",
+      "bytes_original": 14370,
+      "sha256_archived": "52186e748f497b79921747a2d1209410b97df8ece9a0dbb4959dd28de3bb1968"
+    },
+    {
+      "path": "College/ChatBug/private-chat/User/Welcome.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/User/Welcome.aspx.cs"
+      ],
+      "sha256_original": "b1e280b31591bf862fd4da2dcd6f1c088bc307406086d58d2d256489c9a1c87a",
+      "bytes_original": 1910,
+      "sha256_archived": "b1e280b31591bf862fd4da2dcd6f1c088bc307406086d58d2d256489c9a1c87a"
+    },
+    {
+      "path": "College/ChatBug/private-chat/images/SaveChanges.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/images/SaveChanges.jpg"
+      ],
+      "sha256_original": "f64da82d70949cd3d0e62267388bc03940433e39920c4eadc8374ebf7b385d58",
+      "bytes_original": 3626,
+      "sha256_archived": "f64da82d70949cd3d0e62267388bc03940433e39920c4eadc8374ebf7b385d58"
+    },
+    {
+      "path": "College/ChatBug/private-chat/images/backgroundbug.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/images/backgroundbug.jpg"
+      ],
+      "sha256_original": "037ef024126ee3bf2be1cf651f456d94b048a447aec97027dbdc7bde06a2a3d6",
+      "bytes_original": 99949,
+      "sha256_archived": "037ef024126ee3bf2be1cf651f456d94b048a447aec97027dbdc7bde06a2a3d6"
+    },
+    {
+      "path": "College/ChatBug/private-chat/images/chatbug.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/images/chatbug.jpg"
+      ],
+      "sha256_original": "7253b7a8d20533c538a523a2a1ecbc3bb29a98f5495084727a08afc8909413d5",
+      "bytes_original": 8219,
+      "sha256_archived": "7253b7a8d20533c538a523a2a1ecbc3bb29a98f5495084727a08afc8909413d5"
+    },
+    {
+      "path": "College/ChatBug/private-chat/images/editedbug.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/images/editedbug.jpg"
+      ],
+      "sha256_original": "3ad2b664f8994bcf42123af4be6f797f31e69ac2b6b4ea378e2452568eb7dd36",
+      "bytes_original": 13176,
+      "sha256_archived": "3ad2b664f8994bcf42123af4be6f797f31e69ac2b6b4ea378e2452568eb7dd36"
+    },
+    {
+      "path": "College/ChatBug/private-chat/privacy.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/privacy.aspx"
+      ],
+      "sha256_original": "8e473c4c1cd181b8313dc1ac4501dfca9de2cb32ccf566b469bbf17fad3a32c1",
+      "bytes_original": 15152,
+      "sha256_archived": "8e473c4c1cd181b8313dc1ac4501dfca9de2cb32ccf566b469bbf17fad3a32c1"
+    },
+    {
+      "path": "College/ChatBug/private-chat/privacy.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/privacy.aspx.cs"
+      ],
+      "sha256_original": "6a1ad844c1caf39fcc91dbdd1269f9fff1f63711b18295cd82446f87f09f86fa",
+      "bytes_original": 452,
+      "sha256_archived": "6a1ad844c1caf39fcc91dbdd1269f9fff1f63711b18295cd82446f87f09f86fa"
+    },
+    {
+      "path": "College/ChatBug/private-chat/web.config",
+      "source_copies": [
+        "College/6th sem (Project)/ChatBug with private chat (FINAL ROHIT)/ChatBug/ChatBug/ChatBug - nitin and rohit/web.config"
+      ],
+      "sha256_original": "202d897df9e98480dc23925fbacc8a02b57a336de96b8b0fc63985d1f54b1b58",
+      "bytes_original": 8581,
+      "sha256_archived": "202d897df9e98480dc23925fbacc8a02b57a336de96b8b0fc63985d1f54b1b58"
+    },
+    {
+      "path": "College/ChatBug/with-image/App_Code/DataBaseDB.dbml",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/App_Code/DataBaseDB.dbml"
+      ],
+      "sha256_original": "e0b5e290d87c7b7632219ce5c61312c84d81b929b55fbb12b478bec5bb778bcc",
+      "bytes_original": 2867,
+      "sha256_archived": "e0b5e290d87c7b7632219ce5c61312c84d81b929b55fbb12b478bec5bb778bcc"
+    },
+    {
+      "path": "College/ChatBug/with-image/App_Code/DataBaseDB.dbml.layout",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/App_Code/DataBaseDB.dbml.layout"
+      ],
+      "sha256_original": "ffc0517a7c9cff061aee596ea0aa30b8fed637964d2d7c3b875d981f6bfdadf4",
+      "bytes_original": 1257,
+      "sha256_archived": "ffc0517a7c9cff061aee596ea0aa30b8fed637964d2d7c3b875d981f6bfdadf4"
+    },
+    {
+      "path": "College/ChatBug/with-image/App_Code/DataBaseDB.designer.cs",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/App_Code/DataBaseDB.designer.cs"
+      ],
+      "sha256_original": "404514f1c2a280580cd0d505856594d80cc2347fc8e56bf14ebe0f30fa5adc60",
+      "bytes_original": 15922,
+      "sha256_archived": "404514f1c2a280580cd0d505856594d80cc2347fc8e56bf14ebe0f30fa5adc60"
+    },
+    {
+      "path": "College/ChatBug/with-image/Default.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/Default.aspx"
+      ],
+      "sha256_original": "b07d1a84590c6705caa0f43fa205cf396ec6a6f3e6da96350db1e2a6c69dfd55",
+      "bytes_original": 27031,
+      "sha256_archived": "b07d1a84590c6705caa0f43fa205cf396ec6a6f3e6da96350db1e2a6c69dfd55"
+    },
+    {
+      "path": "College/ChatBug/with-image/Default.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/Default.aspx.cs"
+      ],
+      "sha256_original": "6ba03fcbd3ec9b3e4ed731cb7f9d49c32685ea1d3a1e6ea3da1045784a507d92",
+      "bytes_original": 6864,
+      "sha256_archived": "6ba03fcbd3ec9b3e4ed731cb7f9d49c32685ea1d3a1e6ea3da1045784a507d92"
+    },
+    {
+      "path": "College/ChatBug/with-image/HelpMe.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/HelpMe.aspx"
+      ],
+      "sha256_original": "a15f2f516bba05ea39112216d785d8a8d7bb8c672e8cec6e4abb3a41590bf029",
+      "bytes_original": 21424,
+      "sha256_archived": "a15f2f516bba05ea39112216d785d8a8d7bb8c672e8cec6e4abb3a41590bf029"
+    },
+    {
+      "path": "College/ChatBug/with-image/HelpMe.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/HelpMe.aspx.cs"
+      ],
+      "sha256_original": "4cec4eff86cf9dc9aafe8ef4b242977b0bb7318b34e48d0e024a168c4a3ce4b5",
+      "bytes_original": 3708,
+      "sha256_archived": "4cec4eff86cf9dc9aafe8ef4b242977b0bb7318b34e48d0e024a168c4a3ce4b5"
+    },
+    {
+      "path": "College/ChatBug/with-image/User/AccountInfo.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/User/AccountInfo.aspx"
+      ],
+      "sha256_original": "62dd1cadfe9b49a7002b09ef348b45fd6b9a1fac4ee33e2e46d653591b3ebbba",
+      "bytes_original": 21488,
+      "sha256_archived": "62dd1cadfe9b49a7002b09ef348b45fd6b9a1fac4ee33e2e46d653591b3ebbba"
+    },
+    {
+      "path": "College/ChatBug/with-image/User/AccountInfo.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/User/AccountInfo.aspx.cs"
+      ],
+      "sha256_original": "1cda2af321400e9954bf66b95b32f2e1fc0377b7cf7225e83bf2cfdb29db55b2",
+      "bytes_original": 8899,
+      "sha256_archived": "1cda2af321400e9954bf66b95b32f2e1fc0377b7cf7225e83bf2cfdb29db55b2"
+    },
+    {
+      "path": "College/ChatBug/with-image/User/ChatRoom.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/User/ChatRoom.aspx"
+      ],
+      "sha256_original": "c2393aca963dcb937ee92441c3e3767c02c7eb8749231a8a26aba63ffd264325",
+      "bytes_original": 13110,
+      "sha256_archived": "c2393aca963dcb937ee92441c3e3767c02c7eb8749231a8a26aba63ffd264325"
+    },
+    {
+      "path": "College/ChatBug/with-image/User/ChatRoom.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/User/ChatRoom.aspx.cs"
+      ],
+      "sha256_original": "6cf3a7f6161a4cfcd9d4c946f9997a5e96b511f70a3a81696d6059c78a27bd8a",
+      "bytes_original": 2989,
+      "sha256_archived": "6cf3a7f6161a4cfcd9d4c946f9997a5e96b511f70a3a81696d6059c78a27bd8a"
+    },
+    {
+      "path": "College/ChatBug/with-image/User/Web.config",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/User/Web.config"
+      ],
+      "sha256_original": "5c5d9a7e02cf79d26d223c7cd1f0f5d9d28ea9782c8feebc892d9fe028155e0b",
+      "bytes_original": 596,
+      "sha256_archived": "5c5d9a7e02cf79d26d223c7cd1f0f5d9d28ea9782c8feebc892d9fe028155e0b"
+    },
+    {
+      "path": "College/ChatBug/with-image/User/Welcome.aspx",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/User/Welcome.aspx"
+      ],
+      "sha256_original": "6ee7b82df47e7f13e033feeb7451c7a6a3cfa9e56fa63877869dd08f5a08ff26",
+      "bytes_original": 14365,
+      "sha256_archived": "6ee7b82df47e7f13e033feeb7451c7a6a3cfa9e56fa63877869dd08f5a08ff26"
+    },
+    {
+      "path": "College/ChatBug/with-image/User/Welcome.aspx.cs",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/User/Welcome.aspx.cs"
+      ],
+      "sha256_original": "bb58bd7835a6fe0a7f6337f3a8cf2369de5793a12236750216ae7eef393a28f5",
+      "bytes_original": 2114,
+      "sha256_archived": "bb58bd7835a6fe0a7f6337f3a8cf2369de5793a12236750216ae7eef393a28f5"
+    },
+    {
+      "path": "College/ChatBug/with-image/images/SaveChanges.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/images/SaveChanges.jpg"
+      ],
+      "sha256_original": "f64da82d70949cd3d0e62267388bc03940433e39920c4eadc8374ebf7b385d58",
+      "bytes_original": 3626,
+      "sha256_archived": "f64da82d70949cd3d0e62267388bc03940433e39920c4eadc8374ebf7b385d58"
+    },
+    {
+      "path": "College/ChatBug/with-image/images/backgroundbug.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/images/backgroundbug.jpg"
+      ],
+      "sha256_original": "037ef024126ee3bf2be1cf651f456d94b048a447aec97027dbdc7bde06a2a3d6",
+      "bytes_original": 99949,
+      "sha256_archived": "037ef024126ee3bf2be1cf651f456d94b048a447aec97027dbdc7bde06a2a3d6"
+    },
+    {
+      "path": "College/ChatBug/with-image/images/chatbug.jpg",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/images/chatbug.jpg"
+      ],
+      "sha256_original": "7253b7a8d20533c538a523a2a1ecbc3bb29a98f5495084727a08afc8909413d5",
+      "bytes_original": 8219,
+      "sha256_archived": "7253b7a8d20533c538a523a2a1ecbc3bb29a98f5495084727a08afc8909413d5"
+    },
+    {
+      "path": "College/ChatBug/with-image/web.config",
+      "source_copies": [
+        "College/6th sem (Project)/PROJ WITH IMAGE/Chat Project (Final) with image/Project(chat Perfect) with some changes/web.config"
+      ],
+      "sha256_original": "c7bbd0e8cddf187c415a72e36c2fbba49db1ace9db0b3218eeabb4f07ad428da",
+      "bytes_original": 2354,
+      "sha256_archived": "c7bbd0e8cddf187c415a72e36c2fbba49db1ace9db0b3218eeabb4f07ad428da"
+    },
+    {
+      "path": "College/DataStructures/cheenu programs ds/BUBBLE.CPP",
+      "source_copies": [
+        "College/3rd sem/ds lab/cheenu programs ds/BUBBLE.CPP"
+      ],
+      "sha256_original": "7938542d78b12173055a77090c0e58d20101c253855ae5ea41d63b3650de589a",
+      "bytes_original": 967,
+      "sha256_archived": "7938542d78b12173055a77090c0e58d20101c253855ae5ea41d63b3650de589a"
+    },
+    {
+      "path": "College/DataStructures/cheenu programs ds/ITP.CPP",
+      "source_copies": [
+        "College/3rd sem/ds lab/cheenu programs ds/ITP.CPP"
+      ],
+      "sha256_original": "e5f8830b512dc9deba5fa14abcc540eddda70392fae447593bbb709bcbb65722",
+      "bytes_original": 2694,
+      "sha256_archived": "e5f8830b512dc9deba5fa14abcc540eddda70392fae447593bbb709bcbb65722"
+    },
+    {
+      "path": "College/DataStructures/cheenu programs ds/ITPbuk99.C",
+      "source_copies": [
+        "College/3rd sem/ds lab/cheenu programs ds/ITPbuk99.C"
+      ],
+      "sha256_original": "c5e454c6a9a473237de47f14c9f692d63a9446d80738d2b2a4de0c1399f3b079",
+      "bytes_original": 3222,
+      "sha256_archived": "c5e454c6a9a473237de47f14c9f692d63a9446d80738d2b2a4de0c1399f3b079"
+    },
+    {
+      "path": "College/DataStructures/cheenu programs ds/LINK.CPP",
+      "source_copies": [
+        "College/3rd sem/ds lab/cheenu programs ds/LINK.CPP"
+      ],
+      "sha256_original": "47ad850e8820f9e50ef6e2dba7c19a4d565322b91338bdc6765ac8c02c067280",
+      "bytes_original": 3473,
+      "sha256_archived": "47ad850e8820f9e50ef6e2dba7c19a4d565322b91338bdc6765ac8c02c067280"
+    },
+    {
+      "path": "College/DataStructures/cheenu programs ds/insertion.cpp",
+      "source_copies": [
+        "College/3rd sem/ds lab/cheenu programs ds/insertion.cpp"
+      ],
+      "sha256_original": "a93f2166795807cc6cb060c6dde6db23fb8eee6d1b6e1d72cc7f646c8bdf94de",
+      "bytes_original": 780,
+      "sha256_archived": "a93f2166795807cc6cb060c6dde6db23fb8eee6d1b6e1d72cc7f646c8bdf94de"
+    },
+    {
+      "path": "College/DataStructures/cheenu programs ds/mergesort.cpp",
+      "source_copies": [
+        "College/3rd sem/ds lab/cheenu programs ds/mergesort.cpp"
+      ],
+      "sha256_original": "657f7d5cd8582af2efa4812a74a5ebd5bb01822bf37d7cb884a13f0306057454",
+      "bytes_original": 1119,
+      "sha256_archived": "657f7d5cd8582af2efa4812a74a5ebd5bb01822bf37d7cb884a13f0306057454"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/ARRAY(IT).txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/ARRAY(IT).txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/ARRAY(IT).txt"
+      ],
+      "sha256_original": "ec7bb980aa5bfc97f0b03dd508f610bdfed40fb92f99a6ec1c7df7f559077f76",
+      "bytes_original": 995,
+      "sha256_archived": "ec7bb980aa5bfc97f0b03dd508f610bdfed40fb92f99a6ec1c7df7f559077f76"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/B.search.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/B.search.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/B.search.txt"
+      ],
+      "sha256_original": "8b1f78996a0b5673a3e501de4514c177555da17c5af9a7dba01792a6c768069d",
+      "bytes_original": 988,
+      "sha256_archived": "8b1f78996a0b5673a3e501de4514c177555da17c5af9a7dba01792a6c768069d"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/CLINKBEG.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/CLINKBEG.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/CLINKBEG.txt"
+      ],
+      "sha256_original": "b665f34c5c8408170127e3ce70b35e47dcac17e718c846ea8bf85a5d0572d004",
+      "bytes_original": 1471,
+      "sha256_archived": "b665f34c5c8408170127e3ce70b35e47dcac17e718c846ea8bf85a5d0572d004"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/CQUEUE.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/CQUEUE.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/CQUEUE.txt"
+      ],
+      "sha256_original": "2d5c1889f46c04b934a171641389cabd31c2231eb67bf83c7c95c615d8b28802",
+      "bytes_original": 1371,
+      "sha256_archived": "2d5c1889f46c04b934a171641389cabd31c2231eb67bf83c7c95c615d8b28802"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/DELETION.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/DELETION.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/DELETION.txt"
+      ],
+      "sha256_original": "db0b85db487279fd2fd5bcacbb1d9821b20386f6ee1536a419473c03e500f718",
+      "bytes_original": 757,
+      "sha256_archived": "db0b85db487279fd2fd5bcacbb1d9821b20386f6ee1536a419473c03e500f718"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/INSERTION.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/INSERTION.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/INSERTION.txt"
+      ],
+      "sha256_original": "09470d61d7092b1db11218c43fd7f50aa3d9304ea069691a022fe3279b4e214f",
+      "bytes_original": 756,
+      "sha256_archived": "09470d61d7092b1db11218c43fd7f50aa3d9304ea069691a022fe3279b4e214f"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/L.search - Copy.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/L.search - Copy.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/L.search - Copy.txt"
+      ],
+      "sha256_original": "61ff0876195b878a570e716513b7a21154d772072af7392f419e8d55b56b3a4c",
+      "bytes_original": 809,
+      "sha256_archived": "61ff0876195b878a570e716513b7a21154d772072af7392f419e8d55b56b3a4c"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/LINKINSERTDELBEG.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/LINKINSERTDELBEG.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/LINKINSERTDELBEG.txt"
+      ],
+      "sha256_original": "020f1505f362f01548523181a2de2ead9bbbefe039c774d19db304a058776077",
+      "bytes_original": 1466,
+      "sha256_archived": "020f1505f362f01548523181a2de2ead9bbbefe039c774d19db304a058776077"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/LINKINSERTDELEND.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/LINKINSERTDELEND.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/LINKINSERTDELEND.txt"
+      ],
+      "sha256_original": "d31bdd6073cdb4d37e1aa452bbbc6bb18cf1a013e2f0bccbc198b5d73a40f2cd",
+      "bytes_original": 1428,
+      "sha256_archived": "d31bdd6073cdb4d37e1aa452bbbc6bb18cf1a013e2f0bccbc198b5d73a40f2cd"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/LINKLISTINSERTPOS.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/LINKLISTINSERTPOS.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/LINKLISTINSERTPOS.txt"
+      ],
+      "sha256_original": "1c31b5db882c8272f3f539d75e7f1fd52f79354281e9d662bcc1449ce58cd4a1",
+      "bytes_original": 1312,
+      "sha256_archived": "1c31b5db882c8272f3f539d75e7f1fd52f79354281e9d662bcc1449ce58cd4a1"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/LQUEUE.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/LQUEUE.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/LQUEUE.txt"
+      ],
+      "sha256_original": "2508452f29e5cf288952c465270ac44c0b232f12b2936abb233f00b9423c4cca",
+      "bytes_original": 1372,
+      "sha256_archived": "2508452f29e5cf288952c465270ac44c0b232f12b2936abb233f00b9423c4cca"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/MATRIXAST.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/MATRIXAST.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/MATRIXAST.txt"
+      ],
+      "sha256_original": "b2cc5a4312776b089a60856b33061955c59073e49fc447516889e7beb2f73d8f",
+      "bytes_original": 1961,
+      "sha256_archived": "b2cc5a4312776b089a60856b33061955c59073e49fc447516889e7beb2f73d8f"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/STACK.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/STACK.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/STACK.txt"
+      ],
+      "sha256_original": "277bd67a65abb44c12b6a49586a18449c43f0726922ccceba38b295556e40d9b",
+      "bytes_original": 1125,
+      "sha256_archived": "277bd67a65abb44c12b6a49586a18449c43f0726922ccceba38b295556e40d9b"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/STRING.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/STRING.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/STRING.txt"
+      ],
+      "sha256_original": "87ebe6df3d83188439a1cff9edfa268961c57dd00f2ca6f90240ccf2015e2be4",
+      "bytes_original": 882,
+      "sha256_archived": "87ebe6df3d83188439a1cff9edfa268961c57dd00f2ca6f90240ccf2015e2be4"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/Selection.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/Selection.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/Selection.txt"
+      ],
+      "sha256_original": "a92aadc7b1063d07a7739bba0f29d3a87a46e8a10d4b74bf77bbf69fd86711f9",
+      "bytes_original": 803,
+      "sha256_archived": "a92aadc7b1063d07a7739bba0f29d3a87a46e8a10d4b74bf77bbf69fd86711f9"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/TRAVERSING.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/TRAVERSING.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/TRAVERSING.txt"
+      ],
+      "sha256_original": "9b495c30c5c264198b31876f375288dfb6048c421910595f5cc28f2642b3bf1d",
+      "bytes_original": 496,
+      "sha256_archived": "9b495c30c5c264198b31876f375288dfb6048c421910595f5cc28f2642b3bf1d"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/bubblesort.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/bubblesort.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/bubblesort.txt"
+      ],
+      "sha256_original": "661fd75571fdd44e80ce949586ae4adb276232e53a9909809a8a5ca740e10bfd",
+      "bytes_original": 568,
+      "sha256_archived": "661fd75571fdd44e80ce949586ae4adb276232e53a9909809a8a5ca740e10bfd"
+    },
+    {
+      "path": "College/DataStructures/programs/ds PROGRAMS/ds PROGRAMS/matrixmultiplication.txt",
+      "source_copies": [
+        "College/3rd sem/ds lab/programs/ds PROGRAMS/ds PROGRAMS/matrixmultiplication.txt",
+        "College/3rd sem/ds lab/programs1/ds PROGRAMS/ds PROGRAMS/matrixmultiplication.txt"
+      ],
+      "sha256_original": "0db3fed05e32ce9fa7b8a29add55d59f322f2e81cf522b477d4e0d12ff3cc533",
+      "bytes_original": 1040,
+      "sha256_archived": "0db3fed05e32ce9fa7b8a29add55d59f322f2e81cf522b477d4e0d12ff3cc533"
+    },
+    {
+      "path": "College/GadgetGuru/ChatRoom.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/ChatRoom.aspx"
+      ],
+      "sha256_original": "6bbe3230da251a14606bb713ce92578a86f174c6f82d2cafe667ef98c1434555",
+      "bytes_original": 432,
+      "sha256_archived": "6bbe3230da251a14606bb713ce92578a86f174c6f82d2cafe667ef98c1434555"
+    },
+    {
+      "path": "College/GadgetGuru/ChatRoom.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/ChatRoom.aspx.cs"
+      ],
+      "sha256_original": "cebd066d8e98596ab934903cb4db4a531bf78e5bf92d430920be5bd6abf63d8a",
+      "bytes_original": 280,
+      "sha256_archived": "cebd066d8e98596ab934903cb4db4a531bf78e5bf92d430920be5bd6abf63d8a"
+    },
+    {
+      "path": "College/GadgetGuru/Images/asus.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/asus.gif"
+      ],
+      "sha256_original": "2a21f5620e0d611b9887646d0442765feca566146c737db88daef30dc9c822af",
+      "bytes_original": 11279,
+      "sha256_archived": "2a21f5620e0d611b9887646d0442765feca566146c737db88daef30dc9c822af"
+    },
+    {
+      "path": "College/GadgetGuru/Images/blackberry.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/blackberry.gif"
+      ],
+      "sha256_original": "5490fe554b5354ff889cb2f87b8977d453d553914f452fa79d9f4d1914cede80",
+      "bytes_original": 11302,
+      "sha256_archived": "5490fe554b5354ff889cb2f87b8977d453d553914f452fa79d9f4d1914cede80"
+    },
+    {
+      "path": "College/GadgetGuru/Images/flip.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/flip.gif"
+      ],
+      "sha256_original": "5574551469b03a893087c55cbd7d03e7050691ce49cae5690cb63fa0c0cafc1a",
+      "bytes_original": 9936,
+      "sha256_archived": "5574551469b03a893087c55cbd7d03e7050691ce49cae5690cb63fa0c0cafc1a"
+    },
+    {
+      "path": "College/GadgetGuru/Images/gadgets.jpg",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/gadgets.jpg"
+      ],
+      "sha256_original": "fc48dfb298c47b43b86812e1c67968fab5ef3b3cd46f20d14f999aceef3dd06a",
+      "bytes_original": 34842,
+      "sha256_archived": "fc48dfb298c47b43b86812e1c67968fab5ef3b3cd46f20d14f999aceef3dd06a"
+    },
+    {
+      "path": "College/GadgetGuru/Images/ipod.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/ipod.gif"
+      ],
+      "sha256_original": "956fa368e067b9557e76eb18726ea5002de965d71036078f370ead98f723c4f9",
+      "bytes_original": 6603,
+      "sha256_archived": "956fa368e067b9557e76eb18726ea5002de965d71036078f370ead98f723c4f9"
+    },
+    {
+      "path": "College/GadgetGuru/Images/lgenv.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/lgenv.gif"
+      ],
+      "sha256_original": "e49b16512ff6eed628d6ef42dfe9b40f9e68ddee50b8448b070929e997ec7230",
+      "bytes_original": 17539,
+      "sha256_archived": "e49b16512ff6eed628d6ef42dfe9b40f9e68ddee50b8448b070929e997ec7230"
+    },
+    {
+      "path": "College/GadgetGuru/Images/logitech.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/logitech.gif"
+      ],
+      "sha256_original": "a2ab2096b9f3b8e69b372be464e422f819b5f8682d95447a92f5131a73924b09",
+      "bytes_original": 6900,
+      "sha256_archived": "a2ab2096b9f3b8e69b372be464e422f819b5f8682d95447a92f5131a73924b09"
+    },
+    {
+      "path": "College/GadgetGuru/Images/logitechsqueeze.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/logitechsqueeze.gif"
+      ],
+      "sha256_original": "98e2488505bf41f6ddb01242a624999ad4bbb511ed124bb0858d4913bb193bee",
+      "bytes_original": 10413,
+      "sha256_archived": "98e2488505bf41f6ddb01242a624999ad4bbb511ed124bb0858d4913bb193bee"
+    },
+    {
+      "path": "College/GadgetGuru/Images/nintendo.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/nintendo.gif"
+      ],
+      "sha256_original": "b98527beffce4d2ca73d77e2404dbed3165960570d1616ad3ec7f44834197c11",
+      "bytes_original": 8960,
+      "sha256_archived": "b98527beffce4d2ca73d77e2404dbed3165960570d1616ad3ec7f44834197c11"
+    },
+    {
+      "path": "College/GadgetGuru/Images/palm.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/palm.gif"
+      ],
+      "sha256_original": "812eafe4bdd5f7b16d68f72939d5d79d35bae302077e926af72a019cc5915b1a",
+      "bytes_original": 7950,
+      "sha256_archived": "812eafe4bdd5f7b16d68f72939d5d79d35bae302077e926af72a019cc5915b1a"
+    },
+    {
+      "path": "College/GadgetGuru/Images/panasonic.gif",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/panasonic.gif"
+      ],
+      "sha256_original": "3b3eb7ecf58958c25dd661f6316927175eeba9429da2a99a34905e6b2a2aeb1e",
+      "bytes_original": 14004,
+      "sha256_archived": "3b3eb7ecf58958c25dd661f6316927175eeba9429da2a99a34905e6b2a2aeb1e"
+    },
+    {
+      "path": "College/GadgetGuru/Images/untitled.bmp",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Images/untitled.bmp"
+      ],
+      "sha256_original": "e52543c8966f693ebab0b8c07ecfcc551030ab1b54566c982f675b197e7294bc",
+      "bytes_original": 2949174,
+      "sha256_archived": "e52543c8966f693ebab0b8c07ecfcc551030ab1b54566c982f675b197e7294bc"
+    },
+    {
+      "path": "College/GadgetGuru/LogOut.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/LogOut.aspx"
+      ],
+      "sha256_original": "6a2897b4f07861785f262a1bea9de9145db3f1dad7589e9a18fb5dabc1dd1318",
+      "bytes_original": 428,
+      "sha256_archived": "6a2897b4f07861785f262a1bea9de9145db3f1dad7589e9a18fb5dabc1dd1318"
+    },
+    {
+      "path": "College/GadgetGuru/LogOut.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/LogOut.aspx.cs"
+      ],
+      "sha256_original": "a7b208d1141afd7c35e5ab1fa1bb60dff02db3dba77e689770d8ff9016a05c4c",
+      "bytes_original": 568,
+      "sha256_archived": "a7b208d1141afd7c35e5ab1fa1bb60dff02db3dba77e689770d8ff9016a05c4c"
+    },
+    {
+      "path": "College/GadgetGuru/Login.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Login.aspx"
+      ],
+      "sha256_original": "1fd64461c2d8881062de44093267eeb359888881dd75dcdc6f9d52f1346d7df0",
+      "bytes_original": 1976,
+      "sha256_archived": "1fd64461c2d8881062de44093267eeb359888881dd75dcdc6f9d52f1346d7df0"
+    },
+    {
+      "path": "College/GadgetGuru/Login.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Login.aspx.cs"
+      ],
+      "sha256_original": "fb3018b23c8cdeed1a206e2215faed9420852e88f7a1beb1f872a6b8a4fc5c1e",
+      "bytes_original": 1634,
+      "sha256_archived": "fb3018b23c8cdeed1a206e2215faed9420852e88f7a1beb1f872a6b8a4fc5c1e"
+    },
+    {
+      "path": "College/GadgetGuru/MasterPage.master",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/MasterPage.master"
+      ],
+      "sha256_original": "74abfee5a77472938bdffbfe91086fd2df1e6da518ab2b6ef1d140af5234bc1b",
+      "bytes_original": 2369,
+      "sha256_archived": "74abfee5a77472938bdffbfe91086fd2df1e6da518ab2b6ef1d140af5234bc1b"
+    },
+    {
+      "path": "College/GadgetGuru/MasterPage.master.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/MasterPage.master.cs"
+      ],
+      "sha256_original": "aa6e65a42c6f25ea480aae4ea7c0e1fc3397270a8c2f8648244bd7ae0a9a5089",
+      "bytes_original": 461,
+      "sha256_archived": "aa6e65a42c6f25ea480aae4ea7c0e1fc3397270a8c2f8648244bd7ae0a9a5089"
+    },
+    {
+      "path": "College/GadgetGuru/RegSuc.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/RegSuc.aspx"
+      ],
+      "sha256_original": "71776127702649538af0ffe7be98d2a3c40381fd6fdd14fd084dcca6c4b02718",
+      "bytes_original": 873,
+      "sha256_archived": "71776127702649538af0ffe7be98d2a3c40381fd6fdd14fd084dcca6c4b02718"
+    },
+    {
+      "path": "College/GadgetGuru/RegSuc.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/RegSuc.aspx.cs"
+      ],
+      "sha256_original": "eef208dda978f9a13ae5672ded941b5e97a1f67b463411fe315afa7e22bf7667",
+      "bytes_original": 459,
+      "sha256_archived": "eef208dda978f9a13ae5672ded941b5e97a1f67b463411fe315afa7e22bf7667"
+    },
+    {
+      "path": "College/GadgetGuru/Registration.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Registration.aspx"
+      ],
+      "sha256_original": "f5492563cda74154291f0e771070b7d6db2543ffeb9eca0912f11e1028201070",
+      "bytes_original": 3608,
+      "sha256_archived": "f5492563cda74154291f0e771070b7d6db2543ffeb9eca0912f11e1028201070"
+    },
+    {
+      "path": "College/GadgetGuru/Registration.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Registration.aspx.cs"
+      ],
+      "sha256_original": "827451dce32b0023083da7630ac2fa9a69351ba08b30a351e70877a904e9e3a7",
+      "bytes_original": 2236,
+      "sha256_archived": "827451dce32b0023083da7630ac2fa9a69351ba08b30a351e70877a904e9e3a7"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/AboutUs1.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/AboutUs1.aspx"
+      ],
+      "sha256_original": "ec09082be24e12e53cdfe942029942c071fc6543ed8124df45bee3078a9e292d",
+      "bytes_original": 1051,
+      "sha256_archived": "ec09082be24e12e53cdfe942029942c071fc6543ed8124df45bee3078a9e292d"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/AboutUs1.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/AboutUs1.aspx.cs"
+      ],
+      "sha256_original": "dc21f7638dfb34d7a02c21b5f8a2d2a59497980e40b9a1de325d82808d485de4",
+      "bytes_original": 461,
+      "sha256_archived": "dc21f7638dfb34d7a02c21b5f8a2d2a59497980e40b9a1de325d82808d485de4"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/Contact1.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/Contact1.aspx"
+      ],
+      "sha256_original": "e1a108c61154f5d4b0b8975d4294ca4845ce33ce7bb346ae70a54c4c23f387c9",
+      "bytes_original": 1616,
+      "sha256_archived": "e1a108c61154f5d4b0b8975d4294ca4845ce33ce7bb346ae70a54c4c23f387c9"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/Contact1.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/Contact1.aspx.cs"
+      ],
+      "sha256_original": "c4e4cf8d9c7a907200faf075dcd50325413873d240f09da233ea364b7420583b",
+      "bytes_original": 461,
+      "sha256_archived": "c4e4cf8d9c7a907200faf075dcd50325413873d240f09da233ea364b7420583b"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/Home1.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/Home1.aspx"
+      ],
+      "sha256_original": "f4ce07317c2fe25b82274106b209599507b6960e66ae0e431d33c70fc2311caa",
+      "bytes_original": 965,
+      "sha256_archived": "f4ce07317c2fe25b82274106b209599507b6960e66ae0e431d33c70fc2311caa"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/Home1.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/Home1.aspx.cs"
+      ],
+      "sha256_original": "4da33403bf92a12571fa04d719c99d96f82f4fdc2ee5dab6c2932621fb564eba",
+      "bytes_original": 458,
+      "sha256_archived": "4da33403bf92a12571fa04d719c99d96f82f4fdc2ee5dab6c2932621fb564eba"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/Products1.aspx",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/Products1.aspx"
+      ],
+      "sha256_original": "cd1ca07e868eb6981fb96f5ecd8e0445147b675217056ac8d803f424d4b4c7db",
+      "bytes_original": 3211,
+      "sha256_archived": "cd1ca07e868eb6981fb96f5ecd8e0445147b675217056ac8d803f424d4b4c7db"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/Products1.aspx.cs",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/Products1.aspx.cs"
+      ],
+      "sha256_original": "642083e184a964ef3c5bf94716b4448c27e6275a194b2a1de0ec81de9e24ed34",
+      "bytes_original": 1050,
+      "sha256_archived": "642083e184a964ef3c5bf94716b4448c27e6275a194b2a1de0ec81de9e24ed34"
+    },
+    {
+      "path": "College/GadgetGuru/Secured Pages/Web.config",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/Secured Pages/Web.config"
+      ],
+      "sha256_original": "fde6a2293fa7097695bd78440633cbcfee8f159746a563fd0a5ba3297cff9bbf",
+      "bytes_original": 606,
+      "sha256_archived": "fde6a2293fa7097695bd78440633cbcfee8f159746a563fd0a5ba3297cff9bbf"
+    },
+    {
+      "path": "College/GadgetGuru/web.config",
+      "source_copies": [
+        "College/4th sem (.NET Training)/Project/.NET Project (Gadget Guru)/web.config"
+      ],
+      "sha256_original": "d1f9f83d36507207cbb7bf7042eac53f00d16ed31d58a89c1923d7e925b49911",
+      "bytes_original": 2250,
+      "sha256_archived": "d1f9f83d36507207cbb7bf7042eac53f00d16ed31d58a89c1923d7e925b49911"
+    },
+    {
+      "path": "College/JavaLab/LoginServlet.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/LoginServlet.java"
+      ],
+      "sha256_original": "c71aba1afcd7ff1a7059fd0f43c7f77594a6d701f8e1104c3fbff3c74adcbb5f",
+      "bytes_original": 1570,
+      "sha256_archived": "c71aba1afcd7ff1a7059fd0f43c7f77594a6d701f8e1104c3fbff3c74adcbb5f"
+    },
+    {
+      "path": "College/JavaLab/PrimeCheck.jsp",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/PrimeCheck.jsp"
+      ],
+      "sha256_original": "9aaef4c732a8a670cda8ddfa9b97762a3a4b7d199724fdf815d290f641483bcf",
+      "bytes_original": 782,
+      "sha256_archived": "9aaef4c732a8a670cda8ddfa9b97762a3a4b7d199724fdf815d290f641483bcf"
+    },
+    {
+      "path": "College/JavaLab/calc.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/calc.java"
+      ],
+      "sha256_original": "a2c2182961a0ab76b54f7ae2b0248f3516c80fd732de75182eecbe37d1833f2e",
+      "bytes_original": 938,
+      "sha256_archived": "a2c2182961a0ab76b54f7ae2b0248f3516c80fd732de75182eecbe37d1833f2e"
+    },
+    {
+      "path": "College/JavaLab/charcheck.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/charcheck.java"
+      ],
+      "sha256_original": "d7b885a5a59c129335873eaf1a450556265ec1aa427a1cb2d50cec25bc8e0222",
+      "bytes_original": 981,
+      "sha256_archived": "d7b885a5a59c129335873eaf1a450556265ec1aa427a1cb2d50cec25bc8e0222"
+    },
+    {
+      "path": "College/JavaLab/charcount.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/charcount.java"
+      ],
+      "sha256_original": "50b39a21a380833d7d405be5720e7ab3993d2d04b6d87220b9c19ae1dfe59cc6",
+      "bytes_original": 731,
+      "sha256_archived": "50b39a21a380833d7d405be5720e7ab3993d2d04b6d87220b9c19ae1dfe59cc6"
+    },
+    {
+      "path": "College/JavaLab/excp.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/excp.java"
+      ],
+      "sha256_original": "ceeb4d7cc14802d7cc99bb260df25214ca71658b3a04959f912f99fdcc98624a",
+      "bytes_original": 379,
+      "sha256_archived": "ceeb4d7cc14802d7cc99bb260df25214ca71658b3a04959f912f99fdcc98624a"
+    },
+    {
+      "path": "College/JavaLab/filecopy.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/filecopy.java"
+      ],
+      "sha256_original": "e716686847beef392df035d0b9d7a7c7264e5b0601a0f2eed6e97bc547852cc3",
+      "bytes_original": 1404,
+      "sha256_archived": "e716686847beef392df035d0b9d7a7c7264e5b0601a0f2eed6e97bc547852cc3"
+    },
+    {
+      "path": "College/JavaLab/frameandpanel.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/frameandpanel.java"
+      ],
+      "sha256_original": "1caefb77724c49bb7dbaae2d5fa4caa510ead5ea7ae4601445a0ca050d69348a",
+      "bytes_original": 677,
+      "sha256_archived": "1caefb77724c49bb7dbaae2d5fa4caa510ead5ea7ae4601445a0ca050d69348a"
+    },
+    {
+      "path": "College/JavaLab/helloworldswing.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/helloworldswing.java"
+      ],
+      "sha256_original": "3c5eacb22a41e4fa697b92262125c9e53d38000cbf5f7ea9dc2d422fb4d659b2",
+      "bytes_original": 894,
+      "sha256_archived": "3c5eacb22a41e4fa697b92262125c9e53d38000cbf5f7ea9dc2d422fb4d659b2"
+    },
+    {
+      "path": "College/JavaLab/manageuserapplet.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/manageuserapplet.java"
+      ],
+      "sha256_original": "1e32e317d685b9137a23c89153463385131c5bf7c62657d38cb690a4c4871310",
+      "bytes_original": 2090,
+      "sha256_archived": "1e32e317d685b9137a23c89153463385131c5bf7c62657d38cb690a4c4871310"
+    },
+    {
+      "path": "College/JavaLab/movingball.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/movingball.java"
+      ],
+      "sha256_original": "5de3156c40e2d695f186cd9bffd160b33c8d560e00c3a09c17d240370e7e1725",
+      "bytes_original": 935,
+      "sha256_archived": "5de3156c40e2d695f186cd9bffd160b33c8d560e00c3a09c17d240370e7e1725"
+    },
+    {
+      "path": "College/JavaLab/multithread.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/multithread.java"
+      ],
+      "sha256_original": "07fdd0f534748e3e2f2a38479adbbec405aa37717481127574949b71494f2f14",
+      "bytes_original": 831,
+      "sha256_archived": "07fdd0f534748e3e2f2a38479adbbec405aa37717481127574949b71494f2f14"
+    },
+    {
+      "path": "College/JavaLab/pascal.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/pascal.java"
+      ],
+      "sha256_original": "b1b0ec59d0bd21d2792a7833a3402ba92488488be6904b6d8d31dbb8be2f1e74",
+      "bytes_original": 1348,
+      "sha256_archived": "b1b0ec59d0bd21d2792a7833a3402ba92488488be6904b6d8d31dbb8be2f1e74"
+    },
+    {
+      "path": "College/JavaLab/selection.java",
+      "source_copies": [
+        "College/5th sem/LABS/java lab/JAVA progs1/selection.java"
+      ],
+      "sha256_original": "f5031b91b3ed5c57f609bce82526f00b8500847dacd8c901cfba7cad9a7cccb1",
+      "bytes_original": 960,
+      "sha256_archived": "f5031b91b3ed5c57f609bce82526f00b8500847dacd8c901cfba7cad9a7cccb1"
+    },
+    {
+      "path": "College/MusicManager/MusicManager.sln",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager.sln"
+      ],
+      "sha256_original": "8a513f1262b89cf11c5b16021b1519a45cc516446297b47d2671585382a72c3a",
+      "bytes_original": 1255,
+      "sha256_archived": "8a513f1262b89cf11c5b16021b1519a45cc516446297b47d2671585382a72c3a"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/ColumnSorter.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/ColumnSorter.cs"
+      ],
+      "sha256_original": "bbfb5e132b02793c4c532f2bd91d501ce60de9cadf05b23f772301a18c0491f5",
+      "bytes_original": 4829,
+      "sha256_archived": "bbfb5e132b02793c4c532f2bd91d501ce60de9cadf05b23f772301a18c0491f5"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/CopyDataHelper.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/CopyDataHelper.cs"
+      ],
+      "sha256_original": "a4e2f010849336d9f78374cb1d219db3e61d6215426b53ccd4f888173b4626bd",
+      "bytes_original": 1904,
+      "sha256_archived": "a4e2f010849336d9f78374cb1d219db3e61d6215426b53ccd4f888173b4626bd"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMConfiguration.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMConfiguration.Designer.cs"
+      ],
+      "sha256_original": "aa26706bca28f1192fd160f85285e1f12437cd123231c00091d8744c52e0527c",
+      "bytes_original": 32971,
+      "sha256_archived": "aa26706bca28f1192fd160f85285e1f12437cd123231c00091d8744c52e0527c"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMConfiguration.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMConfiguration.cs"
+      ],
+      "sha256_original": "01f5c55a1ad8bb377a7c1c66849750bd5d2d244e827d7d0ab6e8e5aba0ee83b7",
+      "bytes_original": 427,
+      "sha256_archived": "01f5c55a1ad8bb377a7c1c66849750bd5d2d244e827d7d0ab6e8e5aba0ee83b7"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMConfiguration.xsc",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMConfiguration.xsc"
+      ],
+      "sha256_original": "d343616b859a496770f8390456778e83ff7143dd6e175804741018188a4d0d0b",
+      "bytes_original": 381,
+      "sha256_archived": "d343616b859a496770f8390456778e83ff7143dd6e175804741018188a4d0d0b"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMConfiguration.xsd",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMConfiguration.xsd"
+      ],
+      "sha256_original": "eecbe916c3bfbe2fd0fc3e38a8e7132bb793acec84ddba60b323eccd03c40d55",
+      "bytes_original": 2467,
+      "sha256_archived": "eecbe916c3bfbe2fd0fc3e38a8e7132bb793acec84ddba60b323eccd03c40d55"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMConfiguration.xss",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMConfiguration.xss"
+      ],
+      "sha256_original": "5a4e601a1f9b9d203e917af36b0c267e40a477564c24f527e909aeedda654ed9",
+      "bytes_original": 850,
+      "sha256_archived": "5a4e601a1f9b9d203e917af36b0c267e40a477564c24f527e909aeedda654ed9"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMHistory.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMHistory.Designer.cs"
+      ],
+      "sha256_original": "5d327885a4bd13c9d40ffc596ffbe90223440dcdf25443aecb1e97bd92e3879a",
+      "bytes_original": 50667,
+      "sha256_archived": "5d327885a4bd13c9d40ffc596ffbe90223440dcdf25443aecb1e97bd92e3879a"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMHistory.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMHistory.cs"
+      ],
+      "sha256_original": "9cd70139033fb472aa23d08ff55f10476304ed32f5a36179cb8176042fa7ec14",
+      "bytes_original": 8492,
+      "sha256_archived": "9cd70139033fb472aa23d08ff55f10476304ed32f5a36179cb8176042fa7ec14"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMHistory.xsc",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMHistory.xsc"
+      ],
+      "sha256_original": "4df9ccfa9270746f7973e764973e41f80ca4d4cfcc662459cd60462757343cd1",
+      "bytes_original": 381,
+      "sha256_archived": "4df9ccfa9270746f7973e764973e41f80ca4d4cfcc662459cd60462757343cd1"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMHistory.xsd",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMHistory.xsd"
+      ],
+      "sha256_original": "b43cc0b1a79cd0cfa2675c959379d4b8db3c0dcb1f1bfe5b4746ac7e1ffa69fc",
+      "bytes_original": 8973,
+      "sha256_archived": "b43cc0b1a79cd0cfa2675c959379d4b8db3c0dcb1f1bfe5b4746ac7e1ffa69fc"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MMHistory.xss",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MMHistory.xss"
+      ],
+      "sha256_original": "ba3c48bf91438fd9a83b66cfa200f5c7762c1e77e4b654b8180f22e3c7917918",
+      "bytes_original": 852,
+      "sha256_archived": "ba3c48bf91438fd9a83b66cfa200f5c7762c1e77e4b654b8180f22e3c7917918"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MP3File.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MP3File.cs"
+      ],
+      "sha256_original": "8134073d3d64ed8f209565bdd46615ed345c7dc599f63f8711b2605fe802786f",
+      "bytes_original": 1335,
+      "sha256_archived": "8134073d3d64ed8f209565bdd46615ed345c7dc599f63f8711b2605fe802786f"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Music Manager.ico",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Music Manager.ico"
+      ],
+      "sha256_original": "28022414430f2dc228689ede08eba12eff115fec6d17cdf9674f2f5d0327446d",
+      "bytes_original": 25214,
+      "sha256_archived": "28022414430f2dc228689ede08eba12eff115fec6d17cdf9674f2f5d0327446d"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MusicManager.csproj",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MusicManager.csproj"
+      ],
+      "sha256_original": "6eea44b2d4c68483b6dc7b5f1ab2a3cb6d00fdc6679f2ad382255e548278ba02",
+      "bytes_original": 8983,
+      "sha256_archived": "6eea44b2d4c68483b6dc7b5f1ab2a3cb6d00fdc6679f2ad382255e548278ba02"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/MusicManager.exe.manifest",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/MusicManager.exe.manifest"
+      ],
+      "sha256_original": "9780f22f04438ac6246792790f1d80fc1e4850f866dc42b3a76ce3c6d6ea7ff1",
+      "bytes_original": 629,
+      "sha256_archived": "9780f22f04438ac6246792790f1d80fc1e4850f866dc42b3a76ce3c6d6ea7ff1"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Player.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Player.cs"
+      ],
+      "sha256_original": "d794c0c082a7f09fae1be12293bb7701c315c5bdf91e4929ead1abe70cfe58bc",
+      "bytes_original": 5411,
+      "sha256_archived": "d794c0c082a7f09fae1be12293bb7701c315c5bdf91e4929ead1abe70cfe58bc"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Program.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Program.cs"
+      ],
+      "sha256_original": "cf89d51f025fa8138290f05f10e5e7416b857a3519cb3876e5ea3d4df3682a27",
+      "bytes_original": 3552,
+      "sha256_archived": "cf89d51f025fa8138290f05f10e5e7416b857a3519cb3876e5ea3d4df3682a27"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Properties/AssemblyInfo.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Properties/AssemblyInfo.cs"
+      ],
+      "sha256_original": "c3a545daf9abd97749bff5ff1b98bfe394884cf181d6535952831e5dc068d469",
+      "bytes_original": 1346,
+      "sha256_archived": "c3a545daf9abd97749bff5ff1b98bfe394884cf181d6535952831e5dc068d469"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Properties/Resources.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Properties/Resources.Designer.cs"
+      ],
+      "sha256_original": "b284cb6797ea98d07ba6ec34545c340a5b580276d55347feb33cf428c98829c9",
+      "bytes_original": 2848,
+      "sha256_archived": "b284cb6797ea98d07ba6ec34545c340a5b580276d55347feb33cf428c98829c9"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Properties/Resources.resx",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Properties/Resources.resx"
+      ],
+      "sha256_original": "c868b8a4fa9e566ae6f7e56315f847aacf288340344fe7f02f9e16f1b254eadc",
+      "bytes_original": 5612,
+      "sha256_archived": "c868b8a4fa9e566ae6f7e56315f847aacf288340344fe7f02f9e16f1b254eadc"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Properties/Settings.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Properties/Settings.Designer.cs"
+      ],
+      "sha256_original": "fa3bb26b9423742a21f7476088baceb3712c4cadf12e0542c92715a582ed45e7",
+      "bytes_original": 1091,
+      "sha256_archived": "fa3bb26b9423742a21f7476088baceb3712c4cadf12e0542c92715a582ed45e7"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/Properties/Settings.settings",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/Properties/Settings.settings"
+      ],
+      "sha256_original": "f6a4290723520caddd934b8800319c7ca6cc7eeab647059ec89b7a13b1513265",
+      "bytes_original": 249,
+      "sha256_archived": "f6a4290723520caddd934b8800319c7ca6cc7eeab647059ec89b7a13b1513265"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/ReadPlaylist.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/ReadPlaylist.cs"
+      ],
+      "sha256_original": "0a0be33a2091d397a36557585d210e82ae9c66edaaf686205a590083ed6e61ae",
+      "bytes_original": 1615,
+      "sha256_archived": "0a0be33a2091d397a36557585d210e82ae9c66edaaf686205a590083ed6e61ae"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/SerializeHelper.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/SerializeHelper.cs"
+      ],
+      "sha256_original": "a16eb3629673d1b55a2d32c1f5f78bb2cf753d8bf088502698f5efaf36fb663b",
+      "bytes_original": 2531,
+      "sha256_archived": "a16eb3629673d1b55a2d32c1f5f78bb2cf753d8bf088502698f5efaf36fb663b"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/ShellID3TagReader.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/ShellID3TagReader.cs"
+      ],
+      "sha256_original": "06a0842db4f34048d2ffe29114b724ebdd2b7259e2962298d0afabac1a6f90b2",
+      "bytes_original": 4429,
+      "sha256_archived": "06a0842db4f34048d2ffe29114b724ebdd2b7259e2962298d0afabac1a6f90b2"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/ToolsManager.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/ToolsManager.cs"
+      ],
+      "sha256_original": "9c1bad16e4d5046cde96c86b8c1966faa0729274b141aabcf4d612a05d86630a",
+      "bytes_original": 10332,
+      "sha256_archived": "9c1bad16e4d5046cde96c86b8c1966faa0729274b141aabcf4d612a05d86630a"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmAbout.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmAbout.Designer.cs"
+      ],
+      "sha256_original": "ed1f32e1766532a9a55a5f007974fbe677e2b9b87c99d7aa169c148499dabbd6",
+      "bytes_original": 10457,
+      "sha256_archived": "ed1f32e1766532a9a55a5f007974fbe677e2b9b87c99d7aa169c148499dabbd6"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmAbout.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmAbout.cs"
+      ],
+      "sha256_original": "f763acd2781a0ee4e286c60bffc6c90367547c2b1e8a8bc1da9201b608e54e9e",
+      "bytes_original": 4774,
+      "sha256_archived": "f763acd2781a0ee4e286c60bffc6c90367547c2b1e8a8bc1da9201b608e54e9e"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmAbout.resx",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmAbout.resx"
+      ],
+      "sha256_original": "714ed10bfc8535a2a0ae40450062b332ed92a935da224893349ab71615eec722",
+      "bytes_original": 49720,
+      "sha256_archived": "714ed10bfc8535a2a0ae40450062b332ed92a935da224893349ab71615eec722"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmMusicManager.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmMusicManager.Designer.cs"
+      ],
+      "sha256_original": "51cb3e0bb5aeeb0ed5ca832e5e7f286cbde4c2ffffc3a0a20d25d15eb353d70a",
+      "bytes_original": 67481,
+      "sha256_archived": "51cb3e0bb5aeeb0ed5ca832e5e7f286cbde4c2ffffc3a0a20d25d15eb353d70a"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmMusicManager.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmMusicManager.cs"
+      ],
+      "sha256_original": "290e8fb4d37b45985ae27c46485e753bd3b2f7ceb0d795569c9667a07ef01d8e",
+      "bytes_original": 71056,
+      "sha256_archived": "290e8fb4d37b45985ae27c46485e753bd3b2f7ceb0d795569c9667a07ef01d8e"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmMusicManager.resx",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmMusicManager.resx"
+      ],
+      "sha256_original": "e8f9ee57ff805531f2eab9c6fbf511766970bbb5c22126cbc16f232f20711111",
+      "bytes_original": 85177,
+      "sha256_archived": "e8f9ee57ff805531f2eab9c6fbf511766970bbb5c22126cbc16f232f20711111"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmOption.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmOption.Designer.cs"
+      ],
+      "sha256_original": "77608d1035694034711dd09dced9f93351bb2abb28df9cf5590c5455a8caeef3",
+      "bytes_original": 13398,
+      "sha256_archived": "77608d1035694034711dd09dced9f93351bb2abb28df9cf5590c5455a8caeef3"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmOption.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmOption.cs"
+      ],
+      "sha256_original": "aa46b9ee97dec46781d26245fbcecc9e51ea2bd00ab29f801df6f719b6cc4a63",
+      "bytes_original": 4665,
+      "sha256_archived": "aa46b9ee97dec46781d26245fbcecc9e51ea2bd00ab29f801df6f719b6cc4a63"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmOption.resx",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmOption.resx"
+      ],
+      "sha256_original": "b546218a9df5ed7513f17091497201a7d6eec52cc0ff194fd41ba4f1c4054d93",
+      "bytes_original": 43940,
+      "sha256_archived": "b546218a9df5ed7513f17091497201a7d6eec52cc0ff194fd41ba4f1c4054d93"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmVolumnController.Designer.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmVolumnController.Designer.cs"
+      ],
+      "sha256_original": "405bad4d5b7a7be7a26ee2a338a87b043c55e39aea4abfcedbdbde844f5540e4",
+      "bytes_original": 12320,
+      "sha256_archived": "405bad4d5b7a7be7a26ee2a338a87b043c55e39aea4abfcedbdbde844f5540e4"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmVolumnController.cs",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmVolumnController.cs"
+      ],
+      "sha256_original": "734f158ca1c91158f0835a6568f1cd1d5efbdc64b27fa5525b13a800e43ecac8",
+      "bytes_original": 1605,
+      "sha256_archived": "734f158ca1c91158f0835a6568f1cd1d5efbdc64b27fa5525b13a800e43ecac8"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/frmVolumnController.resx",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/frmVolumnController.resx"
+      ],
+      "sha256_original": "b546218a9df5ed7513f17091497201a7d6eec52cc0ff194fd41ba4f1c4054d93",
+      "bytes_original": 43940,
+      "sha256_archived": "b546218a9df5ed7513f17091497201a7d6eec52cc0ff194fd41ba4f1c4054d93"
+    },
+    {
+      "path": "College/MusicManager/MusicManager/lib/Interop.Shell32.dll",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManager/lib/Interop.Shell32.dll"
+      ],
+      "sha256_original": "63c988c1f67347d7f71ed15934de206628b20a8d34a87573067023fdc988d42a",
+      "bytes_original": 53248,
+      "sha256_archived": "63c988c1f67347d7f71ed15934de206628b20a8d34a87573067023fdc988d42a"
+    },
+    {
+      "path": "College/MusicManager/MusicManagerSetup/MusicManagerSetup.vdproj",
+      "source_copies": [
+        "College/8th sem/Project/Proj 15 apr 2011/Current/Music_Manager_10_src/Music_Manager_10_src/MusicManagerSetup/MusicManagerSetup.vdproj"
+      ],
+      "sha256_original": "b569060c30f1206816f9af7e2cd8c17dec7660076249e5caba44a70302594cbb",
+      "bytes_original": 34756,
+      "sha256_archived": "b569060c30f1206816f9af7e2cd8c17dec7660076249e5caba44a70302594cbb"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/EVENODD.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/EVENODD.CPP"
+      ],
+      "sha256_original": "2431a6d267389625145673bef26f6fead8e8bba024e9c77253d9ff4c947671e8",
+      "bytes_original": 425,
+      "sha256_archived": "2431a6d267389625145673bef26f6fead8e8bba024e9c77253d9ff4c947671e8"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/LEAP.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/LEAP.CPP"
+      ],
+      "sha256_original": "24f69ee88205e439f5bfbe2e4a7670cf8cca644c875f3de4b20271a1364d347e",
+      "bytes_original": 469,
+      "sha256_archived": "24f69ee88205e439f5bfbe2e4a7670cf8cca644c875f3de4b20271a1364d347e"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/NOOFDAYS.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/NOOFDAYS.CPP"
+      ],
+      "sha256_original": "508172cb66fddfc2f47e00f3d741b597670c7c1fe0e28ffc458b4d3af81ab669",
+      "bytes_original": 1332,
+      "sha256_archived": "508172cb66fddfc2f47e00f3d741b597670c7c1fe0e28ffc458b4d3af81ab669"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/POSNEG.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/POSNEG.CPP"
+      ],
+      "sha256_original": "1e51bc298fd16e84e77af6ea7c27841b0d52fe432cbe0d1c1c6779251bab46dd",
+      "bytes_original": 640,
+      "sha256_archived": "1e51bc298fd16e84e77af6ea7c27841b0d52fe432cbe0d1c1c6779251bab46dd"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/PTR.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/PTR.CPP"
+      ],
+      "sha256_original": "d95c8dea85d78f15fd3dd13f8bc1acc01643c09606c1b3a616907745b14f349a",
+      "bytes_original": 340,
+      "sha256_archived": "d95c8dea85d78f15fd3dd13f8bc1acc01643c09606c1b3a616907745b14f349a"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/STACK.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/STACK.CPP"
+      ],
+      "sha256_original": "b4aadf1f3430cd63abe9592adfb63b91e8459dca56044ab7bbe8c86c5cf0cda0",
+      "bytes_original": 1379,
+      "sha256_archived": "b4aadf1f3430cd63abe9592adfb63b91e8459dca56044ab7bbe8c86c5cf0cda0"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/STRING.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/STRING.CPP"
+      ],
+      "sha256_original": "e6aafc15b707a024b42259e3da1cd1e4a040fda36d75d85341571b3afe9ee02e",
+      "bytes_original": 2543,
+      "sha256_archived": "e6aafc15b707a024b42259e3da1cd1e4a040fda36d75d85341571b3afe9ee02e"
+    },
+    {
+      "path": "College/OOP/Programs made by me (oops)/TERNARY.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/Programs made by me (oops)/TERNARY.CPP"
+      ],
+      "sha256_original": "4b9f86e83b60febfe7c67cd458a1cde9353b121a2cb7cca9c248dcfa7c202957",
+      "bytes_original": 474,
+      "sha256_archived": "4b9f86e83b60febfe7c67cd458a1cde9353b121a2cb7cca9c248dcfa7c202957"
+    },
+    {
+      "path": "College/OOP/oops to be printed/AREA.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/AREA.CPP"
+      ],
+      "sha256_original": "d58f152941acb5d988e1c89b90c79686d9db74fd40bf5eff2f86748a66eb2ec9",
+      "bytes_original": 1047,
+      "sha256_archived": "d58f152941acb5d988e1c89b90c79686d9db74fd40bf5eff2f86748a66eb2ec9"
+    },
+    {
+      "path": "College/OOP/oops to be printed/EVENODD.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/EVENODD.CPP"
+      ],
+      "sha256_original": "28963db7c1af1d62dd55a02b31300b7eae9e67f80183ed94b3e9230fc7e33a07",
+      "bytes_original": 400,
+      "sha256_archived": "28963db7c1af1d62dd55a02b31300b7eae9e67f80183ed94b3e9230fc7e33a07"
+    },
+    {
+      "path": "College/OOP/oops to be printed/LEAP.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/LEAP.CPP"
+      ],
+      "sha256_original": "9f29922c25b28163e8c68ded85491d20a082eb1a6160fcd8f202efb2783b3440",
+      "bytes_original": 525,
+      "sha256_archived": "9f29922c25b28163e8c68ded85491d20a082eb1a6160fcd8f202efb2783b3440"
+    },
+    {
+      "path": "College/OOP/oops to be printed/LINBIN.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/LINBIN.CPP"
+      ],
+      "sha256_original": "200873eeb376f0311be48886e75a6a19aba3f11e772cd7a913bdeb0543ad023f",
+      "bytes_original": 1178,
+      "sha256_archived": "200873eeb376f0311be48886e75a6a19aba3f11e772cd7a913bdeb0543ad023f"
+    },
+    {
+      "path": "College/OOP/oops to be printed/POSNEG.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/POSNEG.CPP"
+      ],
+      "sha256_original": "2a9f2b183edbdabaf44eebac7cd04e1c64c2044ac4a1bfccdb7c2cf9d6f43953",
+      "bytes_original": 531,
+      "sha256_archived": "2a9f2b183edbdabaf44eebac7cd04e1c64c2044ac4a1bfccdb7c2cf9d6f43953"
+    },
+    {
+      "path": "College/OOP/oops to be printed/SQUARE.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/SQUARE.CPP"
+      ],
+      "sha256_original": "0e8376aa8a1f1289ceadc8711c6299cab93f9cc24880216564bee67c2b7135bd",
+      "bytes_original": 473,
+      "sha256_archived": "0e8376aa8a1f1289ceadc8711c6299cab93f9cc24880216564bee67c2b7135bd"
+    },
+    {
+      "path": "College/OOP/oops to be printed/SQUAREM.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/SQUAREM.CPP"
+      ],
+      "sha256_original": "8682a29b1b2d6d2ff21596597946896cf1105e397f85a58a95b411b10316db4b",
+      "bytes_original": 276,
+      "sha256_archived": "8682a29b1b2d6d2ff21596597946896cf1105e397f85a58a95b411b10316db4b"
+    },
+    {
+      "path": "College/OOP/oops to be printed/STACK.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/STACK.CPP"
+      ],
+      "sha256_original": "da8cdec38afeec45d7b9bf0c798304f975b4f40a8120c80feb1f1c0346fe34e8",
+      "bytes_original": 1519,
+      "sha256_archived": "da8cdec38afeec45d7b9bf0c798304f975b4f40a8120c80feb1f1c0346fe34e8"
+    },
+    {
+      "path": "College/OOP/oops to be printed/STRING.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/STRING.CPP"
+      ],
+      "sha256_original": "b1aa23550d54ff4876794a5e9bc860e75261bcea9f179b8b3f4eff03a54ed803",
+      "bytes_original": 1859,
+      "sha256_archived": "b1aa23550d54ff4876794a5e9bc860e75261bcea9f179b8b3f4eff03a54ed803"
+    },
+    {
+      "path": "College/OOP/oops to be printed/STRUCT.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/STRUCT.CPP"
+      ],
+      "sha256_original": "cc5c574d924b5e03ecf8efc54b4d3aac7bb4119229e1e78c9a3246c467c26c49",
+      "bytes_original": 1246,
+      "sha256_archived": "cc5c574d924b5e03ecf8efc54b4d3aac7bb4119229e1e78c9a3246c467c26c49"
+    },
+    {
+      "path": "College/OOP/oops to be printed/TABLE.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/TABLE.CPP"
+      ],
+      "sha256_original": "8b44f186647683c16de44aca50a7a85a074f0215d17c1df16ffc0fc0dbb129bb",
+      "bytes_original": 438,
+      "sha256_archived": "8b44f186647683c16de44aca50a7a85a074f0215d17c1df16ffc0fc0dbb129bb"
+    },
+    {
+      "path": "College/OOP/oops to be printed/TERNARY.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/TERNARY.CPP"
+      ],
+      "sha256_original": "e58bead7da331bdef12ce122fc3e97d1d52dc4a25f2f195ae31f7a902cf86cd4",
+      "bytes_original": 465,
+      "sha256_archived": "e58bead7da331bdef12ce122fc3e97d1d52dc4a25f2f195ae31f7a902cf86cd4"
+    },
+    {
+      "path": "College/OOP/oops to be printed/YEAR.CPP",
+      "source_copies": [
+        "College/3rd sem/OOPS Lab/oops to be printed/YEAR.CPP"
+      ],
+      "sha256_original": "0a09b806e363e2efcdec426a299ecd9dd857f0ed2639eb17751a043ec0ca06ad",
+      "bytes_original": 950,
+      "sha256_archived": "0a09b806e363e2efcdec426a299ecd9dd857f0ed2639eb17751a043ec0ca06ad"
+    },
+    {
+      "path": "School/AlienatedAlien/11GAME.CPP",
+      "source_copies": [
+        "School/11GAME.CPP"
+      ],
+      "sha256_original": "fb8e196cf0fb79482e302405b60183526ad2717f6b3706b90ecf1e06ff6dbf71",
+      "bytes_original": 6700,
+      "sha256_archived": "fb8e196cf0fb79482e302405b60183526ad2717f6b3706b90ecf1e06ff6dbf71"
+    },
+    {
+      "path": "School/CppExercises/11game.CPP",
+      "source_copies": [
+        "School/C++ Programs/11game.CPP"
+      ],
+      "sha256_original": "aa4ff97e1714fcd9f2c939786b7b699a7dd9eafc31b44f2f20ef7ab757e59806",
+      "bytes_original": 6704,
+      "sha256_archived": "aa4ff97e1714fcd9f2c939786b7b699a7dd9eafc31b44f2f20ef7ab757e59806"
+    },
+    {
+      "path": "School/CppExercises/12PRO.CPP",
+      "source_copies": [
+        "School/C++ Programs/12PRO.CPP"
+      ],
+      "sha256_original": "7cdb0a6bbb990da867f3811b1de65fd57f54f96f230d151e0a970bbf0ee8129b",
+      "bytes_original": 4425,
+      "sha256_archived": "7cdb0a6bbb990da867f3811b1de65fd57f54f96f230d151e0a970bbf0ee8129b"
+    },
+    {
+      "path": "School/CppExercises/12PROMOD.CPP",
+      "source_copies": [
+        "School/C++ Programs/12PROMOD.CPP"
+      ],
+      "sha256_original": "b6d65681f75eb7f6a2f2ab420c001576ee170d569e5f8c622074c19bc695950d",
+      "bytes_original": 3890,
+      "sha256_archived": "b6d65681f75eb7f6a2f2ab420c001576ee170d569e5f8c622074c19bc695950d"
+    },
+    {
+      "path": "School/CppExercises/2D.CPP",
+      "source_copies": [
+        "School/C++ Programs/2D.CPP"
+      ],
+      "sha256_original": "d106b75102fffa724794f5ab9b2a3820ef491aedaa40bc913ff9cfacb1e21a2e",
+      "bytes_original": 704,
+      "sha256_archived": "d106b75102fffa724794f5ab9b2a3820ef491aedaa40bc913ff9cfacb1e21a2e"
+    },
+    {
+      "path": "School/CppExercises/ASCII.CPP",
+      "source_copies": [
+        "School/C++ Programs/ASCII.CPP"
+      ],
+      "sha256_original": "6c89d12e50d087fbcc4f9dc0e138579dcad4ebb7d33ed659f0b6c0e821594c9c",
+      "bytes_original": 213,
+      "sha256_archived": "6c89d12e50d087fbcc4f9dc0e138579dcad4ebb7d33ed659f0b6c0e821594c9c"
+    },
+    {
+      "path": "School/CppExercises/CQUEARR.CPP",
+      "source_copies": [
+        "School/C++ Programs/CQUEARR.CPP",
+        "School/C++ Programs/XII Pract/CQUEARR.CPP"
+      ],
+      "sha256_original": "088adb9cdcb980b6fc2ab90a3d220897cb51040005dbc0f601305cc4ed6ae7f9",
+      "bytes_original": 2290,
+      "sha256_archived": "088adb9cdcb980b6fc2ab90a3d220897cb51040005dbc0f601305cc4ed6ae7f9"
+    },
+    {
+      "path": "School/CppExercises/FIL.CPP",
+      "source_copies": [
+        "School/C++ Programs/FIL.CPP"
+      ],
+      "sha256_original": "e6b9ed9afb25b2215c364c5be937563edb0f03e4a5d42f83b7c8e3d55b14df08",
+      "bytes_original": 2959,
+      "sha256_archived": "e6b9ed9afb25b2215c364c5be937563edb0f03e4a5d42f83b7c8e3d55b14df08"
+    },
+    {
+      "path": "School/CppExercises/FILEGET.CPP",
+      "source_copies": [
+        "School/C++ Programs/FILEGET.CPP"
+      ],
+      "sha256_original": "eb926a0df0abc02340ea0770290c4dc9d78c90ef12e9d8e24076e5aa97d9b316",
+      "bytes_original": 494,
+      "sha256_archived": "eb926a0df0abc02340ea0770290c4dc9d78c90ef12e9d8e24076e5aa97d9b316"
+    },
+    {
+      "path": "School/CppExercises/GRAPHICS.CPP",
+      "source_copies": [
+        "School/C++ Programs/GRAPHICS.CPP"
+      ],
+      "sha256_original": "d21fa4dd820ce8e421d7ac5738a5383bf37579379ad12add5f4518d0148623f9",
+      "bytes_original": 1326,
+      "sha256_archived": "d21fa4dd820ce8e421d7ac5738a5383bf37579379ad12add5f4518d0148623f9"
+    },
+    {
+      "path": "School/CppExercises/MINMAX.CPP",
+      "source_copies": [
+        "School/C++ Programs/MINMAX.CPP"
+      ],
+      "sha256_original": "1b5b966974e08601cb184cf09fb3eeb1cc8143625dbb0b1807f42e8ed4c36d42",
+      "bytes_original": 403,
+      "sha256_archived": "1b5b966974e08601cb184cf09fb3eeb1cc8143625dbb0b1807f42e8ed4c36d42"
+    },
+    {
+      "path": "School/CppExercises/NAME.CPP",
+      "source_copies": [
+        "School/C++ Programs/NAME.CPP"
+      ],
+      "sha256_original": "2a2c27efb02dbece2fb6c44d85a2a1a3825984da93c19e3ae27a52216c24ed51",
+      "bytes_original": 3472,
+      "sha256_archived": "2a2c27efb02dbece2fb6c44d85a2a1a3825984da93c19e3ae27a52216c24ed51"
+    },
+    {
+      "path": "School/CppExercises/NEW.CPP",
+      "source_copies": [
+        "School/C++ Programs/NEW.CPP"
+      ],
+      "sha256_original": "38b35faf07876a70cd650eca4feada0b259a281d8bad03c0aaa0f126ea74dd4a",
+      "bytes_original": 11767,
+      "sha256_archived": "38b35faf07876a70cd650eca4feada0b259a281d8bad03c0aaa0f126ea74dd4a"
+    },
+    {
+      "path": "School/CppExercises/QUEARR.CPP",
+      "source_copies": [
+        "School/C++ Programs/QUEARR.CPP",
+        "School/C++ Programs/XII Pract/QUEARR.CPP"
+      ],
+      "sha256_original": "a35bdaac996fa637be0d0a5da56eb3f6e0f9347368aa6a71b45aa7a0d2b60c15",
+      "bytes_original": 1824,
+      "sha256_archived": "a35bdaac996fa637be0d0a5da56eb3f6e0f9347368aa6a71b45aa7a0d2b60c15"
+    },
+    {
+      "path": "School/CppExercises/QUECLS.CPP",
+      "source_copies": [
+        "School/C++ Programs/QUECLS.CPP",
+        "School/C++ Programs/XII Pract/QUECLS.CPP"
+      ],
+      "sha256_original": "e7b9b7496c6d53fb660dfa35ef7835e822936d5f9c5bfddc5c91724fdd5dbe29",
+      "bytes_original": 1903,
+      "sha256_archived": "e7b9b7496c6d53fb660dfa35ef7835e822936d5f9c5bfddc5c91724fdd5dbe29"
+    },
+    {
+      "path": "School/CppExercises/QUELNK.CPP",
+      "source_copies": [
+        "School/C++ Programs/QUELNK.CPP",
+        "School/C++ Programs/XII Pract/QUELNK.CPP"
+      ],
+      "sha256_original": "46f3a14b7d9853b3e866986aea7313b6e51b4c2016c82df4f1e1e16111ff4643",
+      "bytes_original": 1544,
+      "sha256_archived": "46f3a14b7d9853b3e866986aea7313b6e51b4c2016c82df4f1e1e16111ff4643"
+    },
+    {
+      "path": "School/CppExercises/SEARCH.CPP",
+      "source_copies": [
+        "School/C++ Programs/SEARCH.CPP"
+      ],
+      "sha256_original": "b4e7c3e0cc150b63757fdafa3d36c1b636c85fe0a7c27dd136cd790264e76797",
+      "bytes_original": 119,
+      "sha256_archived": "b4e7c3e0cc150b63757fdafa3d36c1b636c85fe0a7c27dd136cd790264e76797"
+    },
+    {
+      "path": "School/CppExercises/STKARR.CPP",
+      "source_copies": [
+        "School/C++ Programs/STKARR.CPP",
+        "School/C++ Programs/XII Pract/STKARR.CPP"
+      ],
+      "sha256_original": "5a7e842c744be24a4b86adb491f10bfb44330aeaa3f683ed415da696a6a0d490",
+      "bytes_original": 1612,
+      "sha256_archived": "5a7e842c744be24a4b86adb491f10bfb44330aeaa3f683ed415da696a6a0d490"
+    },
+    {
+      "path": "School/CppExercises/STKCLS.CPP",
+      "source_copies": [
+        "School/C++ Programs/STKCLS.CPP",
+        "School/C++ Programs/XII Pract/STKCLS.CPP"
+      ],
+      "sha256_original": "35aa0bb6f30b5ad4698ea22f9a541813d3ed7bb83e5d19f7b4ac7bcaacab4c7e",
+      "bytes_original": 1731,
+      "sha256_archived": "35aa0bb6f30b5ad4698ea22f9a541813d3ed7bb83e5d19f7b4ac7bcaacab4c7e"
+    },
+    {
+      "path": "School/CppExercises/STKLNK.CPP",
+      "source_copies": [
+        "School/C++ Programs/STKLNK.CPP",
+        "School/C++ Programs/XII Pract/STKLNK.CPP"
+      ],
+      "sha256_original": "0501357cf13851f17e6beef396ff85688a0444ca52adfd7a24b401ba9d11c6ea",
+      "bytes_original": 1384,
+      "sha256_archived": "0501357cf13851f17e6beef396ff85688a0444ca52adfd7a24b401ba9d11c6ea"
+    },
+    {
+      "path": "School/CppExercises/School/12PRO.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/12PRO.CPP"
+      ],
+      "sha256_original": "f3cdf64a7b783ceb11558b42e269eafccdca891ab0c31e23bcb77c7838f9ba9d",
+      "bytes_original": 34084,
+      "sha256_archived": "f3cdf64a7b783ceb11558b42e269eafccdca891ab0c31e23bcb77c7838f9ba9d"
+    },
+    {
+      "path": "School/CppExercises/School/AREA.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/AREA.CPP"
+      ],
+      "sha256_original": "f2203f0359f3942fb5cfff6b72a372951ce813336cb7dd3de788cdfc56fea14d",
+      "bytes_original": 328,
+      "sha256_archived": "f2203f0359f3942fb5cfff6b72a372951ce813336cb7dd3de788cdfc56fea14d"
+    },
+    {
+      "path": "School/CppExercises/School/BINDEC.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/BINDEC.CPP"
+      ],
+      "sha256_original": "8b11b5e39744a815eb4f5a0642345446edcc739ac9b014eb7651ecce61a702e9",
+      "bytes_original": 532,
+      "sha256_archived": "8b11b5e39744a815eb4f5a0642345446edcc739ac9b014eb7651ecce61a702e9"
+    },
+    {
+      "path": "School/CppExercises/School/CELSIUSF.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/CELSIUSF.CPP"
+      ],
+      "sha256_original": "f2c99d522fe2c9fca43b940133e2435f9319feed6615681ea3505da60947f38a",
+      "bytes_original": 695,
+      "sha256_archived": "f2c99d522fe2c9fca43b940133e2435f9319feed6615681ea3505da60947f38a"
+    },
+    {
+      "path": "School/CppExercises/School/DIVISORS.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/DIVISORS.CPP"
+      ],
+      "sha256_original": "b85419fe2efd7557b6ca858e330dbd56d6993735d6dddcbcbb8cd458fe5583c3",
+      "bytes_original": 204,
+      "sha256_archived": "b85419fe2efd7557b6ca858e330dbd56d6993735d6dddcbcbb8cd458fe5583c3"
+    },
+    {
+      "path": "School/CppExercises/School/LEAST.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/LEAST.CPP"
+      ],
+      "sha256_original": "1501ff38bab1323f80c03ba7053c868d19470e1e468f77411981bb0f5a15cc6f",
+      "bytes_original": 297,
+      "sha256_archived": "1501ff38bab1323f80c03ba7053c868d19470e1e468f77411981bb0f5a15cc6f"
+    },
+    {
+      "path": "School/CppExercises/School/NAME.TXT",
+      "source_copies": [
+        "School/C++ Programs/School/NAME.TXT"
+      ],
+      "sha256_original": "a9ba98c173bebd6293f55e69cad46a1178c81b50e63ce6e6ff928f7fc9bc3e28",
+      "bytes_original": 3472,
+      "sha256_archived": "a9ba98c173bebd6293f55e69cad46a1178c81b50e63ce6e6ff928f7fc9bc3e28"
+    },
+    {
+      "path": "School/CppExercises/School/PALINDRO.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/PALINDRO.CPP"
+      ],
+      "sha256_original": "ff06e5225cc97af96f2d0e218f2f3b1e87633f34a37ddc7d3afa62781fb7b066",
+      "bytes_original": 350,
+      "sha256_archived": "ff06e5225cc97af96f2d0e218f2f3b1e87633f34a37ddc7d3afa62781fb7b066"
+    },
+    {
+      "path": "School/CppExercises/School/PERCENTA.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/PERCENTA.CPP"
+      ],
+      "sha256_original": "e9e69fc910b79543b221490b1b2e0b9a41cd9e2e33ef621c9070939ecdd18b54",
+      "bytes_original": 542,
+      "sha256_archived": "e9e69fc910b79543b221490b1b2e0b9a41cd9e2e33ef621c9070939ecdd18b54"
+    },
+    {
+      "path": "School/CppExercises/School/PRO.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/PRO.CPP"
+      ],
+      "sha256_original": "d020c1d4bd08df2c159fad05f5c7a58408b829d78aa5afb53aa43ced077125f7",
+      "bytes_original": 7859,
+      "sha256_archived": "d020c1d4bd08df2c159fad05f5c7a58408b829d78aa5afb53aa43ced077125f7"
+    },
+    {
+      "path": "School/CppExercises/School/RAJATPR.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/RAJATPR.CPP"
+      ],
+      "sha256_original": "dd7b58ee2c3d5db520061f410d2a670fe5ca233671baae4a402432e05e1422a8",
+      "bytes_original": 6699,
+      "sha256_archived": "dd7b58ee2c3d5db520061f410d2a670fe5ca233671baae4a402432e05e1422a8"
+    },
+    {
+      "path": "School/CppExercises/School/SUM.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/SUM.CPP"
+      ],
+      "sha256_original": "91e8ac2812b7167a0a450e482a9aa8bd9ccdc8deb9af7c3b31283320c3a21a45",
+      "bytes_original": 560,
+      "sha256_archived": "91e8ac2812b7167a0a450e482a9aa8bd9ccdc8deb9af7c3b31283320c3a21a45"
+    },
+    {
+      "path": "School/CppExercises/School/TEMP.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/TEMP.CPP"
+      ],
+      "sha256_original": "32cc495798c795869c95d6a795720bb184c625247eaa22dc52a1e7869b85cfcf",
+      "bytes_original": 267,
+      "sha256_archived": "32cc495798c795869c95d6a795720bb184c625247eaa22dc52a1e7869b85cfcf"
+    },
+    {
+      "path": "School/CppExercises/School/a/CSNAKE.H",
+      "source_copies": [
+        "School/C++ Programs/School/a/CSNAKE.H"
+      ],
+      "sha256_original": "5fb8ac4a52cfd81e97c5997c2836e13fdb31dd933210440ad35aa89e8e759a37",
+      "bytes_original": 7359,
+      "sha256_archived": "5fb8ac4a52cfd81e97c5997c2836e13fdb31dd933210440ad35aa89e8e759a37"
+    },
+    {
+      "path": "School/CppExercises/School/a/SNAKE.CPP",
+      "source_copies": [
+        "School/C++ Programs/School/a/SNAKE.CPP"
+      ],
+      "sha256_original": "6f6c4779df43c7435b30c6cf55c0223a81a72950d6592a328df8d7156aa60dc9",
+      "bytes_original": 14489,
+      "sha256_archived": "6f6c4779df43c7435b30c6cf55c0223a81a72950d6592a328df8d7156aa60dc9"
+    },
+    {
+      "path": "School/CppExercises/additional/STRING.CPP",
+      "source_copies": [
+        "School/Cheenu c++ Programs/STRING.CPP"
+      ],
+      "sha256_original": "6b082e80696691668aaa8425612fd87cc6e447de0eee6726c77a51413c9c64e2",
+      "bytes_original": 2556,
+      "sha256_archived": "6b082e80696691668aaa8425612fd87cc6e447de0eee6726c77a51413c9c64e2"
+    },
+    {
+      "path": "School/CppExercises/additional/cheenu programs ds/BUBBLE.CPP",
+      "source_copies": [
+        "School/Cheenu c++ Programs/cheenu programs ds/BUBBLE.CPP"
+      ],
+      "sha256_original": "7938542d78b12173055a77090c0e58d20101c253855ae5ea41d63b3650de589a",
+      "bytes_original": 967,
+      "sha256_archived": "7938542d78b12173055a77090c0e58d20101c253855ae5ea41d63b3650de589a"
+    },
+    {
+      "path": "School/CppExercises/additional/cheenu programs ds/ITP.CPP",
+      "source_copies": [
+        "School/Cheenu c++ Programs/cheenu programs ds/ITP.CPP"
+      ],
+      "sha256_original": "e5f8830b512dc9deba5fa14abcc540eddda70392fae447593bbb709bcbb65722",
+      "bytes_original": 2694,
+      "sha256_archived": "e5f8830b512dc9deba5fa14abcc540eddda70392fae447593bbb709bcbb65722"
+    },
+    {
+      "path": "School/CppExercises/additional/cheenu programs ds/ITPbuk99.C",
+      "source_copies": [
+        "School/Cheenu c++ Programs/cheenu programs ds/ITPbuk99.C"
+      ],
+      "sha256_original": "c5e454c6a9a473237de47f14c9f692d63a9446d80738d2b2a4de0c1399f3b079",
+      "bytes_original": 3222,
+      "sha256_archived": "c5e454c6a9a473237de47f14c9f692d63a9446d80738d2b2a4de0c1399f3b079"
+    },
+    {
+      "path": "School/CppExercises/additional/cheenu programs ds/LINK.CPP",
+      "source_copies": [
+        "School/Cheenu c++ Programs/cheenu programs ds/LINK.CPP"
+      ],
+      "sha256_original": "47ad850e8820f9e50ef6e2dba7c19a4d565322b91338bdc6765ac8c02c067280",
+      "bytes_original": 3473,
+      "sha256_archived": "47ad850e8820f9e50ef6e2dba7c19a4d565322b91338bdc6765ac8c02c067280"
+    },
+    {
+      "path": "School/CppExercises/additional/cheenu programs ds/insertion.cpp",
+      "source_copies": [
+        "School/Cheenu c++ Programs/cheenu programs ds/insertion.cpp"
+      ],
+      "sha256_original": "a93f2166795807cc6cb060c6dde6db23fb8eee6d1b6e1d72cc7f646c8bdf94de",
+      "bytes_original": 780,
+      "sha256_archived": "a93f2166795807cc6cb060c6dde6db23fb8eee6d1b6e1d72cc7f646c8bdf94de"
+    },
+    {
+      "path": "School/CppExercises/additional/cheenu programs ds/mergesort.cpp",
+      "source_copies": [
+        "School/Cheenu c++ Programs/cheenu programs ds/mergesort.cpp"
+      ],
+      "sha256_original": "657f7d5cd8582af2efa4812a74a5ebd5bb01822bf37d7cb884a13f0306057454",
+      "bytes_original": 1119,
+      "sha256_archived": "657f7d5cd8582af2efa4812a74a5ebd5bb01822bf37d7cb884a13f0306057454"
+    },
+    {
+      "path": "School/CppExercises/additional/ptr.cpp",
+      "source_copies": [
+        "School/Cheenu c++ Programs/ptr.cpp"
+      ],
+      "sha256_original": "c163b6b1e88fd360e6c17704bfd4b543f07be616ddd0d6038c3db82b6b3f6815",
+      "bytes_original": 380,
+      "sha256_archived": "c163b6b1e88fd360e6c17704bfd4b543f07be616ddd0d6038c3db82b6b3f6815"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite.sln",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite.sln"
+      ],
+      "sha256_original": "80f2f4bcb4beaa88a977d7872b8a38d4e4346d2f0a86d15498fd572557d0e9a9",
+      "bytes_original": 1049,
+      "sha256_archived": "80f2f4bcb4beaa88a977d7872b8a38d4e4346d2f0a86d15498fd572557d0e9a9"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Background.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Background.cs"
+      ],
+      "sha256_original": "01fde2720ae4240eca2c86d0a736ca8cf0e2ff738a114612de565512a713a74f",
+      "bytes_original": 1102,
+      "sha256_archived": "01fde2720ae4240eca2c86d0a736ca8cf0e2ff738a114612de565512a713a74f"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Books.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Books.cs"
+      ],
+      "sha256_original": "ef7e65a965665ea08b6ddb34210f789cd0e52879b1654d6a8e344f439cb9ea9c",
+      "bytes_original": 1292,
+      "sha256_archived": "ef7e65a965665ea08b6ddb34210f789cd0e52879b1654d6a8e344f439cb9ea9c"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Bridge.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Bridge.cs"
+      ],
+      "sha256_original": "a139f77dc483f7c36823147f1e0aefe194a3e4023677b48fc086beedfa9874b2",
+      "bytes_original": 1609,
+      "sha256_archived": "a139f77dc483f7c36823147f1e0aefe194a3e4023677b48fc086beedfa9874b2"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/Content.contentproj",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/Content.contentproj"
+      ],
+      "sha256_original": "5a957b0dd70903292ecb0a43df48c550c4407396cb4fca022fe03ced6c040ae2",
+      "bytes_original": 8347,
+      "sha256_archived": "5a957b0dd70903292ecb0a43df48c550c4407396cb4fca022fe03ced6c040ae2"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/Sounds/Dead.wav",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/Sounds/Dead.wav"
+      ],
+      "sha256_original": "dc002bd75ea24c3df5eaba127a9ae0cd6198afdef063c5fbbcbfd42a2a8c134d",
+      "bytes_original": 4262380,
+      "sha256_archived": "dc002bd75ea24c3df5eaba127a9ae0cd6198afdef063c5fbbcbfd42a2a8c134d"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/Sounds/Gameplay_music.wav",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/Sounds/Gameplay_music.wav"
+      ],
+      "sha256_original": "2c268a870f6b4d7fb19f06dfb48cf98f9928bcfffb51aa944a157b9f41aed897",
+      "bytes_original": 37366252,
+      "sha256_archived": "2c268a870f6b4d7fb19f06dfb48cf98f9928bcfffb51aa944a157b9f41aed897"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/Sounds/Start.wav",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/Sounds/Start.wav"
+      ],
+      "sha256_original": "38918427770356fb51579a4184c2165a32270de1f666a31aa79f05876a3ec6da",
+      "bytes_original": 4400620,
+      "sha256_archived": "38918427770356fb51579a4184c2165a32270de1f666a31aa79f05876a3ec6da"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/Sounds/mysounds.xap",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/Sounds/mysounds.xap"
+      ],
+      "sha256_original": "986f3035443d8b7d1b073eb57dd1a2b92c810baef74d8b34a3da94f0bfcf1562",
+      "bytes_original": 11223,
+      "sha256_archived": "986f3035443d8b7d1b073eb57dd1a2b92c810baef74d8b34a3da94f0bfcf1562"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/Thrilling.SF2",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/Thrilling.SF2"
+      ],
+      "sha256_original": "138bb353956af3de471d98f33a2ad58f52857525d98c4675bfe13dd9372121f8",
+      "bytes_original": 231224,
+      "sha256_archived": "138bb353956af3de471d98f33a2ad58f52857525d98c4675bfe13dd9372121f8"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/bridge_1.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/bridge_1.png"
+      ],
+      "sha256_original": "71c0b040b398a66228c084c4b26a4642ed702d9954491f44258ff2581407a48b",
+      "bytes_original": 18376,
+      "sha256_archived": "71c0b040b398a66228c084c4b26a4642ed702d9954491f44258ff2581407a48b"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/font.spritefont",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/font.spritefont"
+      ],
+      "sha256_original": "d33b0d766d3f9f6c0ba1a9a2b5ffa9963c35a4dcd947e6a9d0af3994f2f16241",
+      "bytes_original": 1633,
+      "sha256_archived": "d33b0d766d3f9f6c0ba1a9a2b5ffa9963c35a4dcd947e6a9d0af3994f2f16241"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/font_1.spritefont",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/font_1.spritefont"
+      ],
+      "sha256_original": "b6ce0323f1aad7d9c1816c84fb1fdaf6b4480ced1175ea216e63320263fc0432",
+      "bytes_original": 1635,
+      "sha256_archived": "b6ce0323f1aad7d9c1816c84fb1fdaf6b4480ced1175ea216e63320263fc0432"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Background01.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Background01.png"
+      ],
+      "sha256_original": "f350387abed8a4813f3b1187d64d47a57533a8516e7487cc3614e3585346a7bb",
+      "bytes_original": 970774,
+      "sha256_archived": "f350387abed8a4813f3b1187d64d47a57533a8516e7487cc3614e3585346a7bb"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Background02.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Background02.png"
+      ],
+      "sha256_original": "4dd38cfe0a6712360df01fc7e19ee0f65cfdc669feb2bbda62910d8fee5b3dbe",
+      "bytes_original": 985843,
+      "sha256_archived": "4dd38cfe0a6712360df01fc7e19ee0f65cfdc669feb2bbda62910d8fee5b3dbe"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Background03.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Background03.png"
+      ],
+      "sha256_original": "3ec07b7e4a5994f9e37bcf0e3b99c36730452ff2e90ad0adc5400fa73a9e0458",
+      "bytes_original": 485006,
+      "sha256_archived": "3ec07b7e4a5994f9e37bcf0e3b99c36730452ff2e90ad0adc5400fa73a9e0458"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Enemy.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Enemy.png"
+      ],
+      "sha256_original": "54ea0c6f19bbecd03b44bd3381be649015ccacea43d36b0e7174722b32ecad4d",
+      "bytes_original": 50053,
+      "sha256_archived": "54ea0c6f19bbecd03b44bd3381be649015ccacea43d36b0e7174722b32ecad4d"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Enemy_Hit1.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Enemy_Hit1.png"
+      ],
+      "sha256_original": "ea4044d76480e2d61339bb25a0a5f668baac40af25569a1b375086820d66d3d4",
+      "bytes_original": 60209,
+      "sha256_archived": "ea4044d76480e2d61339bb25a0a5f668baac40af25569a1b375086820d66d3d4"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Enemy_Hit2.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Enemy_Hit2.png"
+      ],
+      "sha256_original": "dda13d0fa319930f1390a3c688b46c004340f3fdcbd0d0b492a478dc2b41741b",
+      "bytes_original": 68771,
+      "sha256_archived": "dda13d0fa319930f1390a3c688b46c004340f3fdcbd0d0b492a478dc2b41741b"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Enemy_Hit3.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Enemy_Hit3.png"
+      ],
+      "sha256_original": "eed688e94412094cbd80c95fd03ae9a3355a339e70b5785acb391a3a4cf9f065",
+      "bytes_original": 81931,
+      "sha256_archived": "eed688e94412094cbd80c95fd03ae9a3355a339e70b5785acb391a3a4cf9f065"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Enemy_Hit4.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Enemy_Hit4.png"
+      ],
+      "sha256_original": "dd12a14ef1bcae28c9eb14356575b0c5a3a2949de6718b890018a92dde161b7b",
+      "bytes_original": 100805,
+      "sha256_archived": "dd12a14ef1bcae28c9eb14356575b0c5a3a2949de6718b890018a92dde161b7b"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Enemy_Hit5.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Enemy_Hit5.png"
+      ],
+      "sha256_original": "204102d4b2e842eed699d03d90032e4d7264498a20ae8cf745cdfaeace827ec8",
+      "bytes_original": 135231,
+      "sha256_archived": "204102d4b2e842eed699d03d90032e4d7264498a20ae8cf745cdfaeace827ec8"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Fireball.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Fireball.png"
+      ],
+      "sha256_original": "f252758525de110ac11888a56f94e2eb9e6e24e9839d81372f7569dfb94b8f25",
+      "bytes_original": 142962,
+      "sha256_archived": "f252758525de110ac11888a56f94e2eb9e6e24e9839d81372f7569dfb94b8f25"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Fireball_1.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Fireball_1.png"
+      ],
+      "sha256_original": "14b5133abb97612c97004c7b1d076367d019336ad6270115722bb6485afa4bda",
+      "bytes_original": 20409,
+      "sha256_archived": "14b5133abb97612c97004c7b1d076367d019336ad6270115722bb6485afa4bda"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Geek.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Geek.png"
+      ],
+      "sha256_original": "734ec8eaa741a81f1470c54ab00c7871806132c17ce087da9f9cda79757a2cc7",
+      "bytes_original": 25936,
+      "sha256_archived": "734ec8eaa741a81f1470c54ab00c7871806132c17ce087da9f9cda79757a2cc7"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/Paused.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/Paused.png"
+      ],
+      "sha256_original": "699e460d5a8fec01327cda41c9c5b925155b1988ede47c06cc6979d154b5431d",
+      "bytes_original": 21158,
+      "sha256_archived": "699e460d5a8fec01327cda41c9c5b925155b1988ede47c06cc6979d154b5431d"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/books.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/books.png"
+      ],
+      "sha256_original": "7cb40470f6c16a72181f96e7c3ed87ef37055debc95829ed88829919059f87df",
+      "bytes_original": 173226,
+      "sha256_archived": "7cb40470f6c16a72181f96e7c3ed87ef37055debc95829ed88829919059f87df"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/bridge.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/bridge.png"
+      ],
+      "sha256_original": "a5af74f642f1ef35feba91766d29a9e76c6b6a10184c5826793af88731742734",
+      "bytes_original": 12847,
+      "sha256_archived": "a5af74f642f1ef35feba91766d29a9e76c6b6a10184c5826793af88731742734"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/bridge_1.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/bridge_1.png"
+      ],
+      "sha256_original": "71c0b040b398a66228c084c4b26a4642ed702d9954491f44258ff2581407a48b",
+      "bytes_original": 18376,
+      "sha256_archived": "71c0b040b398a66228c084c4b26a4642ed702d9954491f44258ff2581407a48b"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/bridge_2.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/bridge_2.png"
+      ],
+      "sha256_original": "6cc5469baf22a8379e2b79b68708c8ba0295b169e850254f6219709b18f6a614",
+      "bytes_original": 18355,
+      "sha256_archived": "6cc5469baf22a8379e2b79b68708c8ba0295b169e850254f6219709b18f6a614"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/credits.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/credits.png"
+      ],
+      "sha256_original": "478e4e576e76e7684d386164328c76554f498d0343720ccaa19785961114054d",
+      "bytes_original": 28101,
+      "sha256_archived": "478e4e576e76e7684d386164328c76554f498d0343720ccaa19785961114054d"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/exit.PNG",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/exit.PNG"
+      ],
+      "sha256_original": "fdfe628b7e6e33aeebcdccac7a5273871732d454dad8825087438132e5432f1d",
+      "bytes_original": 3194,
+      "sha256_archived": "fdfe628b7e6e33aeebcdccac7a5273871732d454dad8825087438132e5432f1d"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/gamecomp.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/gamecomp.png"
+      ],
+      "sha256_original": "a1846103b04dc32a4f78b25d2a616c84b31d95d410f1d6cb51cb7906afe9927f",
+      "bytes_original": 26398,
+      "sha256_archived": "a1846103b04dc32a4f78b25d2a616c84b31d95d410f1d6cb51cb7906afe9927f"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/gameover.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/gameover.png"
+      ],
+      "sha256_original": "7559bc268afba0e8d50b1b4384c81c9f7adabed05a15716e22f3f59ba4d33487",
+      "bytes_original": 23173,
+      "sha256_archived": "7559bc268afba0e8d50b1b4384c81c9f7adabed05a15716e22f3f59ba4d33487"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/help.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/help.png"
+      ],
+      "sha256_original": "a72f0da600177b1add4503d5cde562de74694218e69d090221c3cab2387d1c3f",
+      "bytes_original": 28702,
+      "sha256_archived": "a72f0da600177b1add4503d5cde562de74694218e69d090221c3cab2387d1c3f"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/initscreen.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/initscreen.png"
+      ],
+      "sha256_original": "02cc4848c4eb7c41f47447a30aef920026811849af400dcb62416feb4a579553",
+      "bytes_original": 16899,
+      "sha256_archived": "02cc4848c4eb7c41f47447a30aef920026811849af400dcb62416feb4a579553"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/name.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/name.png"
+      ],
+      "sha256_original": "88ec4e8bcc11563647bebd52aadf32f8bd521f03e9b4bedc6db738de7e9990db",
+      "bytes_original": 121583,
+      "sha256_archived": "88ec4e8bcc11563647bebd52aadf32f8bd521f03e9b4bedc6db738de7e9990db"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/nextlevel.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/nextlevel.png"
+      ],
+      "sha256_original": "f52f455c6934d96b0f843201564879d9cd87a5b7329914a57e82ff6ba4069518",
+      "bytes_original": 8385,
+      "sha256_archived": "f52f455c6934d96b0f843201564879d9cd87a5b7329914a57e82ff6ba4069518"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Content/images/start.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Content/images/start.png"
+      ],
+      "sha256_original": "3e2b4a6c63d048241507f1f8f577a2f22452bd92e1170d35a07fc0c5e657828b",
+      "bytes_original": 3232,
+      "sha256_archived": "3e2b4a6c63d048241507f1f8f577a2f22452bd92e1170d35a07fc0c5e657828b"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/CreatingA2DSprite.csproj",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/CreatingA2DSprite.csproj"
+      ],
+      "sha256_original": "6e704c99d3a4712f2940f449689bd084a5cac055f32b7c26713eb437bcd35c21",
+      "bytes_original": 7147,
+      "sha256_archived": "0e4c63327fa7d23f67ed9c1aa777edb18209ac935ee3449a88bacf2b78231408",
+      "archive_changes": "Removed omitted private signing-key reference and certificate thumbprint; disabled old ClickOnce signing; replaced personal PublishUrl with relative publish directory."
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Enemy.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Enemy.cs"
+      ],
+      "sha256_original": "8dcba6447b236ca4bc4cf2f07e02a98137aa392d5047caf68405ee3cc5a1359b",
+      "bytes_original": 2819,
+      "sha256_archived": "8dcba6447b236ca4bc4cf2f07e02a98137aa392d5047caf68405ee3cc5a1359b"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Fireball.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Fireball.cs"
+      ],
+      "sha256_original": "d9bb2e1a0e56302d233ebb9a56ce461c566afc4b1beac7752d4859cd523ddea1",
+      "bytes_original": 2663,
+      "sha256_archived": "d9bb2e1a0e56302d233ebb9a56ce461c566afc4b1beac7752d4859cd523ddea1"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Game.ico",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Game.ico"
+      ],
+      "sha256_original": "683c6ca8ca8e3e6136e945340784d08d048027f3a6c9bdb9855213edb2b69c7b",
+      "bytes_original": 4286,
+      "sha256_archived": "683c6ca8ca8e3e6136e945340784d08d048027f3a6c9bdb9855213edb2b69c7b"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Game1.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Game1.cs"
+      ],
+      "sha256_original": "79e0372b49186d6aab94261cec1598f28c83edb09a190073a3836b57ef1ad7e9",
+      "bytes_original": 37860,
+      "sha256_archived": "79e0372b49186d6aab94261cec1598f28c83edb09a190073a3836b57ef1ad7e9"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/GameThumbnail.png",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/GameThumbnail.png"
+      ],
+      "sha256_original": "3cd2cfcac93c3a0dcc5ceab63ad57e3b5afd0a1dcc722428e66c51031d79d0ed",
+      "bytes_original": 5734,
+      "sha256_archived": "3cd2cfcac93c3a0dcc5ceab63ad57e3b5afd0a1dcc722428e66c51031d79d0ed"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/MainMenu.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/MainMenu.cs"
+      ],
+      "sha256_original": "e886d515be26764a6565bcfb2ea86541c37c8c9b8f2044feda11834370ce2c85",
+      "bytes_original": 162,
+      "sha256_archived": "e886d515be26764a6565bcfb2ea86541c37c8c9b8f2044feda11834370ce2c85"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Next_Level.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Next_Level.cs"
+      ],
+      "sha256_original": "a7a57f68d20b90532ad32ec16cd8a3102ce83b25e7339af25d2438f09ff4bfc3",
+      "bytes_original": 1559,
+      "sha256_archived": "a7a57f68d20b90532ad32ec16cd8a3102ce83b25e7339af25d2438f09ff4bfc3"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Program.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Program.cs"
+      ],
+      "sha256_original": "d59af70be9490eab955450beeba291d5a5b7b72138b70cf660f69ce138fd1fef",
+      "bytes_original": 364,
+      "sha256_archived": "d59af70be9490eab955450beeba291d5a5b7b72138b70cf660f69ce138fd1fef"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Properties/AssemblyInfo.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Properties/AssemblyInfo.cs"
+      ],
+      "sha256_original": "03d54349eb0ceea83adbdee7cdc1e5e18c81edd4c64861042a665bdbc7cb31a4",
+      "bytes_original": 1239,
+      "sha256_archived": "03d54349eb0ceea83adbdee7cdc1e5e18c81edd4c64861042a665bdbc7cb31a4"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Sprite.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Sprite.cs"
+      ],
+      "sha256_original": "f7fa96162b506aa6831bc87b3992a720e32470b1b7e590a658dcb7c0a2a4fa7f",
+      "bytes_original": 992,
+      "sha256_archived": "f7fa96162b506aa6831bc87b3992a720e32470b1b7e590a658dcb7c0a2a4fa7f"
+    },
+    {
+      "path": "The Geek Quest/final/CreatingA2DSprite/Wizard.cs",
+      "source_copies": [
+        "College/7th sem/Minor Project/Final Proj Files/Project Final/CreatingA2DSprite/Wizard.cs"
+      ],
+      "sha256_original": "2c503df2becb665c87fb7a5f3db435da5323237fc62db3ebd8df4be6da3b4f4d",
+      "bytes_original": 14398,
+      "sha256_archived": "2c503df2becb665c87fb7a5f3db435da5323237fc62db3ebd8df4be6da3b4f4d"
+    }
+  ]
+}

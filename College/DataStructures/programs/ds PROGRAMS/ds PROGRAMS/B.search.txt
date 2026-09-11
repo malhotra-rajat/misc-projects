@@ -1,0 +1,55 @@
+/* Binary Search */
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int n,i,N,a[10],flag=0,mid,top,bot=0;
+ clrscr();
+ printf("Enter the size of the Array(<10):");
+ scanf("%d",&n);
+ top=n-1;
+ printf("\nEnter the elements in the Array(in Ascending form):--\n");
+ for(i=0;i<n;i++)
+  scanf("%d",&a[i]);
+ printf("\nEnter the number to be Searched in an Array:");
+  scanf("%d",&N);
+  while(bot<=top)
+  {
+   mid=(top+bot)/2;
+   if(N==a[mid])
+    {
+     flag=1;
+     break;
+    }
+   else
+    if(N<a[mid])
+     top=mid-1;
+   else
+    if(N>a[mid])
+     bot=mid+1;
+  }
+ if(flag)
+  printf("\nThe number is present in the Array at %d location",mid+1);
+ else
+  printf("\nThe number is not present in the Array");
+ getch();
+}
+
+
+
+					OUTPUT:---
+
+
+Enter the size of the Array(<10):5
+
+Enter the elements in the Array(in Ascending form):--
+1
+2
+3
+4
+5
+
+Enter the number to be Searched in an Array:4
+
+The number is present in the Array at 4 location

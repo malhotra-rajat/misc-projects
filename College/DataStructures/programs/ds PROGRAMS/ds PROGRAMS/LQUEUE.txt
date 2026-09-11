@@ -1,0 +1,87 @@
+/*PROGRAM OF LINEAR QUEUE*/
+
+#include<stdio.h>
+#include<conio.h>
+#define size 15
+
+void insertion(int a[],int (*front),int (*rear))
+{
+int item;
+if((*rear)>=size)
+	{
+	printf("\nQUEUE OVERFLOW");
+	return;
+	}
+else
+	{
+	printf("\nenter the item to be inserted");
+	scanf("%d",&item);
+       (*rear)=(*rear)+1;
+	a[(*rear)]=item;
+	if((*front)==-1)
+	(*front)=0;
+	}
+}
+
+void deletion(int a[],int (*front),int (*rear))
+{
+int item;
+if((*front)==-1)
+	{
+	printf("\nQUEUE UNDERFLOW");
+	return;
+	}
+
+else
+	{
+	item=a[(*front)];
+	 if((*front)==(*rear))
+		{
+		(*front)=-1;
+		(*rear)=-1;
+		}
+	else
+	(*front)=(*front)+1;
+	printf("\nitem deleted is ");
+	printf("%d",item);
+
+
+	}
+}
+void display(int a[],int (*front),int (*rear))
+{
+int i;
+printf("\queue is as follows.....\n");
+for(i=(*front);i<=(*rear);i++)
+	{
+	printf("%d",a[i]);
+	printf(" ");
+	}
+}
+
+void main()
+{
+int a[size],front=-1,rear=-1,n,ch;
+char c;
+clrscr();
+do
+{
+printf("\n\n.....MAIN MENU......\n\n");
+printf("\n1:INSERTION()\n2:DELETION()\n3:DISPLAY");
+printf("\nenter ur choice");
+scanf("%d",&ch);
+switch(ch)
+	{
+	case 1:insertion(a,&front,&rear);
+	break;
+	case 2:deletion(a,&front,&rear);
+	break;
+	case 3:display(a,&front,&rear);;
+	break;
+	}
+printf("\ndo you wish to continue(y/n):");
+fflush(stdin);
+scanf("%c",&c);
+}while(c=='y'||c=='Y');
+getch();
+}

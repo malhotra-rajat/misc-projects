@@ -1,0 +1,50 @@
+/* Linear Search */
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int n,i,N,a[10],flag=0;
+ clrscr();
+ printf("Enter the size of the Array(<10):");
+ scanf("%d",&n);
+ printf("\nEnter the elements in the Array:--\n");
+ for(i=0;i<n;i++)
+  scanf("%d",&a[i]);
+ printf("\nEnter the number to be Searched in an Array:");
+  scanf("%d",&N);
+ for(i=0;i<n;i++)
+  {
+   if(a[i]==N)
+    {
+     flag=1;
+     break;
+    }
+   else
+    flag=0;
+  }
+ if(flag)
+  printf("\nThe number is present in the Array");
+ else
+  printf("\nThe number is not present in the Array");
+ getch();
+}
+
+
+					OUTPUT:---
+
+
+Enter the size of the Array(<10):5
+
+Enter the elements in the Array:--
+45
+22
+15
+42
+34
+
+Enter the number to be Searched in an Array:34
+
+The number is present in the Array
+
+

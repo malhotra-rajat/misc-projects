@@ -1,0 +1,71 @@
+/*PROGRAM TO INSERT AND DELETE ITEM FROM CIRCULAR QUEUE*/
+
+#include<stdio.h>
+#include<conio.h>
+#define size 10
+
+void insertion(int a[],int (*rear),int (*front))
+{
+ int item;
+if( (*front)==0&&(*rear)==size-1)
+printf("Overflow\n");
+else
+{
+  printf("Enter the element to be inserted:- ");
+  scanf("%d",&item);
+  (*rear)=((*rear)+1)%size;
+  a[*rear]=item;
+  if((*front)==-1)
+  (*front)=0;
+}
+ }
+void deletion(int a[],int (*rear),int (*front))
+{
+int item;
+if((*front)<0||(*front)==-1)
+printf("Underflow\n");
+else
+{
+  item=a[*front];
+ if((*front)==(*rear))
+ (*front)=(*rear)=-1;
+ else
+ (*front)=((*front)+1)%size;
+ printf("Enter the element to be deleted:- ");
+ printf("%d",item);
+ }
+}
+void display(int a[],int (*rear),int (*front))
+{ int i;
+ printf("The circular queue is as follow:- ");
+ for(i=0;i<=(*rear);i++)
+ {
+   printf("%d ",a[i]);
+ }
+}
+void main()
+{
+int a[size],front=-1,rear=-1,ch;
+char c;
+clrscr();
+do
+{
+printf("\n\n.....MAIN MENU......\n\n");
+printf("\n1:INSERTION()\n2:DELETION()\n3:DISPLAY");
+printf("\nEnter ur choice:- ");
+scanf("%d",&ch);
+switch(ch)
+	{
+	case 1:insertion(a,&front,&rear);
+	break;
+	case 2:deletion(a,&front,&rear);
+	break;
+	case 3:display(a,&front,&rear);;
+	break;
+	}
+printf("\nDo you wish to continue(y/n):");
+fflush(stdin);
+scanf("%c",&c);
+}while(c=='y'||c=='Y');
+getch();
+}

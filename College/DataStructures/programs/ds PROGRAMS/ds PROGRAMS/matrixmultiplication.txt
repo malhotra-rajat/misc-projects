@@ -1,0 +1,53 @@
+/*PROGRAM FOR TRANSPOSE,ADDITION OF TWO MATRIX*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3],b[3][3],c[3][3],d[3][3],i,j,k;
+clrscr();
+printf("Enter the element of 1st matrix :-");
+for(i=0;i<3;i++)
+{printf("\n");
+for(j=0;j<3;j++)
+{scanf("%d",&a[i][j]);
+}}
+printf("\nThe 1st matrix is:-");
+for(i=0;i<3;i++)
+{printf("\n");
+for(j=0;j<3;j++)
+{printf("\t%d",a[i][j]);
+}}
+printf("\nTranspose is :-\n");
+for(i=0;i<3;i++)
+{printf("\n");
+for(j=0;j<3;j++)
+{printf("\t%d",a[j][i]);
+}}
+printf("\nEnter the elements of 2nd matrix :-");
+for(i=0;i<3;i++)
+{printf("\n");
+for(j=0;j<3;j++)
+{scanf("%d",&b[i][j]);
+}}
+printf("Matrix after addition :-\n");
+for(i=0;i<3;i++)
+{printf("\n");
+for(j=0;j<3;j++)
+{c[i][j]=a[i][j]+b[i][j];
+printf("\t%d",c[i][j]);
+}}
+for(i=0;i<3;i++)
+{for(j=0;j<3;j++)
+{d[i][j]=0;
+for(k=0;k<3;k++)
+{d[i][j]=d[i][j]+a[i][k]*b[k][j];
+}}}
+printf("\nThe product of two matrix is :-");
+for(i=0;i<3;i++)
+{printf("\n");
+for(j=0;j<3;j++)
+printf("\t%d",d[i][j]);
+}
+getch();
+}

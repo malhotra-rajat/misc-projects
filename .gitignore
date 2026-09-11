@@ -1,1 +1,20 @@
 MobileAppDevelopment/NUMAD14S-New/.idea/workspace.xml
+
+# School/college archive: generated output and private local state
+.DS_Store
+.archive-build/
+**/bin/
+**/obj/
+*.suo
+*.user
+*.pfx
+*.pdb
+*.obj
+*.OBJ
+*.class
+*.cachefile
+*.mdf
+*.MDF
+*.ldf
+*.LDF
+# Existing tracked files are not removed by these rules.

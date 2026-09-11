@@ -1,0 +1,38 @@
+
+/*PROGRAM OF BUBBLE SORT*/
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int i,j,temp,a[15],b;
+clrscr();
+printf("Enter the no.of element:-");
+scanf("%d",&b);
+printf("Enter the element:-\n");
+for(i=0;i<b;i++)
+scanf("%d",&a[i]);
+for(i=0;i<b;i++)
+{for(j=0;j<b-i;j++)
+{
+if(a[j]<a[j+1])
+{temp=a[j];
+a[j]=a[j+1];
+a[j+1]=temp;
+}}}
+printf("The element after sorting is:-");
+for(i=0;i<b;i++)
+{printf("%d ",a[i]);
+}
+getch();
+}
+
+/*OUTPUT*/
+Enter the no.of element:-5
+Enter the element:-
+1
+7
+4
+6
+9
+The element after sorting is:-9 7 6 4 1

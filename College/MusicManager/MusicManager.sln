@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicManager", "MusicManager\MusicManager.csproj", "{74719F3D-1663-4A6D-86AE-249494EF7FE1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MusicManagerSetup", "MusicManagerSetup\MusicManagerSetup.vdproj", "{81BD004E-969E-4A26-817C-0AD7B75A194A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74719F3D-1663-4A6D-86AE-249494EF7FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74719F3D-1663-4A6D-86AE-249494EF7FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74719F3D-1663-4A6D-86AE-249494EF7FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74719F3D-1663-4A6D-86AE-249494EF7FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BD004E-969E-4A26-817C-0AD7B75A194A}.Debug|Any CPU.ActiveCfg = Debug
+		{81BD004E-969E-4A26-817C-0AD7B75A194A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

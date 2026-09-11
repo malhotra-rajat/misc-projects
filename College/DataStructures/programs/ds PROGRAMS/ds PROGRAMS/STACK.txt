@@ -1,0 +1,79 @@
+/*PROGRAM TO IMPLEMENT PUSH AND POP IN STACK*/
+
+#include<stdio.h>
+#include<conio.h>
+#define size 15
+
+void push(int a[],int *top)
+{
+int item;
+if((*top)==size)
+	{
+	printf("overflow");
+	return;
+	}
+else
+	{
+	printf("\nenter the item to be pushed");
+	scanf("%d",&item);
+	(*top)=(*top)+1;
+	a[(*top)]=item;
+	}
+}
+
+void pop(int a[],int (*top))
+{
+if((*top)==-1)
+	{
+	printf("underflow");
+	return;
+	}
+else
+	{
+	 (*top)=(*top)-1;
+	}
+}
+
+void traverse(int a[],int(*top))
+{
+int i;
+if((*top)==-1)
+printf("\nempty stack");
+else
+	{
+	printf("\ncurrent stack is as follows......\n");
+	for(i=0;i<(*top);i++)
+		{
+		printf("%d",a[i]);
+		printf("\n");
+		}
+	}
+}
+
+
+void main()
+{
+int a[size],top=-1,n,ch;
+char c;
+clrscr();
+do
+{
+printf("\n\n.....MAIN MENU......\n\n");
+printf("\n1:PUSH()\n2:POP()\n3:TRAVERSING");
+printf("\nenter ur choice");
+scanf("%d",&ch);
+switch(ch)
+	{
+	case 1:push(a,&top);
+	break;
+	case 2:pop(a,&top);
+	break;
+	case 3:traverse(a,&top);
+	break;
+	}
+printf("do you wish to continue(y/n):");
+fflush(stdin);
+scanf("%c",&c);
+}while(c=='y'||c=='Y');
+getch();
+}

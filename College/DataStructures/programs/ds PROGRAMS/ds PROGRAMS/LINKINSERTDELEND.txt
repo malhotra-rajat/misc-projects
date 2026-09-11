@@ -1,0 +1,83 @@
+/*PROGRAM TO INSERT AND DELETE THE NODE FROM END OF THE LINKED LIST*/
+
+#include<conio.h>
+#include<stdio.h>
+#include<malloc.h>
+struct Node { int info1;
+              Node * link;
+            } *start,*np,*temp,*ptr,*loc;
+Node * Create_new_Node(int);
+void insert_end();
+void display(Node*);
+void delnode();
+void main()
+{
+start=NULL;
+char ch;
+clrscr();
+do
+{
+
+printf("\n\n.....MAIN MENU......\n\n");
+printf("\n1:INSERTION\n2:DISPLAY\n3:DELETION");
+printf("\nEnter ur choice:- ");
+scanf("%d",&ch);
+switch(ch)
+	{
+	case 1:insert_end();
+	break;
+	case 2:display(start);
+	break;
+   case 3:delnode();
+   }
+printf("\nDo u want to continue?:-");
+fflush(stdin);
+scanf("%c",&ch);
+}
+while((ch=='y')||(ch=='Y'));
+getch();
+}
+Node * Create_new_Node(int n)
+  {
+   ptr=(Node*)malloc(sizeof(Node));
+   ptr->info1=n;
+   ptr->link=NULL;
+   return ptr;
+  }
+void insert_end()
+{
+int info2;
+printf("Enter the information of new node:- \n");
+scanf("%d",&info2);
+np= Create_new_Node(info2);
+if(start==NULL)
+start=np;
+else
+{
+temp=start;
+while(temp->link !=NULL)
+temp=temp->link;
+temp->link=np;
+}
+}
+void display(Node* np)
+{
+while( np !=NULL)
+{
+printf("%d->",np->info1);
+np=np->link;
+}
+printf("!!\n");
+}
+void delnode()
+{
+np=start;
+while(np->link !=NULL)
+{loc=np;
+np=np->link;
+}
+loc->link=NULL;
+delete np;
+printf("The linked list after deletion from end:-\n");
+display(start);
+}
