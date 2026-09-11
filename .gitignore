@@ -18,3 +18,7 @@ MobileAppDevelopment/NUMAD14S-New/.idea/workspace.xml
 *.ldf
 *.LDF
 # Existing tracked files are not removed by these rules.
+
+# Python launcher caches
+__pycache__/
+*.pyc

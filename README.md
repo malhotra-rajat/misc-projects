@@ -6,10 +6,10 @@ A personal archive of school, college, and later coursework: early games, progra
 
 | Project | What it contains | Current run status |
 |---|---|---|
-| [Alienated Alien](School/AlienatedAlien/) | Class XI Turbo C++ graphics game | Requires DOS/Turbo C++ setup or a port |
-| [Restaurant Billing](HighSchoolProject%20-%20Restaurant%20Billing/) | Class XII project by Rohit and Rajat | Legacy Turbo C++; unchanged source does not compile on macOS |
-| [The Geek Quest](The%20Geek%20Quest/) | Existing prototype plus recovered full final game | Windows XNA 3.1 prototype / XNA 3.0 final; not run on macOS |
-| [Java labs](College/JavaLab/) | Console, AWT/Swing, applet and servlet exercises | Seven console sample checks pass on Java 23 |
+| [Alienated Alien](School/AlienatedAlien/) | Class XI Turbo C++ graphics game | Mac compatibility launcher: graphics and movement checked |
+| [Restaurant Billing](HighSchoolProject%20-%20Restaurant%20Billing/) | Class XII project by Rohit and Rajat | Mac compatibility launcher: login and billing screens checked; full transaction unverified |
+| [The Geek Quest](The%20Geek%20Quest/) | Existing prototype plus recovered full final game | Final game launched on Mac through a separate MonoGame port |
+| [Java labs](College/JavaLab/) | Console, AWT/Swing, applet and servlet exercises | Seven console checks pass; four GUI demos launched; servlet/JSP checks pass |
 | [School C++](School/CppExercises/) | Deduplicated exercises and historical variants | Legacy compiler dependencies; includes attributed reference code |
 | [C programming](College/CProgramming/) | Second-semester exercises | Requires compatibility work |
 | [OOP](College/OOP/) and [data structures](College/DataStructures/) | Third-semester exercises | Requires compatibility work |
@@ -22,10 +22,13 @@ Run the verified examples from the repository root:
 
 ```sh
 python3 tools/run_java_lab.py --smoke-test
-python3 tools/run_java_lab.py selection
+python3 tools/run_geek_quest.py
+python3 tools/run_legacy_cpp.py alien
+python3 tools/run_legacy_cpp.py restaurant
+python3 tools/run_java_web.py
 ```
 
-See [RUNNING.md](RUNNING.md) for tested behavior and a restoration plan. [Archive notes](archive/README.md) describe provenance, omissions, and the distinction between original work, group work, and reference material. This is an archive, not a claim of sole authorship of every file.
+See [RUNNING.md](RUNNING.md) for launch commands, dependencies, tested behavior, and remaining limitations. [Archive notes](archive/README.md) describe provenance, omissions, and the distinction between original work, group work, and reference material. This is an archive, not a claim of sole authorship of every file.
 
 ## Other existing coursework
 

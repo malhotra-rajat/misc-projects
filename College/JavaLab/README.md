@@ -1,19 +1,25 @@
 # Java lab
 
-Original fifth-semester lab sources, preserved unchanged.
+Original fifth-semester sources remain unchanged. Tested on Java 23.0.2 on an Apple Silicon Mac.
 
-From the repository root, with Python 3 and a JDK on PATH:
+From the repository root:
 
 ```sh
 python3 tools/run_java_lab.py --smoke-test
-python3 tools/run_java_lab.py pascal
 python3 tools/run_java_lab.py selection
-python3 tools/run_java_lab.py frameandpanel
-python3 tools/run_java_lab.py helloworldswing
+python3 tools/run_java_gui.py helloworldswing
+python3 tools/run_java_gui.py frameandpanel
+python3 tools/run_java_gui.py movingball
+python3 tools/run_java_gui.py manageuserapplet
+python3 tools/run_java_web.py
 ```
 
-The last two commands open GUI programs; their compilation was checked, but their windows were not tested in this import. Build output is isolated under `.archive-build/java-lab/` and ignored by Git. A regular run inherits the caller's working directory and standard input, so `filecopy` paths are relative to your current directory.
+Seven console sample checks pass: `pascal`, `selection`, `calc`, `charcheck`, `multithread`, `excp`, and `filecopy`. Pascal and sorting use fixed-size arrays; use at most 10 rows/elements. Character readers expect newline-terminated input. `filecopy` resolves paths against your current working directory.
 
-Seven console samples pass: `pascal`, `selection`, `calc`, `charcheck`, `multithread`, `excp`, and `filecopy`. These are sample behavior checks, not a comprehensive test suite. Pascal and sorting use fixed-size arrays; use at most 10 rows/elements. Character readers expect a newline-terminated line.
+The Swing shapes, AWT window, moving-ball applet, and number-comparison applet were launched and visually checked. Applets use a separate desktop host because browsers no longer host them. Start reveals the comparison fields; automated entry/result checking was not completed. The host requires a JDK that still contains Applet (tested with JDK 23).
 
-`charcount` is deliberately preserved with its bug: `hello world` reports one word. `movingball` and `manageuserapplet` compile on Java 23 with Applet removal warnings, but need an applet host or conversion to a standalone window. `LoginServlet` requires a compatible `javax.servlet` API/container and deployment configuration; it does not compile with the JDK alone. Do not count compiling an applet as running it.
+The embedded Tomcat launcher serves the original servlet and JSP at `http://127.0.0.1:8091/`. Login rejection, successful login redirect (`admin` / `pass` demo credentials), prime/composite inputs, and invalid input passed HTTP checks. The welcome page is an explicitly marked restoration placeholder because the original redirect target was missing.
+
+Known original bugs remain: `charcount` reports one word for `hello world`; the comparison applet uses separate `if` statements and can append the wrong extra result when the first number is greatest. Repeated comparisons append text. These are historical exercises, not a comprehensive test suite.
+
+Generated files stay in ignored `.archive-build/`. See [RUNNING.md](../../RUNNING.md).
