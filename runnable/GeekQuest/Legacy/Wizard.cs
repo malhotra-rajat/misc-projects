@@ -180,7 +180,7 @@ namespace CreatingA2DSprite
 
 
 
-                if (aCurrentKeyboardState.IsKeyDown(Keys.Left) == true)
+                if (aCurrentKeyboardState.IsKeyDown(Keys.A) == true)
                 {
 
                     isFacingLeft = true;
@@ -222,7 +222,7 @@ namespace CreatingA2DSprite
 
                 }
 
-                else if (aCurrentKeyboardState.IsKeyDown(Keys.Right) == true)
+                else if (aCurrentKeyboardState.IsKeyDown(Keys.D) == true)
                 {
 
                     isFacingLeft = false;
@@ -280,7 +280,7 @@ namespace CreatingA2DSprite
             if (mCurrentState == State.Walking)
             {
 
-                if (aCurrentKeyboardState.IsKeyDown(Keys.Space) == true && mPreviousKeyboardState.IsKeyDown(Keys.Space) == false)
+                if ((aCurrentKeyboardState.IsKeyDown(Keys.O) || aCurrentKeyboardState.IsKeyDown(Keys.W)) && !(mPreviousKeyboardState.IsKeyDown(Keys.O) || mPreviousKeyboardState.IsKeyDown(Keys.W)))
                 {
 
                     Jump();
@@ -333,7 +333,7 @@ namespace CreatingA2DSprite
             }
 
 
-            if (aCurrentKeyboardState.IsKeyDown(Keys.RightControl) == true && mPreviousKeyboardState.IsKeyDown(Keys.RightControl) == false)
+            if (aCurrentKeyboardState.IsKeyDown(Keys.I) == true && mPreviousKeyboardState.IsKeyDown(Keys.I) == false)
             {
                 ShootFireball();
 

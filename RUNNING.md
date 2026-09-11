@@ -10,7 +10,7 @@ Run these commands from the repository root. First runs download dependencies an
 |---|---|---|
 | Geek Quest, recovered final game | `python3 tools/run_geek_quest.py` | Game window, original help screen and game-over/score screen rendered |
 | Alienated Alien | `python3 tools/run_legacy_cpp.py alien` | Introduction, game scene, arrow movement and countdown worked |
-| Restaurant Billing | `python3 tools/run_legacy_cpp.py restaurant` | Staff login, bill-entry and rate-list screens opened; full saved bill not verified |
+| Restaurant Billing | `python3 tools/run_legacy_cpp.py restaurant` | Staff login, rate list and a 2-tea / 40-total bill verified and saved |
 | Java console labs | `python3 tools/run_java_lab.py --smoke-test` | Seven sample checks passed |
 | Swing shapes | `python3 tools/run_java_gui.py helloworldswing` | Rectangle and ellipse rendered |
 | AWT controls | `python3 tools/run_java_gui.py frameandpanel` | Window, text area and buttons rendered |
@@ -24,7 +24,7 @@ Requires .NET 9 SDK and Python. The launcher creates a private Python environmen
 
 The separate port uses the original final-game images, WAV audio and gameplay sources. Its content loader replaces the old XNA content pipeline, handles Windows-style asset paths, and generates fonts locally. SoundEffect replaces XACT background audio. Audio fidelity, every level, collision edge cases and completion have not been exhaustively checked.
 
-Use the original on-screen help: arrows move, Space jumps, Right Control fires, P pauses, R resumes, E returns, and Escape exits. `--build-only` builds without opening a window.
+The updated H help screen lists the current controls: A/D move left/right, W or O jumps, I fires, P pauses, R resumes, E returns from paused/end/help screens, and Escape exits. The game has no crouch/down action for S. `--build-only` builds without opening a window.
 
 ### Alienated Alien and Restaurant Billing
 
@@ -36,7 +36,7 @@ Alienated Alien: continue past the intro with a key; use arrow keys to move. Esc
 
 Restaurant Billing: use `staff` for the employee password or `owner` for the owner password. Fresh demo records contain code 1 Tea (20), code 2 Coffee (40), and code 3 Sandwich (60). In bill entry, 0 opens the rate list and 123 finishes the bill. Demo records are created only when absent in `.archive-build/legacy-cpp/restaurant-data/`; archived DAT files are never opened by the launcher. The compatibility build uses its own native record layout.
 
-Keyboard automation was intermittent, including returning from the rate list, so this remains a partial restoration. No completed/saved transaction is claimed. Invalid-input handling and original buffer limits have not been comprehensively repaired. Use these small demo records. Escape is mapped to exit, although input delivery may require interacting directly with the window.
+Keyboard automation was intermittent in the initial run. After the color fix, a full sample transaction completed: code 1, quantity 2, total 40, saved to the local sales file. Invalid-input handling and original buffer limits have not been comprehensively repaired. Use these small demo records. Escape is mapped to exit, although input delivery may require interacting directly with the window.
 
 ### Java
 
@@ -50,7 +50,15 @@ The web launcher downloads embedded Tomcat 9.0.121 and its pinned dependencies f
 
 **ChatBug and Gadget Guru have not been run.** They require classic ASP.NET Web Forms plus SQL Server and clean recreated databases. The archived DBML/query code can guide schema reconstruction, but that work and runtime validation remain outstanding. Private historical databases were not imported.
 
-The other C/C++ exercises and pre-existing Android, web, Racket and information-retrieval coursework have not received runtime restoration in this pass.
+The other C/C++ exercises and pre-existing web, Racket and information-retrieval coursework have not received runtime restoration in this pass.
+
+## NUMAD Android suite
+
+Run `python3 tools/run_numad.py` with an installed Android SDK and the `Pixel_9_Pro_XL_API_35` AVD, or choose another AVD with `--avd NAME`. Set `ANDROID_HOME` if the SDK is not at `~/Library/Android/sdk`. Use `--serial emulator-5554` to select an already-running emulator. The launcher installs the preserved NUMAD14S-New APK; it does not rebuild either historical Android source tree. It starts new emulator sessions read-only so emulator state is temporary.
+
+Checked on Android 15/API 35, ARM64: main menu opens, dictionary input returns matching words, and Word Game starts an Easy board with a countdown. The final Let's Talk Workouts menu also opens; speech/workout recording and network/multiplayer functionality are not yet fully validated. The older NUMAD14S-RajatMalhotra Eclipse tree is preserved separately and has not been rebuilt.
+
+Restaurant Billing color follow-up: console clearing now preserves the BGI background rather than forcing white. The rate list displays yellow text on red; default console foreground resets to black so subsequent screen headings are not erased when the background changes.
 
 ## Implementation and dependencies
 

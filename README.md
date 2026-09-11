@@ -7,7 +7,7 @@ A personal archive of school, college, and later coursework: early games, progra
 | Project | What it contains | Current run status |
 |---|---|---|
 | [Alienated Alien](School/AlienatedAlien/) | Class XI Turbo C++ graphics game | Mac compatibility launcher: graphics and movement checked |
-| [Restaurant Billing](HighSchoolProject%20-%20Restaurant%20Billing/) | Class XII project by Rohit and Rajat | Mac compatibility launcher: login and billing screens checked; full transaction unverified |
+| [Restaurant Billing](HighSchoolProject%20-%20Restaurant%20Billing/) | Class XII project by Rohit and Rajat | Mac compatibility launcher: login, rate list and a saved sample bill verified |
 | [The Geek Quest](The%20Geek%20Quest/) | Existing prototype plus recovered full final game | Final game launched on Mac through a separate MonoGame port |
 | [Java labs](College/JavaLab/) | Console, AWT/Swing, applet and servlet exercises | Seven console checks pass; four GUI demos launched; servlet/JSP checks pass |
 | [School C++](School/CppExercises/) | Deduplicated exercises and historical variants | Legacy compiler dependencies; includes attributed reference code |
@@ -33,7 +33,7 @@ See [RUNNING.md](RUNNING.md) for launch commands, dependencies, tested behavior,
 ## Other existing coursework
 
 - [Information retrieval](InformationRetrieval/)
-- [Mobile app development](MobileAppDevelopment/)
+- [Mobile app development](MobileAppDevelopment/) — NUMAD archived APK runs via `python3 tools/run_numad.py`; dictionary and Word Game checked on Android 15
 - [Programming design paradigms](ProgrammingDesignParadigms/)
 - [Web development](WebDevelopment/)
 

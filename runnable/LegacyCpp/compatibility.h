@@ -26,7 +26,8 @@ inline int strcmpi(const char* a,const char* b) { return strcasecmp(a,b); }
 inline void getdate(date* d) { std::time_t now=std::time(nullptr); auto t=std::localtime(&now); d->da_year=1900+t->tm_year;d->da_day=t->tm_mday;d->da_mon=t->tm_mon+1; }
 inline int console_x=0,console_y=0;
 inline void gotoxy(int x,int y) { console_x=x-1;console_y=y-1; }
-inline void clrscr() { setbkcolor(WHITE);cleardevice();setcolor(BLACK);console_x=console_y=0; }
+// DOS clrscr does not reset the BGI palette. Preserve each screen's chosen colors.
+inline void clrscr() { cleardevice();setcolor(BLACK);console_x=console_y=0; }
 inline void archive_putchar(char c) {
     if(c=='\r') {console_x=0;return;}
     if(c=='\n') {console_x=0;++console_y;return;}

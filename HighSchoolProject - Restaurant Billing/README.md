@@ -10,4 +10,4 @@ A separate Mac compatibility launcher is now available:
 python3 tools/run_legacy_cpp.py restaurant
 ```
 
-Staff login, bill-entry and rate-list screens were observed. Automated keyboard input was intermittent, so a full saved bill remains unverified. Fresh `owner` / `staff` demo credentials and sample item records are generated only in ignored `.archive-build/legacy-cpp/restaurant-data/`. Archived DAT files remain untouched; historical record layouts are not assumed portable. See [RUNNING.md](../RUNNING.md) for dependencies and controls.
+Staff login, bill-entry and rate-list screens were observed. A sample bill for two teas totaled 40 and was saved to the local sales file. Fresh `owner` / `staff` demo credentials and sample item records are generated only in ignored `.archive-build/legacy-cpp/restaurant-data/`. Archived DAT files remain untouched; historical record layouts are not assumed portable. See [RUNNING.md](../RUNNING.md) for dependencies and controls.

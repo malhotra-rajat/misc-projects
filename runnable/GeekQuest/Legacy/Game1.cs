@@ -812,7 +812,9 @@ namespace CreatingA2DSprite
 
                 case Screen.Help:
                     spriteBatch.Begin();
-                    spriteBatch.Draw(helppic, new Rectangle(0, 0, (int)((helppic.Width) * 2), (int)((helppic.Height) * 2)), Color.White);
+                    GraphicsDevice.Clear(new Color(18, 26, 42));
+                    spriteBatch.DrawString(endFont, "THE GEEK QUEST - CONTROLS", new Vector2(45, 45), Color.Gold);
+                    spriteBatch.DrawString(gameFont, "A / D    Move left / right\nW / O    Jump\nI        Fire\n\nP        Pause\nR        Resume\nE        Return to menu\nEscape   Quit\n\nS has no action (no crouch in the original game).", new Vector2(45, 125), Color.White);
                     spriteBatch.End();
                     break;
             }
